@@ -502,6 +502,7 @@
 	<!--Gorn Tech (Excelsior-R) - Allied-->
 	<object ODF="FedMix3.odf">
 		<requirement race="federation">
+			<ally race="gorn" />
 			<obj>fbase.odf</obj>
 			<obj>fresearchc.odf</obj>
 		</requirement>
@@ -517,6 +518,7 @@
 	<!--Hydran Tech (Hornet-B) - Allied-->
 	<object ODF="FedMix5.odf">
 		<requirement race="federation">
+			<ally race="hydran" />
 			<obj>fbase.odf</obj>
 			<obj>fresearchc.odf</obj>
 		</requirement>
