@@ -1,108 +1,108 @@
 // Basic KA2 The General War Tech Tree
 // Each .ODF entry is followed by a 0, -1, -2
-//  0 = Nothing is required to build this .ODF
+//	0 = Nothing is required to build this .ODF
 // -1 = Impossible to build.  Anything dependent on this .ODF can not be built.
 // -2 = Impossible to build, but don't touch dependencies, so that if somehow I already existed or was acquired, you could build anything dependent on me.
 
 // ***[ LYRAN SHIPS ]************************
 //
-lconst.odf      1 lbase.odf                                                           				// Construction Tender (Felidae Class LACS)
-lfreight.odf    1 lbase.odf                                                           				// Mining Freighter (Queen Cat Class LDF)
-lcargo.odf      1 lbase.odf                                                           				// Cargo Freighter (Cougar Class LAK)
-lsrepair.odf    2 lbase.odf lresearchc.odf                               	      					// Fleet Repair Frigate (Bobcat Class LFR)
-lcolony.odf     3 lbase.odf lresearcha.odf lresearchb.odf                             				// Colony Ship (Feline Class LFB)
-lassault.odf    3 lbase.odf lresearcha.odf lresearchb.odf                              				// Troop Transport (Serval Class LAPA)
-lpfighter.odf   4 lbase.odf loutpost.odf LyrMiscR2.odf LyrMiscR3.odf                            	// Psuedo-Fighter (Occicat LPF)
-lscout.odf      2 lbase.odf LyrEqu1.odf                                               				// Scout Frigate (Wildcat Class LFS)
-lfrigate.odf    1 lbase.odf                                             							// Frigate (Lynx Class LFF)
-ldestroy.odf    3 lbase.odf LyrHull1.odf LyrMiscR2.odf                                				// Destroyer (Caracal Class LDD)
-llcruise.odf    2 lbase.odf LyrHull2.odf                                 							// Light Cruiser (Leopard Class LCL)
-lhcruise.odf    3 lbase.odf LyrHull3.odf LyrMiscR2.odf          	         						// Heavy Cruiser (Tiger Class LCA)
-lmonitor.odf    4 lbase.odf LyrHull3.odf LyrEqu2.odf LyrMiscR6.odf   								// Guided Missile Monitor (Puma Class LMNG)
-lbcruise.odf    4 lbase.odf LyrHull4.odf LyrMiscR1.odf LyrMiscR2.odf             					// Battlecruiser (Panther Class LBC)
-ldread.odf      5 lbase.odf LyrHull5.odf LyrMiscR1.odf LyrMiscR2.odf LyrMiscR5.odf                  // Dreadnought (Lion Class LDN)
-lbattle.odf     6 lbase.odf LyrHull5.odf LyrEqu3.odf LyrMiscR1.odf LyrMiscR2.odf LyrMiscR5.odf      // Battleship (Royal Lion Class LBB)
-lcarrier.odf    5 lbase.odf LyrHull5.odf LyrMiscR2.odf LyrMiscR3.odf LyrEqu4.odf 					// Psuedo-Fighter Tender (Lioness Class LTPF)
+lconst.odf		1 lbase.odf																			// Construction Tender (Felidae Class LACS)
+lfreight.odf	1 lbase.odf																			// Mining Freighter (Queen Cat Class LDF)
+lcargo.odf		1 lbase.odf																			// Cargo Freighter (Cougar Class LAK)
+lsrepair.odf	2 lbase.odf lresearchc.odf															// Fleet Repair Frigate (Bobcat Class LFR)
+lcolony.odf		3 lbase.odf lresearcha.odf lresearchb.odf											// Colony Ship (Feline Class LFB)
+lassault.odf	3 lbase.odf lresearcha.odf lresearchb.odf											// Troop Transport (Serval Class LAPA)
+lpfighter.odf	4 lbase.odf loutpost.odf LyrMiscR2.odf LyrMiscR3.odf								// Psuedo-Fighter (Occicat LPF)
+lscout.odf		2 lbase.odf LyrEqu1.odf																// Scout Frigate (Wildcat Class LFS)
+lfrigate.odf	1 lbase.odf																			// Frigate (Lynx Class LFF)
+ldestroy.odf	3 lbase.odf LyrHull1.odf LyrMiscR2.odf												// Destroyer (Caracal Class LDD)
+llcruise.odf	2 lbase.odf LyrHull2.odf															// Light Cruiser (Leopard Class LCL)
+lhcruise.odf	3 lbase.odf LyrHull3.odf LyrMiscR2.odf												// Heavy Cruiser (Tiger Class LCA)
+lmonitor.odf	4 lbase.odf LyrHull3.odf LyrEqu2.odf LyrMiscR6.odf									// Guided Missile Monitor (Puma Class LMNG)
+lbcruise.odf	4 lbase.odf LyrHull4.odf LyrMiscR1.odf LyrMiscR2.odf								// Battlecruiser (Panther Class LBC)
+ldread.odf		5 lbase.odf LyrHull5.odf LyrMiscR1.odf LyrMiscR2.odf LyrMiscR5.odf					// Dreadnought (Lion Class LDN)
+lbattle.odf		6 lbase.odf LyrHull5.odf LyrEqu3.odf LyrMiscR1.odf LyrMiscR2.odf LyrMiscR5.odf		// Battleship (Royal Lion Class LBB)
+lcarrier.odf	5 lbase.odf LyrHull5.odf LyrMiscR2.odf LyrMiscR3.odf LyrEqu4.odf					// Psuedo-Fighter Tender (Lioness Class LTPF)
 
 // ***[ LYRAN RESEARCH PROJECTS ]*********************
 //
-LyrHull1.odf  2 lbase.odf lresearcha.odf			      	// Hull Research (Destroyer DD)
-LyrHull2.odf  3 lbase.odf lresearcha.odf LyrHull1.odf     	// Hull Research (Light Cruiser CL)
-LyrHull3.odf  3 lbase.odf lresearcha.odf LyrHull2.odf     	// Hull Research (Heavy Cruiser CA)
-LyrHull4.odf  3 lbase.odf lresearcha.odf LyrHull3.odf     	// Hull Research (Battlecruiser BC/MH)
-LyrHull5.odf  3 lbase.odf lresearcha.odf LyrHull4.odf    	// Hull Research (Capital DN/CV)
+LyrHull1.odf  2 lbase.odf lresearcha.odf					// Hull Research (Destroyer DD)
+LyrHull2.odf  3 lbase.odf lresearcha.odf LyrHull1.odf		// Hull Research (Light Cruiser CL)
+LyrHull3.odf  3 lbase.odf lresearcha.odf LyrHull2.odf		// Hull Research (Heavy Cruiser CA)
+LyrHull4.odf  3 lbase.odf lresearcha.odf LyrHull3.odf		// Hull Research (Battlecruiser BC/MH)
+LyrHull5.odf  3 lbase.odf lresearcha.odf LyrHull4.odf		// Hull Research (Capital DN/CV)
 
-LyrEqu1.odf   2 lbase.odf lresearchb.odf 			      				// Conversion Kit (Scout Frigate FS)
-LyrEqu2.odf   3 lbase.odf lresearchb.odf LyrHull3.odf		      		// Conversion Kit (Guided Missile Monitor MNG)
-LyrEqu3.odf   4 lbase.odf lresearchb.odf LyrHull4.odf LyrHull5.odf    	// Conversion Kit (Battleship BB)
-LyrEqu4.odf   4 lbase.odf lresearchb.odf LyrHull3.odf LyrHull5.odf    	// Conversion Kit (Psuedo-Fighter Tender)
+LyrEqu1.odf	  2 lbase.odf lresearchb.odf								// Conversion Kit (Scout Frigate FS)
+LyrEqu2.odf	  3 lbase.odf lresearchb.odf LyrHull3.odf					// Conversion Kit (Guided Missile Monitor MNG)
+LyrEqu3.odf	  4 lbase.odf lresearchb.odf LyrHull4.odf LyrHull5.odf		// Conversion Kit (Battleship BB)
+LyrEqu4.odf	  4 lbase.odf lresearchb.odf LyrHull3.odf LyrHull5.odf		// Conversion Kit (Psuedo-Fighter Tender)
 
-LyrMiscR1.odf 4 lbase.odf lresearchc.odf LyrHull4.odf lyrpod24.odf                    	// Research Pod (Multi-Barrel Heavy Disruptors)
-LyrMiscR2.odf 3 lbase.odf lresearchc.odf LyrHull1.odf                                 	// Research Pod (Heavy Phaser Cannon)
-LyrMiscR3.odf 2 lbase.odf lresearchc.odf			                      				// Research Pod (Underway Replenishment)
-LyrMiscR4.odf 3 lbase.odf lresearchc.odf lyrpod24.odf                                 	// Research Pod (Energy Sphere Generation)
-LyrMiscR5.odf 5 lbase.odf lresearchc.odf LyrMiscR2.odf LyrMiscR3.odf lyrpod21.odf     	// Research Pod (Mauler Cannon)
-LyrMiscR6.odf 3 lbase.odf lresearchc.odf LyrMiscR5.odf                                	// Research Pod (Cruise Missile)
+LyrMiscR1.odf 4 lbase.odf lresearchc.odf LyrHull4.odf lyrpod24.odf						// Research Pod (Multi-Barrel Heavy Disruptors)
+LyrMiscR2.odf 3 lbase.odf lresearchc.odf LyrHull1.odf									// Research Pod (Heavy Phaser Cannon)
+LyrMiscR3.odf 2 lbase.odf lresearchc.odf												// Research Pod (Underway Replenishment)
+LyrMiscR4.odf 3 lbase.odf lresearchc.odf lyrpod24.odf									// Research Pod (Energy Sphere Generation)
+LyrMiscR5.odf 5 lbase.odf lresearchc.odf LyrMiscR2.odf LyrMiscR3.odf lyrpod21.odf		// Research Pod (Mauler Cannon)
+LyrMiscR6.odf 3 lbase.odf lresearchc.odf LyrMiscR5.odf									// Research Pod (Cruise Missile)
 
-lyrpod11.odf  2 lbase.odf lupgrade.odf     // Research Pod (Weapon Overload Systems - Weapon Systems Upgrade I)
-lyrpod12.odf  2 lbase.odf lupgrade.odf     // Research Pod (Rephased Shield Systems - Shield Systems Upgrade I)
-lyrpod13.odf  2 lbase.odf lupgrade.odf     // Research Pod (Sensor Reallignment - Sensor Package Upgrade I)
-lyrpod14.odf  2 lbase.odf lupgrade.odf     // Research Pod (Warp Field Manipulation - Propulsion Systems Upgrade I)
-lyrpod15.odf  2 lbase.odf lupgrade.odf     // Research Pod (Life Support Redundancy Systems - Life Support Systems Upgrade I)
-lyrpod21.odf  2 lbase.odf lyrpod11.odf     // Research Pod (Disruptor Packet Power Booster - Weapon Systems Upgrade II)
-lyrpod22.odf  2 lbase.odf lyrpod12.odf     // Research Pod (Hyperphased Shield Modulation - Shield Systems Upgrade II)
-lyrpod23.odf  2 lbase.odf lyrpod13.odf     // Research Pod (Additive Sensor Power Relays - Sensor Package Upgrade II)
-lyrpod24.odf  2 lbase.odf lyrpod14.odf     // Research Pod (Hydrogen Injection Nozzles - Propulsion Systems Upgrade II)
-lyrpod25.odf  2 lbase.odf lyrpod15.odf     // Research Pod (Auxilliary Gravitational Field Generator - Life Support Systems Upgrade II)
+lyrpod11.odf  2 lbase.odf lupgrade.odf	   // Research Pod (Weapon Overload Systems - Weapon Systems Upgrade I)
+lyrpod12.odf  2 lbase.odf lupgrade.odf	   // Research Pod (Rephased Shield Systems - Shield Systems Upgrade I)
+lyrpod13.odf  2 lbase.odf lupgrade.odf	   // Research Pod (Sensor Reallignment - Sensor Package Upgrade I)
+lyrpod14.odf  2 lbase.odf lupgrade.odf	   // Research Pod (Warp Field Manipulation - Propulsion Systems Upgrade I)
+lyrpod15.odf  2 lbase.odf lupgrade.odf	   // Research Pod (Life Support Redundancy Systems - Life Support Systems Upgrade I)
+lyrpod21.odf  2 lbase.odf lyrpod11.odf	   // Research Pod (Disruptor Packet Power Booster - Weapon Systems Upgrade II)
+lyrpod22.odf  2 lbase.odf lyrpod12.odf	   // Research Pod (Hyperphased Shield Modulation - Shield Systems Upgrade II)
+lyrpod23.odf  2 lbase.odf lyrpod13.odf	   // Research Pod (Additive Sensor Power Relays - Sensor Package Upgrade II)
+lyrpod24.odf  2 lbase.odf lyrpod14.odf	   // Research Pod (Hydrogen Injection Nozzles - Propulsion Systems Upgrade II)
+lyrpod25.odf  2 lbase.odf lyrpod15.odf	   // Research Pod (Auxilliary Gravitational Field Generator - Life Support Systems Upgrade II)
 
-shieldLyran.odf  1 lyrpod22.odf    		   // Planetary Shield (Lyran)
+shieldLyran.odf	 1 lyrpod22.odf			   // Planetary Shield (Lyran)
 
 // ***[ LYRAN MIXED TECH ]*********************
 
-LyrMix1.odf 3 lbase.odf lresearchc.odf fconst.odf                                   // Federation Tech (EsPlaD) - Capture
-LyrMix2.odf 2 lbase.odf	lresearchc.odf							   					// Klingon Tech (Grappler Beam) - Allied
-LyrMix3.odf 2 lbase.odf lresearchc.odf                                           	// Romulan Tech (Scout Cloaking) - Allied
-LyrMix4.odf 3 lbase.odf lresearchc.odf rconst.odf                                   // Romulan Tech (Scout Cloaking) - Capture
-LyrMix5.odf 3 lbase.odf lresearchc.odf gconst.odf                      	   		   	// Gorn Tech (GHRC) - Capture
-LyrMix6.odf 3 lbase.odf lresearchc.odf iconst.odf                                   // ISC Tech (Jump Drive) - Capture
-LyrMix7.odf 3 lbase.odf lresearchc.odf hconst.odf 				           			// Hydran Tech (Occilot LPF) - Capture
+LyrMix1.odf 3 lbase.odf lresearchc.odf fconst.odf									// Federation Tech (EsPlaD) - Capture
+LyrMix2.odf 2 lbase.odf	lresearchc.odf												// Klingon Tech (Grappler Beam) - Allied
+LyrMix3.odf 2 lbase.odf lresearchc.odf												// Romulan Tech (Scout Cloaking) - Allied
+LyrMix4.odf 3 lbase.odf lresearchc.odf rconst.odf									// Romulan Tech (Scout Cloaking) - Capture
+LyrMix5.odf 3 lbase.odf lresearchc.odf gconst.odf									// Gorn Tech (GHRC) - Capture
+LyrMix6.odf 3 lbase.odf lresearchc.odf iconst.odf									// ISC Tech (Jump Drive) - Capture
+LyrMix7.odf 3 lbase.odf lresearchc.odf hconst.odf									// Hydran Tech (Occilot LPF) - Capture
 
-lpfighterb.odf   5 lbase.odf loutpost.odf LyrMiscR2.odf LyrMiscR3.odf LyrMix7.odf	// Psuedo-Fighter (Occilot LPF)
+lpfighterb.odf	 5 lbase.odf loutpost.odf LyrMiscR2.odf LyrMiscR3.odf LyrMix7.odf	// Psuedo-Fighter (Occilot LPF)
 
-gDetectL.odf    1 LyrMix1.odf								   // Cloak Detection (Sensor Post)
-gLGrappler.odf  1 LyrMix2.odf								   // Grappler (Serval Class LAPA)
-gLCloak.odf     1 LyrMix3.odf								   // Cloak (Wildcat Class LFS - Allied)
-gLCloak2.odf    1 LyrMix4.odf 								   // Cloak (Wildcat Class LFS - Capture)
-gLGHRC.odf    	1 LyrMix5.odf							   	   // GHRC (Caracal Class LDD)
-gLSSJD.odf     	1 LyrMix6.odf								   // Subspace Jump Drive (Wildcat Class LFS)
+gDetectL.odf	1 LyrMix1.odf								   // Cloak Detection (Sensor Post)
+gLGrappler.odf	1 LyrMix2.odf								   // Grappler (Serval Class LAPA)
+gLCloak.odf		1 LyrMix3.odf								   // Cloak (Wildcat Class LFS - Allied)
+gLCloak2.odf	1 LyrMix4.odf								   // Cloak (Wildcat Class LFS - Capture)
+gLGHRC.odf		1 LyrMix5.odf								   // GHRC (Caracal Class LDD)
+gLSSJD.odf		1 LyrMix6.odf								   // Subspace Jump Drive (Wildcat Class LFS)
 
-LCarrierUp.odf  1 LyrMix7.odf 								   // Carrier Upgrade
-LStationUp.odf  1 LyrMix7.odf								   // Outpost Upgrade
+LCarrierUp.odf	1 LyrMix7.odf								   // Carrier Upgrade
+LStationUp.odf	1 LyrMix7.odf								   // Outpost Upgrade
 
-LOrionWarpIn.odf     2 lbase.odf lyard.odf                     // Orion Pirate Warp-In Ability
-LShakurianWarpIn.odf 2 lbase.odf lyard.odf                     // ShaKurian Mercenary Warp-In Ability
+LOrionWarpIn.odf	 2 lbase.odf lyard.odf					   // Orion Pirate Warp-In Ability
+LShakurianWarpIn.odf 2 lbase.odf lyard.odf					   // ShaKurian Mercenary Warp-In Ability
 
 // ***[ LYRAN STATIONS ]*********************
 //
-lbase.odf     	 0                                         						// Starbase L
-loutpost.odf     2 lbase.odf LyrMiscR2.odf										// Outpost
-lmining.odf   	 1 lbase.odf                                       				// Dilithium Grader
-lorbital.odf  	 1 lbase.odf					              					// Orbital Processing Facility L
-lsensor.odf   	 1 lbase.odf                            						// Sensor Post
-lmine.odf     	 1 lbase.odf		                            				// Type LA Mine
-lyard.odf     	 1 lbase.odf                             						// Shipyard L
-lyard2.odf    	 4 lbase.odf lresearcha.odf lresearchb.odf lresearchc.odf       // Grand Shipyard
-ltrading.odf  	 1 lbase.odf                               						// Trading Station L
-lresearcha.odf   1 lbase.odf                               						// ILN Warship Research Laboratory (Hulls)
-lresearchb.odf   1 lbase.odf                               						// ILN Warship Conversion Laboratory (Conversions)
-lresearchc.odf   1 lbase.odf                               						// Imperial Guard Station (Equipment)
-lupgrade.odf  	 4 lbase.odf lresearcha.odf lresearchb.odf lresearchc.odf  		// Imperial Naval Commissariat (Upgrades)
+lbase.odf		 0																// Starbase L
+loutpost.odf	 2 lbase.odf LyrMiscR2.odf										// Outpost
+lmining.odf		 1 lbase.odf													// Dilithium Grader
+lorbital.odf	 1 lbase.odf													// Orbital Processing Facility L
+lsensor.odf		 1 lbase.odf													// Sensor Post
+lmine.odf		 1 lbase.odf													// Type LA Mine
+lyard.odf		 1 lbase.odf													// Shipyard L
+lyard2.odf		 4 lbase.odf lresearcha.odf lresearchb.odf lresearchc.odf		// Grand Shipyard
+ltrading.odf	 1 lbase.odf													// Trading Station L
+lresearcha.odf	 1 lbase.odf													// ILN Warship Research Laboratory (Hulls)
+lresearchb.odf	 1 lbase.odf													// ILN Warship Conversion Laboratory (Conversions)
+lresearchc.odf	 1 lbase.odf													// Imperial Guard Station (Equipment)
+lupgrade.odf	 4 lbase.odf lresearcha.odf lresearchb.odf lresearchc.odf		// Imperial Naval Commissariat (Upgrades)
 
 // ***[ LYRAN ADVANCED WEAPONS ]**************
 //
 
-gLESG.odf    	1 LyrMiscR4.odf          					// ESG Offensive Mode (Tiger Class CA)
-gLESGBC.odf    	1 LyrMiscR4.odf          					// ESG Offensive Mode (Panther Class BC)
-gLESGDN.odf    	1 LyrMiscR4.odf          					// ESG Offensive Mode (Lion Class DN)
-gLESGBB.odf    	1 LyrMiscR4.odf          					// ESG Offensive Mode (Royal Lion Class BB)
-gLESG2.odf  	1 LyrMiscR4.odf          					// ESG Defensive Mode
+gLESG.odf		1 LyrMiscR4.odf								// ESG Offensive Mode (Tiger Class CA)
+gLESGBC.odf		1 LyrMiscR4.odf								// ESG Offensive Mode (Panther Class BC)
+gLESGDN.odf		1 LyrMiscR4.odf								// ESG Offensive Mode (Lion Class DN)
+gLESGBB.odf		1 LyrMiscR4.odf								// ESG Offensive Mode (Royal Lion Class BB)
+gLESG2.odf		1 LyrMiscR4.odf								// ESG Defensive Mode

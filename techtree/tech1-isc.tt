@@ -1,130 +1,130 @@
 // Basic KA2 The General War Tech Tree
 // Each .ODF entry is followed by a 0, -1, -2
-//  0 = Nothing is required to build this .ODF
+//	0 = Nothing is required to build this .ODF
 // -1 = Impossible to build.  Anything dependent on this .ODF can not be built.
 // -2 = Impossible to build, but don't touch dependencies, so that if somehow I already existed or was acquired, you could build anything dependent on me.
 
 // ***[ INTERSTELLAR CONCORDIUM SHIPS ]************************
 //
-iconst.odf     1 ibase.odf                          						// Construction Tender (Type ACS-XIV)
-ifreight.odf   1 ibase.odf                          						// Mining Freighter (Type DF-XX)
-icolony.odf    2 ibase.odf ISCEqu8.odf              						// Colony Ship (Type IFB-I)
-isrepair.odf   2 ibase.odf iresearchb.odf             						// Fleet Repair Tender (Type AR-XII)
-iassault.odf   2 ibase.odf ISCEqu9.odf              						// Troop Transport (Type APA-VII)
+iconst.odf	   1 ibase.odf													// Construction Tender (Type ACS-XIV)
+ifreight.odf   1 ibase.odf													// Mining Freighter (Type DF-XX)
+icolony.odf	   2 ibase.odf ISCEqu8.odf										// Colony Ship (Type IFB-I)
+isrepair.odf   2 ibase.odf iresearchb.odf									// Fleet Repair Tender (Type AR-XII)
+iassault.odf   2 ibase.odf ISCEqu9.odf										// Troop Transport (Type APA-VII)
 ifighter.odf   2 ibase.odf icarrier.odf										// Fighter (Type FA-VII)
-iscout.odf     2 ibase.odf ISCEqu1.odf		     							// Scout Frigate (Type FF-IVsc)
-ifrigate.odf   1 ibase.odf			           								// Frigate (Type FF-IV)
-ifrigater.odf  2 ibase.odf ISCEqu2.odf		     							// Frigate Refit (Type FF-IVd)
-idestroy.odf   2 ibase.odf ISCHull1.odf              						// Destroyer (Type DD-III)
-idestroyl.odf  2 ibase.odf ISCHull2.odf	 	     							// Destroyer Leader (Type DD-IIIFL)
-idestroyr.odf  3 ibase.odf ISCHull1.odf ISCEqu3.odf  						// Destroyer Refit (Type DD-IIId)
-idestroylr.odf 3 ibase.odf ISCHull2.odf ISCEqu3.odf  						// Destroyer Leader Refit (Type DD-IIFLd)
-ilcruise.odf   3 ibase.odf ISCHull3.odf ISCMiscR3.odf  						// Light Cruiser (Type CL-V)
-ilccruise.odf  3 ibase.odf ISCHull3.odf ISCEqu4.odf 		     		    // Light Command Cruiser (Type CCL-II)
-icruise.odf    3 ibase.odf ISCHull4.odf ISCMiscR3.odf		     			// Heavy Cruiser (Type CA-VIII)
-icruiser.odf   3 ibase.odf ISCHull4.odf ISCEqu6.odf    		      			// Heavy Cruiser Refit (Type CA-VIIId)
+iscout.odf	   2 ibase.odf ISCEqu1.odf										// Scout Frigate (Type FF-IVsc)
+ifrigate.odf   1 ibase.odf													// Frigate (Type FF-IV)
+ifrigater.odf  2 ibase.odf ISCEqu2.odf										// Frigate Refit (Type FF-IVd)
+idestroy.odf   2 ibase.odf ISCHull1.odf										// Destroyer (Type DD-III)
+idestroyl.odf  2 ibase.odf ISCHull2.odf										// Destroyer Leader (Type DD-IIIFL)
+idestroyr.odf  3 ibase.odf ISCHull1.odf ISCEqu3.odf							// Destroyer Refit (Type DD-IIId)
+idestroylr.odf 3 ibase.odf ISCHull2.odf ISCEqu3.odf							// Destroyer Leader Refit (Type DD-IIFLd)
+ilcruise.odf   3 ibase.odf ISCHull3.odf ISCMiscR3.odf						// Light Cruiser (Type CL-V)
+ilccruise.odf  3 ibase.odf ISCHull3.odf ISCEqu4.odf							// Light Command Cruiser (Type CCL-II)
+icruise.odf	   3 ibase.odf ISCHull4.odf ISCMiscR3.odf						// Heavy Cruiser (Type CA-VIII)
+icruiser.odf   3 ibase.odf ISCHull4.odf ISCEqu6.odf							// Heavy Cruiser Refit (Type CA-VIIId)
 itcruise.odf   4 ibase.odf ISCHull4.odf ISCEqu5.odf ISCMiscR4.odf			// Torpedo Cruiser (Type CT-II)
-iscruise.odf   4 ibase.odf ISCHull5.odf ISCPod2.odf ISCMiscR3.odf           // Star Cruiser (Type CSA-III)
-idread.odf     3 ibase.odf ISCHull6.odf ISCMiscR4.odf						// Dreadnought (Type DN-III)
-idreadr.odf    4 ibase.odf ISCHull6.odf ISCEqu7.odf ISCMiscR4.odf 			// Dreadnought Refit (Type DN-IIId)
-icarrier.odf   4 ibase.odf ISCHull7.odf ISCPod2.odf ISCMiscR4.odf           // Carrier (Type CVN-VI)
+iscruise.odf   4 ibase.odf ISCHull5.odf ISCPod2.odf ISCMiscR3.odf			// Star Cruiser (Type CSA-III)
+idread.odf	   3 ibase.odf ISCHull6.odf ISCMiscR4.odf						// Dreadnought (Type DN-III)
+idreadr.odf	   4 ibase.odf ISCHull6.odf ISCEqu7.odf ISCMiscR4.odf			// Dreadnought Refit (Type DN-IIId)
+icarrier.odf   4 ibase.odf ISCHull7.odf ISCPod2.odf ISCMiscR4.odf			// Carrier (Type CVN-VI)
 
-ihero.odf      4 ibase.odf ISCHull6.odf ISCEqu7.odf ISCMiscR4.odf 			// Commander Nortene
+ihero.odf	   4 ibase.odf ISCHull6.odf ISCEqu7.odf ISCMiscR4.odf			// Commander Nortene
 
 // ***[ INTERSTELLAR CONCORDIUM RESEARCH PROJECTS ]*********************
 
-ISCHull1.odf 2 ibase.odf iresearcha.odf				    		// Research Pod (Destroyer Hull)
-ISCHull2.odf 3 ibase.odf iresearcha.odf ISCHull1.odf 		    // Research Pod (Destroyer Leader Hull)
-ISCHull3.odf 3 ibase.odf iresearcha.odf ISCHull2.odf		    // Research Pod (Light Cruiser Hull)
-ISCHull4.odf 3 ibase.odf iresearcha.odf ISCHull3.odf		    // Research Pod (Heavy Cruiser Hull)
-ISCHull5.odf 3 ibase.odf iresearcha.odf ISCHull4.odf		    // Research Pod (Star Cruiser Hull)
-ISCHull6.odf 3 ibase.odf iresearcha.odf ISCHull5.odf		    // Research Pod (Dreadnought Hull)
-ISCHull7.odf 3 ibase.odf iresearcha.odf ISCHull6.odf		    // Research Pod (Fleet Carrier Hull)
+ISCHull1.odf 2 ibase.odf iresearcha.odf							// Research Pod (Destroyer Hull)
+ISCHull2.odf 3 ibase.odf iresearcha.odf ISCHull1.odf			// Research Pod (Destroyer Leader Hull)
+ISCHull3.odf 3 ibase.odf iresearcha.odf ISCHull2.odf			// Research Pod (Light Cruiser Hull)
+ISCHull4.odf 3 ibase.odf iresearcha.odf ISCHull3.odf			// Research Pod (Heavy Cruiser Hull)
+ISCHull5.odf 3 ibase.odf iresearcha.odf ISCHull4.odf			// Research Pod (Star Cruiser Hull)
+ISCHull6.odf 3 ibase.odf iresearcha.odf ISCHull5.odf			// Research Pod (Dreadnought Hull)
+ISCHull7.odf 3 ibase.odf iresearcha.odf ISCHull6.odf			// Research Pod (Fleet Carrier Hull)
 
-ISCEqu1.odf 2 ibase.odf iresearchb.odf				          												// Research Pod (Scout Conversion)
-ISCEqu2.odf 4 ibase.odf iresearchb.odf ISCMiscR2.odf ISCMiscR3.odf    										// Research Pod (Frigate Refit)
-ISCEqu3.odf 7 ibase.odf iresearchb.odf ISCHull1.odf ISCHull2.odf ISCMiscR2.odf ISCMiscR3.odf ISCEqu2.odf    // Research Pod (Destroyer Refits)
+ISCEqu1.odf 2 ibase.odf iresearchb.odf																		// Research Pod (Scout Conversion)
+ISCEqu2.odf 4 ibase.odf iresearchb.odf ISCMiscR2.odf ISCMiscR3.odf											// Research Pod (Frigate Refit)
+ISCEqu3.odf 7 ibase.odf iresearchb.odf ISCHull1.odf ISCHull2.odf ISCMiscR2.odf ISCMiscR3.odf ISCEqu2.odf	// Research Pod (Destroyer Refits)
 ISCEqu4.odf 5 ibase.odf iresearchb.odf ISCHull3.odf ISCMiscR5.odf ISCMiscR3.odf								// Research Pod (Light Command Cruiser Conversion)
 ISCEqu5.odf 6 ibase.odf iresearchb.odf ISCHull4.odf ISCMiscR8.odf ISCMiscR4.odf ISCPod21.odf				// Research Pod (Torpedo Cruiser Conversion)
 ISCEqu6.odf 6 ibase.odf iresearchb.odf ISCHull4.odf ISCMiscR2.odf ISCMiscR4.odf ISCEqu3.odf					// Research Pod (Heavy Cruiser Refit)
 ISCEqu7.odf 7 ibase.odf iresearchb.odf ISCHull6.odf ISCMiscR2.odf ISCMiscR4.odf ISCEqu6.odf ISCPod21.odf	// Research Pod (Dreadnought Refit)
-ISCEqu8.odf 3 ibase.odf iresearchb.odf ISCMiscR3.odf				    									// Research Pod (Colony Ship Conversion)
-ISCEqu9.odf 3 ibase.odf iresearchb.odf ISCMiscR4.odf				    									// Research Pod (Troop Transport Conversion)
+ISCEqu8.odf 3 ibase.odf iresearchb.odf ISCMiscR3.odf														// Research Pod (Colony Ship Conversion)
+ISCEqu9.odf 3 ibase.odf iresearchb.odf ISCMiscR4.odf														// Research Pod (Troop Transport Conversion)
 
-ISCPod1.odf   2 ibase.odf iresearchc.odf 			    				// Research Pod (Plasmatic Pulsars)
-ISCPod2.odf   2 ibase.odf iresearchc.odf  	                			// Research Pod (Subspace Rifts)
+ISCPod1.odf	  2 ibase.odf iresearchc.odf								// Research Pod (Plasmatic Pulsars)
+ISCPod2.odf	  2 ibase.odf iresearchc.odf								// Research Pod (Subspace Rifts)
 ISCMiscR1.odf 4 ibase.odf iresearchc.odf ISCPod2.odf ISCPod23.odf		// Research Pod (Subspace Portals)
 ISCMiscR2.odf 2	ibase.odf iresearchc.odf								// Research Pod (Heavy Disruptors)
 ISCMiscR3.odf 4 ibase.odf iresearchc.odf iresearchb.odf iresearcha.odf	// Research Pod (Cruiser Operations)
 ISCMiscR4.odf 4 ibase.odf iresearchc.odf ISCMiscR3.odf iupgrade.odf		// Research Pod (Full Scale Pacification)
-ISCMiscR5.odf 3 ibase.odf iresearchc.odf ISCPod1.odf 					// Research Pod (Light Plasmatic Pulsar Device)
+ISCMiscR5.odf 3 ibase.odf iresearchc.odf ISCPod1.odf					// Research Pod (Light Plasmatic Pulsar Device)
 ISCMiscR6.odf 3 ibase.odf iresearchc.odf ISCMiscR5.odf					// Research Pod (Standard Plasmatic Pulsar Device)
-ISCMiscR7.odf 4 ibase.odf iresearchc.odf ISCMiscR6.odf ISCMiscR4.odf 	// Research Pod (Heavy Plasmatic Pulsar Device)
+ISCMiscR7.odf 4 ibase.odf iresearchc.odf ISCMiscR6.odf ISCMiscR4.odf	// Research Pod (Heavy Plasmatic Pulsar Device)
 ISCMiscR8.odf 3 ibase.odf iresearchc.odf ISCMiscR4.odf					// Research Pod (Burst Photon Torpedoes)
 
-ISCPod11.odf  2 ibase.odf iupgrade.odf                 // Research Pod (Weapon Systems Recyclic Energy Circuitry - Weapon Systems Upgrade I)
-ISCPod12.odf  2 ibase.odf iupgrade.odf                 // Research Pod (Remodulating Shield Harmonics Booster - Shield Systems Upgrade I)
-ISCPod13.odf  2 ibase.odf iupgrade.odf                 // Research Pod (Sensor Package Plasma Detection Subroutines - Sensor Package Upgrade I)
-ISCPod14.odf  2 ibase.odf iupgrade.odf                 // Research Pod (Warp Field Streamlining & Impulse Drive Superconductors - Propulsion Systems Upgrade I)
-ISCPod15.odf  2 ibase.odf iupgrade.odf                 // Research Pod (Life Support Redundancy Circuitry - Life Support Systems Upgrade I)
-ISCPod21.odf  2 ibase.odf ISCPod11.odf                 // Research Pod (Hyperrelay Weapon Capacitor - Weapon Systems Upgrade II)
-ISCPod22.odf  2 ibase.odf ISCPod12.odf                 // Research Pod (Auxilliary Shielding Generation Systems - Shield Systems Upgrade II)
-ISCPod23.odf  2 ibase.odf ISCPod13.odf                 // Research Pod (Unique Plasma Signature Detection Computer - Sensor Package Upgrade II)
-ISCPod24.odf  2 ibase.odf ISCPod14.odf                 // Research Pod (Engine System Additive Shielding - Propulsion Systems Upgrade II)
-ISCPod25.odf  2 ibase.odf ISCPod15.odf                 // Research Pod (Emergency Anti-Depressurisation Array - Life Support Systems Upgrade II)
+ISCPod11.odf  2 ibase.odf iupgrade.odf				   // Research Pod (Weapon Systems Recyclic Energy Circuitry - Weapon Systems Upgrade I)
+ISCPod12.odf  2 ibase.odf iupgrade.odf				   // Research Pod (Remodulating Shield Harmonics Booster - Shield Systems Upgrade I)
+ISCPod13.odf  2 ibase.odf iupgrade.odf				   // Research Pod (Sensor Package Plasma Detection Subroutines - Sensor Package Upgrade I)
+ISCPod14.odf  2 ibase.odf iupgrade.odf				   // Research Pod (Warp Field Streamlining & Impulse Drive Superconductors - Propulsion Systems Upgrade I)
+ISCPod15.odf  2 ibase.odf iupgrade.odf				   // Research Pod (Life Support Redundancy Circuitry - Life Support Systems Upgrade I)
+ISCPod21.odf  2 ibase.odf ISCPod11.odf				   // Research Pod (Hyperrelay Weapon Capacitor - Weapon Systems Upgrade II)
+ISCPod22.odf  2 ibase.odf ISCPod12.odf				   // Research Pod (Auxilliary Shielding Generation Systems - Shield Systems Upgrade II)
+ISCPod23.odf  2 ibase.odf ISCPod13.odf				   // Research Pod (Unique Plasma Signature Detection Computer - Sensor Package Upgrade II)
+ISCPod24.odf  2 ibase.odf ISCPod14.odf				   // Research Pod (Engine System Additive Shielding - Propulsion Systems Upgrade II)
+ISCPod25.odf  2 ibase.odf ISCPod15.odf				   // Research Pod (Emergency Anti-Depressurisation Array - Life Support Systems Upgrade II)
 
-shieldConcordium.odf  1 ISCPod22.odf    			   // Planetary Shield (ISC)
+shieldConcordium.odf  1 ISCPod22.odf				   // Planetary Shield (ISC)
 
 // ***[ ISC MIXED TECH ]*********************
 
-ISCMix1.odf 3 ibase.odf iresearchc.odf fconst.odf                                          // Federation Tech (Sensor Post) - Capture
-ISCMix2.odf 3 ibase.odf iresearchc.odf kconst.odf                                          // Klingon Tech (Grappler) - Capture
-ISCMix3.odf 3 ibase.odf iresearchc.odf rconst.odf                                          // Romulan Tech (Cloak) - Capture
-ISCMix4.odf 3 ibase.odf iresearchc.odf gconst.odf                                          // Gorn Tech (GHRC) - Capture
-ISCMix5.odf 3 ibase.odf iresearchc.odf hconst.odf                                          // Hydran Tech (FA-IX Fighter) - Capture
-ISCMix6.odf 3 ibase.odf iresearchc.odf lconst.odf                                          // Lyran Tech (Defensive ESG) - Capture
+ISCMix1.odf 3 ibase.odf iresearchc.odf fconst.odf										   // Federation Tech (Sensor Post) - Capture
+ISCMix2.odf 3 ibase.odf iresearchc.odf kconst.odf										   // Klingon Tech (Grappler) - Capture
+ISCMix3.odf 3 ibase.odf iresearchc.odf rconst.odf										   // Romulan Tech (Cloak) - Capture
+ISCMix4.odf 3 ibase.odf iresearchc.odf gconst.odf										   // Gorn Tech (GHRC) - Capture
+ISCMix5.odf 3 ibase.odf iresearchc.odf hconst.odf										   // Hydran Tech (FA-IX Fighter) - Capture
+ISCMix6.odf 3 ibase.odf iresearchc.odf lconst.odf										   // Lyran Tech (Defensive ESG) - Capture
 
 IFighterB.odf  3 ibase.odf icarrier.odf	iscmix5.odf				// Fighter (Type FA-IX)
-ISensor.odf    2 ibase.odf iscmix1.odf						   	// Sensor Buoy
+ISensor.odf	   2 ibase.odf iscmix1.odf							// Sensor Buoy
 
-gIGrappler.odf 	1 iscmix2.odf           	 		   			// Grappler (APA)
-gICloak.odf     1 iscmix3.odf 	  	  		   			  	   	// Cloak (FS)
-gIGHRC.odf    	1 iscmix4.odf							   	   	// GHRC (DD)
-gIGHRC2.odf    	1 iscmix4.odf							   	   	// GHRC (DDd)
-gIESG2.odf    	1 iscmix6.odf							   	   	// Defensive ESG (CV)
+gIGrappler.odf	1 iscmix2.odf									// Grappler (APA)
+gICloak.odf		1 iscmix3.odf									// Cloak (FS)
+gIGHRC.odf		1 iscmix4.odf									// GHRC (DD)
+gIGHRC2.odf		1 iscmix4.odf									// GHRC (DDd)
+gIESG2.odf		1 iscmix6.odf									// Defensive ESG (CV)
 
-ICarrierUp.odf  1 ISCMix5.odf 								   // Carrier Upgrade
+ICarrierUp.odf	1 ISCMix5.odf								   // Carrier Upgrade
 
-IFFRefit.odf    1 ISCEqu2.odf 								   // Frigate Refit
-IDDRefit.odf    1 ISCEqu3.odf 								   // Destroyer Refit
-IDLRefit.odf 	1 ISCEqu3.odf								   // Destroyer Leader Refit
+IFFRefit.odf	1 ISCEqu2.odf								   // Frigate Refit
+IDDRefit.odf	1 ISCEqu3.odf								   // Destroyer Refit
+IDLRefit.odf	1 ISCEqu3.odf								   // Destroyer Leader Refit
 ICARefit.odf	1 ISCEqu6.odf								   // Cruiser Refit
-IDNRefit.odf    1 ISCEqu7.odf                                  // Dreadnought Refit
+IDNRefit.odf	1 ISCEqu7.odf								   // Dreadnought Refit
 
 
 // ***[ INTERSTELLAR CONCORDIUM STATIONS ]*********************
 //
-ibase.odf     	0                                     			 			// Starbase (I)
-imining.odf   	1 ibase.odf                                   		 		// Resource Station
-imine.odf     	1 ibase.odf                                   		 		// Type IA Mine
-iyard.odf     	1 ibase.odf                           			 			// Shipyard Type I
-iyard2.odf    	4 ibase.odf iresearcha.odf iresearchb.odf iresearchc.odf 	// Shipyard Type II
-iresearcha.odf  1 ibase.odf                           			 			// Meskeen Research Facility (Hulls)
-iresearchb.odf  1 ibase.odf              				 					// Veltressai Research Facility (Conversions)
-iresearchc.odf  1 ibase.odf						 							// Rovillian Research Facility (Miscellaneous)
-iupgrade.odf  	4 ibase.odf iresearcha.odf iresearchb.odf iresearchc.odf 	// Joint Interstellar Research Station (Upgrades)
-irecycle.odf  	1 ibase.odf                              		 			// Disassembly Array
-isuperbl.odf 	4 ibase.odf iresearcha.odf iupgrade.odf ISCMiscR1.odf 	 	// Subspace Research Facility
+ibase.odf		0															// Starbase (I)
+imining.odf		1 ibase.odf													// Resource Station
+imine.odf		1 ibase.odf													// Type IA Mine
+iyard.odf		1 ibase.odf													// Shipyard Type I
+iyard2.odf		4 ibase.odf iresearcha.odf iresearchb.odf iresearchc.odf	// Shipyard Type II
+iresearcha.odf	1 ibase.odf													// Meskeen Research Facility (Hulls)
+iresearchb.odf	1 ibase.odf													// Veltressai Research Facility (Conversions)
+iresearchc.odf	1 ibase.odf													// Rovillian Research Facility (Miscellaneous)
+iupgrade.odf	4 ibase.odf iresearcha.odf iresearchb.odf iresearchc.odf	// Joint Interstellar Research Station (Upgrades)
+irecycle.odf	1 ibase.odf													// Disassembly Array
+isuperbl.odf	4 ibase.odf iresearcha.odf iupgrade.odf ISCMiscR1.odf		// Subspace Research Facility
 
 // ***[ INTERSTELLAR CONCORDIUM ADVANCED WEAPONS ]**************
 //
-gISSJD.odf     	  0										// Subspace Jump Drive
-gISSDG.odf     	  1 ISCPod2.odf        					// Subspace Distortion Generator
-gISubPort.odf 	  1 ISCMiscR1.odf 		      			// Subspace Portal
-gISubRift.odf     1 ISCMiscR1.odf   					// Subspace Rift
-gIPPDL.odf    	  2 ISCPod1.odf ISCMiscR5.odf			// Light PPD
-gIPPDM.odf        2 ISCPod1.odf ISCMiscR6.odf			// Medium PPD
-gIPPDH.odf        2 ISCPod1.odf ISCMiscR7.odf			// Heavy PPD
-gIPPDMBase.odf    0 									// Medium PPD (Base Mounted)
-gDetectI.odf      3 ISCPod23.odf ISCMiscR4.odf ISCMiscR8.odf // Cloak Detection
-gIIonBeam.odf     0 									// Ionic Beam
+gISSJD.odf		  0										// Subspace Jump Drive
+gISSDG.odf		  1 ISCPod2.odf							// Subspace Distortion Generator
+gISubPort.odf	  1 ISCMiscR1.odf						// Subspace Portal
+gISubRift.odf	  1 ISCMiscR1.odf						// Subspace Rift
+gIPPDL.odf		  2 ISCPod1.odf ISCMiscR5.odf			// Light PPD
+gIPPDM.odf		  2 ISCPod1.odf ISCMiscR6.odf			// Medium PPD
+gIPPDH.odf		  2 ISCPod1.odf ISCMiscR7.odf			// Heavy PPD
+gIPPDMBase.odf	  0										// Medium PPD (Base Mounted)
+gDetectI.odf	  3 ISCPod23.odf ISCMiscR4.odf ISCMiscR8.odf // Cloak Detection
+gIIonBeam.odf	  0										// Ionic Beam

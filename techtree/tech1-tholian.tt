@@ -1,76 +1,76 @@
 // Basic KA2 The General War Tech Tree
 // Each .ODF entry is followed by a 0, -1, -2
-//  0 = Nothing is required to build this .ODF
+//	0 = Nothing is required to build this .ODF
 // -1 = Impossible to build.  Anything dependent on this .ODF can not be built.
 // -2 = Impossible to build, but don't touch dependencies, so that if somehow I already existed or was acquired, you could build anything dependent on me.
 
 // ***[ THOLIAN SHIPS ]************************
 //
-tconst.odf    1 tbase.odf                    				// Crystal Carver (Bismuth Class TACS)
-tfreight.odf  1 tbase.odf                             		// Crystalene Extractor (Granite Class TDF)
-tsrepair.odf  1 tbase.odf               		      		// Crystal Reconciller (Diamond Class TAR)
-tcolony.odf   1 tbase.odf  	          		      			// Colony Ship (Calcinite Class TFB)
-tscout.odf    1 tyard.odf	    	      					// Scout Escort (Feldspar-S Class TES)
-tescort.odf   1 tyard.odf 			                		// Escort (Feldspar Class TEC)
-tdestroy.odf  2 tyard.odf ThoHull2.odf                		// Destroyer (Quartz Class TDD)
-tlcruise.odf  2 tyard.odf ThoHull1.odf		      			// Light Cruiser (Garnet Class TCL)
-tcruise.odf   3 tyard.odf ThoHull1.odf ThoEqu1.odf    		// Heavy Cruiser (Ruby Class TCA)
-tmonitor.odf  3 tyard.odf ThoHull1.odf ThoEqu2.odf    	    // Defense Monitor (Citrine Class TDM)
+tconst.odf	  1 tbase.odf									// Crystal Carver (Bismuth Class TACS)
+tfreight.odf  1 tbase.odf									// Crystalene Extractor (Granite Class TDF)
+tsrepair.odf  1 tbase.odf									// Crystal Reconciller (Diamond Class TAR)
+tcolony.odf	  1 tbase.odf									// Colony Ship (Calcinite Class TFB)
+tscout.odf	  1 tyard.odf									// Scout Escort (Feldspar-S Class TES)
+tescort.odf	  1 tyard.odf									// Escort (Feldspar Class TEC)
+tdestroy.odf  2 tyard.odf ThoHull2.odf						// Destroyer (Quartz Class TDD)
+tlcruise.odf  2 tyard.odf ThoHull1.odf						// Light Cruiser (Garnet Class TCL)
+tcruise.odf	  3 tyard.odf ThoHull1.odf ThoEqu1.odf			// Heavy Cruiser (Ruby Class TCA)
+tmonitor.odf  3 tyard.odf ThoHull1.odf ThoEqu2.odf			// Defense Monitor (Citrine Class TDM)
 tbcruise.odf  3 tyard2.odf ThoHull3.odf ThoMiscR1.odf		// Battlecruiser (Amethyst Class TBC)
-tdread.odf    3 tyard2.odf ThoHull4.odf ThoMiscR1.odf		// Dreadnought (Sapphire Class TDN)
-tbattle.odf   3 tyard2.odf ThoEqu3.odf ThoHull4.odf 		// Battleship (Emerald Class TBB)
+tdread.odf	  3 tyard2.odf ThoHull4.odf ThoMiscR1.odf		// Dreadnought (Sapphire Class TDN)
+tbattle.odf	  3 tyard2.odf ThoEqu3.odf ThoHull4.odf			// Battleship (Emerald Class TBB)
 
 // ***[ THOLIAN RESEARCH PROJECTS ]*********************
 
-ThoHull1.odf  1 TresearB.odf                    	// Hull Research (Enlarged Basic Hull)
-ThoHull2.odf  2 TresearB.odf ThoMiscR3.odf 			// Hull Research (Neo-Tholian Hull - 1/4 Sized Prototype)
-ThoHull3.odf  2 TresearB.odf ThoHull2.odf 			// Hull Research (Neo-Tholian Hull - Developmental Hull)
-ThoHull4.odf  2 TresearB.odf ThoHull3.odf    		// Hull Research (Neo-Tholian Hull - Full Size Neo-Tholian Hull)
+ThoHull1.odf  1 TresearB.odf						// Hull Research (Enlarged Basic Hull)
+ThoHull2.odf  2 TresearB.odf ThoMiscR3.odf			// Hull Research (Neo-Tholian Hull - 1/4 Sized Prototype)
+ThoHull3.odf  2 TresearB.odf ThoHull2.odf			// Hull Research (Neo-Tholian Hull - Developmental Hull)
+ThoHull4.odf  2 TresearB.odf ThoHull3.odf			// Hull Research (Neo-Tholian Hull - Full Size Neo-Tholian Hull)
 
-ThoEqu1.odf   3 TresearC.odf ThoHull1.odf ThoMiscR2.odf 	// Conversion Kit (Neo-Tholian Enhancement - Cruiser)
-ThoEqu2.odf   3 TresearC.odf ThoEqu1.odf ThoMiscR1.odf 		// Conversion Kit (Monitor Conversion)
-ThoEqu3.odf   3 TresearC.odf ThoMiscR1.odf ThoHull4.odf 	// Conversion Kit (Battleship Conversion)
+ThoEqu1.odf	  3 TresearC.odf ThoHull1.odf ThoMiscR2.odf		// Conversion Kit (Neo-Tholian Enhancement - Cruiser)
+ThoEqu2.odf	  3 TresearC.odf ThoEqu1.odf ThoMiscR1.odf		// Conversion Kit (Monitor Conversion)
+ThoEqu3.odf	  3 TresearC.odf ThoMiscR1.odf ThoHull4.odf		// Conversion Kit (Battleship Conversion)
 
-ThoMiscR1.odf 1 ThoMiscR3.odf      			      			// Research Pod (Heavy Disruptor Battery Research)
+ThoMiscR1.odf 1 ThoMiscR3.odf								// Research Pod (Heavy Disruptor Battery Research)
 ThoMiscR2.odf 2 ttransmit.odf ThoMiscR4.odf					// Research Pod (Composite Design Research)
 ThoMiscR3.odf 2 ttransmit.odf ThoMiscR2.odf					// Research Pod (Neo-Tholian Design Rediscovery)
-ThoMiscR4.odf 1 ttransmit.odf 								// Research Pod (Neo-Tholian Contact Frequencies)
+ThoMiscR4.odf 1 ttransmit.odf								// Research Pod (Neo-Tholian Contact Frequencies)
 ThoMiscR5.odf 2 ttransmit.odf ThoMiscR4.odf					// Research Pod (Intergalactic Destination Coordinates)
 ThoMiscR6.odf 3 ttransmit.odf ThoMiscR5.odf Tyard2.odf		// Research Pod (Local Area Portal Generation)
 ThoMiscR7.odf 2 ttransmit.odf ThoMiscR4.odf					// Research Pod (Energy Cannon)
 
-Thopod11.odf 1 tupgrade.odf                     // Research Pod (Enhanced Phaser Power Crystals - Weapons Systems Upgrade I)
-Thopod12.odf 1 tupgrade.odf                     // Research Pod (Enhanced Shield Crystals - Shield Systems Upgrade I)
-Thopod13.odf 1 tupgrade.odf                     // Research Pod (Sensor Net Upgrade - Sensor Package Upgrade I)
-Thopod14.odf 1 tupgrade.odf                     // Research Pod (Crystaline Engine Core Refinement - Propulsion Systems Upgrade I)
-Thopod15.odf 1 tupgrade.odf                     // Research Pod (Auxilliary Gravitational Field Generator - Life Support Systems Upgrade II)
-Thopod21.odf 1 thopod11.odf                     // Research Pod (Super Enhanced Phaser Power Crystal Research - Weapon Systems Upgrade II)
-Thopod22.odf 1 thopod12.odf                     // Research Pod (Super Enhanced Shield Crystals Research - Shield Systems Upgrade II)
-Thopod23.odf 1 thopod13.odf                     // Research Pod (Sensor Net Upgrade Phase II - Sensor Package Upgrade II)
-Thopod24.odf 1 thopod14.odf                     // Research Pod (Impulse Drive Plate Polarisation - Propulsion Systems Upgrade II)
-Thopod25.odf 1 thopod15.odf                     // Research Pod (Sulphur-Ammonia Life Support Systems - Life Support Systems Upgrade II)
+Thopod11.odf 1 tupgrade.odf						// Research Pod (Enhanced Phaser Power Crystals - Weapons Systems Upgrade I)
+Thopod12.odf 1 tupgrade.odf						// Research Pod (Enhanced Shield Crystals - Shield Systems Upgrade I)
+Thopod13.odf 1 tupgrade.odf						// Research Pod (Sensor Net Upgrade - Sensor Package Upgrade I)
+Thopod14.odf 1 tupgrade.odf						// Research Pod (Crystaline Engine Core Refinement - Propulsion Systems Upgrade I)
+Thopod15.odf 1 tupgrade.odf						// Research Pod (Auxilliary Gravitational Field Generator - Life Support Systems Upgrade II)
+Thopod21.odf 1 thopod11.odf						// Research Pod (Super Enhanced Phaser Power Crystal Research - Weapon Systems Upgrade II)
+Thopod22.odf 1 thopod12.odf						// Research Pod (Super Enhanced Shield Crystals Research - Shield Systems Upgrade II)
+Thopod23.odf 1 thopod13.odf						// Research Pod (Sensor Net Upgrade Phase II - Sensor Package Upgrade II)
+Thopod24.odf 1 thopod14.odf						// Research Pod (Impulse Drive Plate Polarisation - Propulsion Systems Upgrade II)
+Thopod25.odf 1 thopod15.odf						// Research Pod (Sulphur-Ammonia Life Support Systems - Life Support Systems Upgrade II)
 
-shieldTholian.odf  1 thopod22.odf    			// Planetary Shield (Tholian)
+shieldTholian.odf  1 thopod22.odf				// Planetary Shield (Tholian)
 
 // ***[ THOLIAN STATIONS ]*********************
 //
-tbase.odf     0                                         			  	// Starbase T
-tmining.odf   0                                         			  	// Crystalene Converter
-tsensor.odf   1 tbase.odf                              			  	  	// Crystaline Resonator
-tmine.odf     1 tbase.odf                              			  	  	// Type TA Mine
-tyard.odf     1 tbase.odf      	                    			  	  	// Crystal Former
-tyard2.odf    3 tyard.odf ttransmit.odf ThoMiscR5.odf    		  	  	// Neo-Tholian Gate
-TresearB.odf  1 tbase.odf					  		  					// Research Facility (Hulls)
-TresearC.odf  1 tbase.odf					  		  					// Research Facility (Conversions)
-TresearD.odf  1 tbase.odf					  		  					// Research Facility (Equipment)
-tupgrade.odf  3 TresearB.odf TresearC.odf TresearD.odf  			  	// Research Facility (Upgrades)
-ttransmit.odf 2 tbase.odf tupgrade.odf		        			  		// Neo-Tholian Receptor/Transmitter
-tgate.odf     4 tbase.odf ttransmit.odf tupgrade.odf ThoMiscR6.odf      // Tholian Rift Generator
+tbase.odf	  0															// Starbase T
+tmining.odf	  0															// Crystalene Converter
+tsensor.odf	  1 tbase.odf												// Crystaline Resonator
+tmine.odf	  1 tbase.odf												// Type TA Mine
+tyard.odf	  1 tbase.odf												// Crystal Former
+tyard2.odf	  3 tyard.odf ttransmit.odf ThoMiscR5.odf					// Neo-Tholian Gate
+TresearB.odf  1 tbase.odf												// Research Facility (Hulls)
+TresearC.odf  1 tbase.odf												// Research Facility (Conversions)
+TresearD.odf  1 tbase.odf												// Research Facility (Equipment)
+tupgrade.odf  3 TresearB.odf TresearC.odf TresearD.odf					// Research Facility (Upgrades)
+ttransmit.odf 2 tbase.odf tupgrade.odf									// Neo-Tholian Receptor/Transmitter
+tgate.odf	  4 tbase.odf ttransmit.odf tupgrade.odf ThoMiscR6.odf		// Tholian Rift Generator
 
 
 // ***[ THOLIAN ADVANCED WEAPONS ]**************
 //
-gtweb.odf     2 ThoMiscR4.odf ThoMiscR7.odf               	// Tholian Web Cannon (quartz, garnet, ruby. amethyst and sapphire class)
-gtrift.odf    2 ttransmit.odf ThoMiscR6.odf 		  		// Tholian Rift (Tholian Gate)
-gdetectt.odf  0 					  						// Crystal Detector Array (Feldspar-S Class EF)
-gresourceExtractionBeam.odf 0				  				// Tholian Crystaliser Beam
+gtweb.odf	  2 ThoMiscR4.odf ThoMiscR7.odf					// Tholian Web Cannon (quartz, garnet, ruby. amethyst and sapphire class)
+gtrift.odf	  2 ttransmit.odf ThoMiscR6.odf					// Tholian Rift (Tholian Gate)
+gdetectt.odf  0												// Crystal Detector Array (Feldspar-S Class EF)
+gresourceExtractionBeam.odf 0								// Tholian Crystaliser Beam
