@@ -493,7 +493,7 @@
 	</object>
 	<!--Romulan Tech (Cerberus) - Capture-->
 	<object ODF="FedMix2.odf">
-		<requirement race="federation">
+		<requirement race="federation" buttonHideUnavailable="true">
 			<obj>fbase.odf</obj>
 			<obj>fresearchc.odf</obj>
 			<obj>rconst.odf</obj>
@@ -501,7 +501,7 @@
 	</object>
 	<!--Gorn Tech (Excelsior-R) - Allied-->
 	<object ODF="FedMix3.odf">
-		<requirement race="federation">
+		<requirement race="federation" buttonHideUnavailable="true">
 			<ally race="klingon" />
 			<obj>fbase.odf</obj>
 			<obj>fresearchc.odf</obj>
@@ -509,7 +509,7 @@
 	</object>
 	<!--ISC Tech (Jump Drives) - Capture-->
 	<object ODF="FedMix4.odf">
-		<requirement race="federation">
+		<requirement race="federation" buttonHideUnavailable="true">
 			<obj>fbase.odf</obj>
 			<obj>fresearchc.odf</obj>
 			<obj>iconst.odf</obj>
@@ -517,7 +517,7 @@
 	</object>
 	<!--Hydran Tech (Hornet-B) - Allied-->
 	<object ODF="FedMix5.odf">
-		<requirement race="federation">
+		<requirement race="federation" buttonHideUnavailable="true">
 			<ally race="hydran" />
 			<obj>fbase.odf</obj>
 			<obj>fresearchc.odf</obj>
@@ -525,7 +525,7 @@
 	</object>
 	<!--Lyran Tech (ESGs) - Capture-->
 	<object ODF="FedMix6.odf">
-		<requirement race="federation">
+		<requirement race="federation" buttonHideUnavailable="true">
 			<obj>fbase.odf</obj>
 			<obj>fresearchc.odf</obj>
 			<obj>lconst.odf</obj>
@@ -533,7 +533,7 @@
 	</object>
 	<!--Unique Dreadnought (USS Star Empire)-->
 	<object ODF="FStarEmpire.odf">
-		<requirement race="federation">
+		<requirement race="federation" buttonHideUnavailable="true">
 			<obj>fbase.odf</obj>
 			<obj>FedHull6.odf</obj>
 			<obj>FedMix1.odf</obj>
@@ -541,7 +541,7 @@
 	</object>
 	<!--Special Ops Cruiser (USS Cerberus)-->
 	<object ODF="FCerberus.odf">
-		<requirement race="federation">
+		<requirement race="federation" buttonHideUnavailable="true">
 			<obj>fbase.odf</obj>
 			<obj>FedHull2.odf</obj>
 			<obj>FedMix2.odf</obj>
@@ -549,7 +549,7 @@
 	</object>
 	<!--Heavy Battlecruiser (Excelsior Class Refit FBCH)-->
 	<object ODF="FBCruiseR.odf">
-		<requirement race="federation">
+		<requirement race="federation" buttonHideUnavailable="true">
 			<obj>fbase.odf</obj>
 			<obj>FedHull5.odf</obj>
 			<obj>FedMix3.odf</obj>
@@ -557,7 +557,7 @@
 	</object>
 	<!--Fighter (Hornet-B FFA)-->
 	<object ODF="FFighterB.odf">
-		<requirement race="federation">
+		<requirement race="federation" buttonHideUnavailable="true">
 			<obj>fbase.odf</obj>
 			<obj>fmonitoring.odf</obj>
 			<obj>fcarrier.odf</obj>
@@ -566,31 +566,31 @@
 	</object>
 	<!--Holographic Generator-->
 	<object ODF="GFHoloGen.odf">
-		<requirement race="federation">
+		<requirement race="federation" buttonHideUnavailable="true">
 			<obj>FedMix2.odf</obj>
 		</requirement>
 	</object>
 	<!--Jump Drives (Excelsior)-->
 	<object ODF="gFSSDG.odf">
-		<requirement race="federation">
+		<requirement race="federation" buttonHideUnavailable="true">
 			<obj>FedMix4.odf</obj>
 		</requirement>
 	</object>
 	<!--Jump Drives (Excelsior-R)-->
 	<object ODF="gFSSDG2.odf">
-		<requirement race="federation">
+		<requirement race="federation" buttonHideUnavailable="true">
 			<obj>FedMix4.odf</obj>
 		</requirement>
 	</object>
 	<!--Expanding Sphere Generator (Mirandas and USS Cerberus)-->
 	<object ODF="gFESG2.odf">
-		<requirement race="federation">
+		<requirement race="federation" buttonHideUnavailable="true">
 			<obj>FedMix6.odf</obj>
 		</requirement>
 	</object>
 	<!--Carrier Upgrade-->
 	<object ODF="FCarrierUp.odf">
-		<requirement race="federation">
+		<requirement race="federation" buttonHideUnavailable="true">
 			<obj>FedMix5.odf</obj>
 		</requirement>
 	</object>
