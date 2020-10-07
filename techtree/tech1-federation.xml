@@ -485,7 +485,7 @@
 	<!--***[ FEDERATION MIXED TECH ]*********************-->
 	<!--Klingon Tech (Star Empire) - Capture-->
 	<object ODF="FedMix1.odf">
-		<requirement race="federation" buttonHideUnavailable="true">
+		<requirement race="federation" buttonHideIfUnavailable="true">
 			<obj>fbase.odf</obj>
 			<obj>fresearchc.odf</obj>
 			<obj>kconst.odf</obj>
@@ -502,7 +502,7 @@
 	<!--Gorn Tech (Excelsior-R) - Allied-->
 	<object ODF="FedMix3.odf">
 		<requirement race="federation">
-			<ally race="gorn" />
+			<ally race="klingon" />
 			<obj>fbase.odf</obj>
 			<obj>fresearchc.odf</obj>
 		</requirement>
