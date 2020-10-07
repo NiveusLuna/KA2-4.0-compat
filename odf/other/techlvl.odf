@@ -1,2 +1,8 @@
-techfile0 = "tech1.xml"
-techfile1 = "tech1-orig.tt"
+techfile0 = "tech1.tt"
+techfile1 = "realtech.tt"
+techfile2 = "nosci.tt"
+techfile3 = "nospweap.tt"
+techfile4 = "freetech.tt"
+techfile5 = "earlytech.tt"
+
+
