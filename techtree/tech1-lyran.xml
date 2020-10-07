@@ -1,0 +1,581 @@
+<techtree><!--Basic KA2 The General War Tech Tree-->
+	<!--Each .ODF entry is followed by a 0, -1, -2-->
+	<!--0 = Nothing is required to build this .ODF-->
+	<!---1 = Impossible to build.  Anything dependent on this .ODF can not be built.-->
+	<!---2 = Impossible to build, but don&apos;t touch dependencies, so that if somehow I already existed or was acquired, you could build anything dependent on me.-->
+	<!--***[ LYRAN SHIPS ]************************-->
+	<!--Construction Tender (Felidae Class LACS)-->
+	<object ODF="lconst.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Mining Freighter (Queen Cat Class LDF)-->
+	<object ODF="lfreight.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Cargo Freighter (Cougar Class LAK)-->
+	<object ODF="lcargo.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Fleet Repair Frigate (Bobcat Class LFR)-->
+	<object ODF="lsrepair.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>lresearchc.odf</obj>
+		</requirement>
+	</object>
+	<!--Colony Ship (Feline Class LFB)-->
+	<object ODF="lcolony.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>lresearcha.odf</obj>
+			<obj>lresearchb.odf</obj>
+		</requirement>
+	</object>
+	<!--Troop Transport (Serval Class LAPA)-->
+	<object ODF="lassault.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>lresearcha.odf</obj>
+			<obj>lresearchb.odf</obj>
+		</requirement>
+	</object>
+	<!--Psuedo-Fighter (Occicat LPF)-->
+	<object ODF="lpfighter.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>loutpost.odf</obj>
+			<obj>LyrMiscR2.odf</obj>
+			<obj>LyrMiscR3.odf</obj>
+		</requirement>
+	</object>
+	<!--Scout Frigate (Wildcat Class LFS)-->
+	<object ODF="lscout.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>LyrEqu1.odf</obj>
+		</requirement>
+	</object>
+	<!--Frigate (Lynx Class LFF)-->
+	<object ODF="lfrigate.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Destroyer (Caracal Class LDD)-->
+	<object ODF="ldestroy.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>LyrHull1.odf</obj>
+			<obj>LyrMiscR2.odf</obj>
+		</requirement>
+	</object>
+	<!--Light Cruiser (Leopard Class LCL)-->
+	<object ODF="llcruise.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>LyrHull2.odf</obj>
+		</requirement>
+	</object>
+	<!--Heavy Cruiser (Tiger Class LCA)-->
+	<object ODF="lhcruise.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>LyrHull3.odf</obj>
+			<obj>LyrMiscR2.odf</obj>
+		</requirement>
+	</object>
+	<!--Guided Missile Monitor (Puma Class LMNG)-->
+	<object ODF="lmonitor.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>LyrHull3.odf</obj>
+			<obj>LyrEqu2.odf</obj>
+			<obj>LyrMiscR6.odf</obj>
+		</requirement>
+	</object>
+	<!--Battlecruiser (Panther Class LBC)-->
+	<object ODF="lbcruise.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>LyrHull4.odf</obj>
+			<obj>LyrMiscR1.odf</obj>
+			<obj>LyrMiscR2.odf</obj>
+		</requirement>
+	</object>
+	<!--Dreadnought (Lion Class LDN)-->
+	<object ODF="ldread.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>LyrHull5.odf</obj>
+			<obj>LyrMiscR1.odf</obj>
+			<obj>LyrMiscR2.odf</obj>
+			<obj>LyrMiscR5.odf</obj>
+		</requirement>
+	</object>
+	<!--Battleship (Royal Lion Class LBB)-->
+	<object ODF="lbattle.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>LyrHull5.odf</obj>
+			<obj>LyrEqu3.odf</obj>
+			<obj>LyrMiscR1.odf</obj>
+			<obj>LyrMiscR2.odf</obj>
+			<obj>LyrMiscR5.odf</obj>
+		</requirement>
+	</object>
+	<!--Psuedo-Fighter Tender (Lioness Class LTPF)-->
+	<object ODF="lcarrier.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>LyrHull5.odf</obj>
+			<obj>LyrMiscR2.odf</obj>
+			<obj>LyrMiscR3.odf</obj>
+			<obj>LyrEqu4.odf</obj>
+		</requirement>
+	</object>
+	<!--***[ LYRAN RESEARCH PROJECTS ]*********************-->
+	<!--Hull Research (Destroyer DD)-->
+	<object ODF="LyrHull1.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>lresearcha.odf</obj>
+		</requirement>
+	</object>
+	<!--Hull Research (Light Cruiser CL)-->
+	<object ODF="LyrHull2.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>lresearcha.odf</obj>
+			<obj>LyrHull1.odf</obj>
+		</requirement>
+	</object>
+	<!--Hull Research (Heavy Cruiser CA)-->
+	<object ODF="LyrHull3.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>lresearcha.odf</obj>
+			<obj>LyrHull2.odf</obj>
+		</requirement>
+	</object>
+	<!--Hull Research (Battlecruiser BC/MH)-->
+	<object ODF="LyrHull4.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>lresearcha.odf</obj>
+			<obj>LyrHull3.odf</obj>
+		</requirement>
+	</object>
+	<!--Hull Research (Capital DN/CV)-->
+	<object ODF="LyrHull5.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>lresearcha.odf</obj>
+			<obj>LyrHull4.odf</obj>
+		</requirement>
+	</object>
+	<!--Conversion Kit (Scout Frigate FS)-->
+	<object ODF="LyrEqu1.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>lresearchb.odf</obj>
+		</requirement>
+	</object>
+	<!--Conversion Kit (Guided Missile Monitor MNG)-->
+	<object ODF="LyrEqu2.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>lresearchb.odf</obj>
+			<obj>LyrHull3.odf</obj>
+		</requirement>
+	</object>
+	<!--Conversion Kit (Battleship BB)-->
+	<object ODF="LyrEqu3.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>lresearchb.odf</obj>
+			<obj>LyrHull4.odf</obj>
+			<obj>LyrHull5.odf</obj>
+		</requirement>
+	</object>
+	<!--Conversion Kit (Psuedo-Fighter Tender)-->
+	<object ODF="LyrEqu4.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>lresearchb.odf</obj>
+			<obj>LyrHull3.odf</obj>
+			<obj>LyrHull5.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Multi-Barrel Heavy Disruptors)-->
+	<object ODF="LyrMiscR1.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>lresearchc.odf</obj>
+			<obj>LyrHull4.odf</obj>
+			<obj>lyrpod24.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Heavy Phaser Cannon)-->
+	<object ODF="LyrMiscR2.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>lresearchc.odf</obj>
+			<obj>LyrHull1.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Underway Replenishment)-->
+	<object ODF="LyrMiscR3.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>lresearchc.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Energy Sphere Generation)-->
+	<object ODF="LyrMiscR4.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>lresearchc.odf</obj>
+			<obj>lyrpod24.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Mauler Cannon)-->
+	<object ODF="LyrMiscR5.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>lresearchc.odf</obj>
+			<obj>LyrMiscR2.odf</obj>
+			<obj>LyrMiscR3.odf</obj>
+			<obj>lyrpod21.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Cruise Missile)-->
+	<object ODF="LyrMiscR6.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>lresearchc.odf</obj>
+			<obj>LyrMiscR5.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Weapon Overload Systems - Weapon Systems Upgrade I)-->
+	<object ODF="lyrpod11.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>lupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Rephased Shield Systems - Shield Systems Upgrade I)-->
+	<object ODF="lyrpod12.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>lupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Sensor Reallignment - Sensor Package Upgrade I)-->
+	<object ODF="lyrpod13.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>lupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Warp Field Manipulation - Propulsion Systems Upgrade I)-->
+	<object ODF="lyrpod14.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>lupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Life Support Redundancy Systems - Life Support Systems Upgrade I)-->
+	<object ODF="lyrpod15.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>lupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Disruptor Packet Power Booster - Weapon Systems Upgrade II)-->
+	<object ODF="lyrpod21.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>lyrpod11.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Hyperphased Shield Modulation - Shield Systems Upgrade II)-->
+	<object ODF="lyrpod22.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>lyrpod12.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Additive Sensor Power Relays - Sensor Package Upgrade II)-->
+	<object ODF="lyrpod23.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>lyrpod13.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Hydrogen Injection Nozzles - Propulsion Systems Upgrade II)-->
+	<object ODF="lyrpod24.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>lyrpod14.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Auxilliary Gravitational Field Generator - Life Support Systems Upgrade II)-->
+	<object ODF="lyrpod25.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>lyrpod15.odf</obj>
+		</requirement>
+	</object>
+	<!--Planetary Shield (Lyran)-->
+	<object ODF="shieldLyran.odf">
+		<requirement>
+			<obj>lyrpod22.odf</obj>
+		</requirement>
+	</object>
+	<!--***[ LYRAN MIXED TECH ]*********************-->
+	<!--Federation Tech (EsPlaD) - Capture-->
+	<object ODF="LyrMix1.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>lresearchc.odf</obj>
+			<obj>fconst.odf</obj>
+		</requirement>
+	</object>
+	<!--Klingon Tech (Grappler Beam) - Allied-->
+	<object ODF="LyrMix2.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>lresearchc.odf</obj>
+		</requirement>
+	</object>
+	<!--Romulan Tech (Scout Cloaking) - Allied-->
+	<object ODF="LyrMix3.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>lresearchc.odf</obj>
+		</requirement>
+	</object>
+	<!--Romulan Tech (Scout Cloaking) - Capture-->
+	<object ODF="LyrMix4.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>lresearchc.odf</obj>
+			<obj>rconst.odf</obj>
+		</requirement>
+	</object>
+	<!--Gorn Tech (GHRC) - Capture-->
+	<object ODF="LyrMix5.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>lresearchc.odf</obj>
+			<obj>gconst.odf</obj>
+		</requirement>
+	</object>
+	<!--ISC Tech (Jump Drive) - Capture-->
+	<object ODF="LyrMix6.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>lresearchc.odf</obj>
+			<obj>iconst.odf</obj>
+		</requirement>
+	</object>
+	<!--Hydran Tech (Occilot LPF) - Capture-->
+	<object ODF="LyrMix7.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>lresearchc.odf</obj>
+			<obj>hconst.odf</obj>
+		</requirement>
+	</object>
+	<!--Psuedo-Fighter (Occilot LPF)-->
+	<object ODF="lpfighterb.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>loutpost.odf</obj>
+			<obj>LyrMiscR2.odf</obj>
+			<obj>LyrMiscR3.odf</obj>
+			<obj>LyrMix7.odf</obj>
+		</requirement>
+	</object>
+	<!--Cloak Detection (Sensor Post)-->
+	<object ODF="gDetectL.odf">
+		<requirement>
+			<obj>LyrMix1.odf</obj>
+		</requirement>
+	</object>
+	<!--Grappler (Serval Class LAPA)-->
+	<object ODF="gLGrappler.odf">
+		<requirement>
+			<obj>LyrMix2.odf</obj>
+		</requirement>
+	</object>
+	<!--Cloak (Wildcat Class LFS - Allied)-->
+	<object ODF="gLCloak.odf">
+		<requirement>
+			<obj>LyrMix3.odf</obj>
+		</requirement>
+	</object>
+	<!--Cloak (Wildcat Class LFS - Capture)-->
+	<object ODF="gLCloak2.odf">
+		<requirement>
+			<obj>LyrMix4.odf</obj>
+		</requirement>
+	</object>
+	<!--GHRC (Caracal Class LDD)-->
+	<object ODF="gLGHRC.odf">
+		<requirement>
+			<obj>LyrMix5.odf</obj>
+		</requirement>
+	</object>
+	<!--Subspace Jump Drive (Wildcat Class LFS)-->
+	<object ODF="gLSSJD.odf">
+		<requirement>
+			<obj>LyrMix6.odf</obj>
+		</requirement>
+	</object>
+	<!--Carrier Upgrade-->
+	<object ODF="LCarrierUp.odf">
+		<requirement>
+			<obj>LyrMix7.odf</obj>
+		</requirement>
+	</object>
+	<!--Outpost Upgrade-->
+	<object ODF="LStationUp.odf">
+		<requirement>
+			<obj>LyrMix7.odf</obj>
+		</requirement>
+	</object>
+	<!--Orion Pirate Warp-In Ability-->
+	<object ODF="LOrionWarpIn.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>lyard.odf</obj>
+		</requirement>
+	</object>
+	<!--ShaKurian Mercenary Warp-In Ability-->
+	<object ODF="LShakurianWarpIn.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>lyard.odf</obj>
+		</requirement>
+	</object>
+	<!--***[ LYRAN STATIONS ]*********************-->
+	<!--Starbase L-->
+	<object ODF="lbase.odf"/>
+	<!--Outpost-->
+	<object ODF="loutpost.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>LyrMiscR2.odf</obj>
+		</requirement>
+	</object>
+	<!--Dilithium Grader-->
+	<object ODF="lmining.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Orbital Processing Facility L-->
+	<object ODF="lorbital.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Sensor Post-->
+	<object ODF="lsensor.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Type LA Mine-->
+	<object ODF="lmine.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Shipyard L-->
+	<object ODF="lyard.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Grand Shipyard-->
+	<object ODF="lyard2.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>lresearcha.odf</obj>
+			<obj>lresearchb.odf</obj>
+			<obj>lresearchc.odf</obj>
+		</requirement>
+	</object>
+	<!--Trading Station L-->
+	<object ODF="ltrading.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+		</requirement>
+	</object>
+	<!--ILN Warship Research Laboratory (Hulls)-->
+	<object ODF="lresearcha.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+		</requirement>
+	</object>
+	<!--ILN Warship Conversion Laboratory (Conversions)-->
+	<object ODF="lresearchb.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Imperial Guard Station (Equipment)-->
+	<object ODF="lresearchc.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Imperial Naval Commissariat (Upgrades)-->
+	<object ODF="lupgrade.odf">
+		<requirement>
+			<obj>lbase.odf</obj>
+			<obj>lresearcha.odf</obj>
+			<obj>lresearchb.odf</obj>
+			<obj>lresearchc.odf</obj>
+		</requirement>
+	</object>
+	<!--***[ LYRAN ADVANCED WEAPONS ]**************-->
+	<!--ESG Offensive Mode (Tiger Class CA)-->
+	<object ODF="gLESG.odf">
+		<requirement>
+			<obj>LyrMiscR4.odf</obj>
+		</requirement>
+	</object>
+	<!--ESG Offensive Mode (Panther Class BC)-->
+	<object ODF="gLESGBC.odf">
+		<requirement>
+			<obj>LyrMiscR4.odf</obj>
+		</requirement>
+	</object>
+	<!--ESG Offensive Mode (Lion Class DN)-->
+	<object ODF="gLESGDN.odf">
+		<requirement>
+			<obj>LyrMiscR4.odf</obj>
+		</requirement>
+	</object>
+	<!--ESG Offensive Mode (Royal Lion Class BB)-->
+	<object ODF="gLESGBB.odf">
+		<requirement>
+			<obj>LyrMiscR4.odf</obj>
+		</requirement>
+	</object>
+	<!--ESG Defensive Mode-->
+	<object ODF="gLESG2.odf">
+		<requirement>
+			<obj>LyrMiscR4.odf</obj>
+		</requirement>
+	</object>
+</techtree>

@@ -1,0 +1,355 @@
+<techtree><!--Basic KA2 The General War Tech Tree-->
+	<!--Each .ODF entry is followed by a 0, -1, -2-->
+	<!--0 = Nothing is required to build this .ODF-->
+	<!---1 = Impossible to build.  Anything dependent on this .ODF can not be built.-->
+	<!---2 = Impossible to build, but don&apos;t touch dependencies, so that if somehow I already existed or was acquired, you could build anything dependent on me.-->
+	<!--***[ THOLIAN SHIPS ]************************-->
+	<!--Crystal Carver (Bismuth Class TACS)-->
+	<object ODF="tconst.odf">
+		<requirement>
+			<obj>tbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Crystalene Extractor (Granite Class TDF)-->
+	<object ODF="tfreight.odf">
+		<requirement>
+			<obj>tbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Crystal Reconciller (Diamond Class TAR)-->
+	<object ODF="tsrepair.odf">
+		<requirement>
+			<obj>tbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Colony Ship (Calcinite Class TFB)-->
+	<object ODF="tcolony.odf">
+		<requirement>
+			<obj>tbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Scout Escort (Feldspar-S Class TES)-->
+	<object ODF="tscout.odf">
+		<requirement>
+			<obj>tyard.odf</obj>
+		</requirement>
+	</object>
+	<!--Escort (Feldspar Class TEC)-->
+	<object ODF="tescort.odf">
+		<requirement>
+			<obj>tyard.odf</obj>
+		</requirement>
+	</object>
+	<!--Destroyer (Quartz Class TDD)-->
+	<object ODF="tdestroy.odf">
+		<requirement>
+			<obj>tyard.odf</obj>
+			<obj>ThoHull2.odf</obj>
+		</requirement>
+	</object>
+	<!--Light Cruiser (Garnet Class TCL)-->
+	<object ODF="tlcruise.odf">
+		<requirement>
+			<obj>tyard.odf</obj>
+			<obj>ThoHull1.odf</obj>
+		</requirement>
+	</object>
+	<!--Heavy Cruiser (Ruby Class TCA)-->
+	<object ODF="tcruise.odf">
+		<requirement>
+			<obj>tyard.odf</obj>
+			<obj>ThoHull1.odf</obj>
+			<obj>ThoEqu1.odf</obj>
+		</requirement>
+	</object>
+	<!--Defense Monitor (Citrine Class TDM)-->
+	<object ODF="tmonitor.odf">
+		<requirement>
+			<obj>tyard.odf</obj>
+			<obj>ThoHull1.odf</obj>
+			<obj>ThoEqu2.odf</obj>
+		</requirement>
+	</object>
+	<!--Battlecruiser (Amethyst Class TBC)-->
+	<object ODF="tbcruise.odf">
+		<requirement>
+			<obj>tyard2.odf</obj>
+			<obj>ThoHull3.odf</obj>
+			<obj>ThoMiscR1.odf</obj>
+		</requirement>
+	</object>
+	<!--Dreadnought (Sapphire Class TDN)-->
+	<object ODF="tdread.odf">
+		<requirement>
+			<obj>tyard2.odf</obj>
+			<obj>ThoHull4.odf</obj>
+			<obj>ThoMiscR1.odf</obj>
+		</requirement>
+	</object>
+	<!--Battleship (Emerald Class TBB)-->
+	<object ODF="tbattle.odf">
+		<requirement>
+			<obj>tyard2.odf</obj>
+			<obj>ThoEqu3.odf</obj>
+			<obj>ThoHull4.odf</obj>
+		</requirement>
+	</object>
+	<!--***[ THOLIAN RESEARCH PROJECTS ]*********************-->
+	<!--Hull Research (Enlarged Basic Hull)-->
+	<object ODF="ThoHull1.odf">
+		<requirement>
+			<obj>TresearB.odf</obj>
+		</requirement>
+	</object>
+	<!--Hull Research (Neo-Tholian Hull - 1/4 Sized Prototype)-->
+	<object ODF="ThoHull2.odf">
+		<requirement>
+			<obj>TresearB.odf</obj>
+			<obj>ThoMiscR3.odf</obj>
+		</requirement>
+	</object>
+	<!--Hull Research (Neo-Tholian Hull - Developmental Hull)-->
+	<object ODF="ThoHull3.odf">
+		<requirement>
+			<obj>TresearB.odf</obj>
+			<obj>ThoHull2.odf</obj>
+		</requirement>
+	</object>
+	<!--Hull Research (Neo-Tholian Hull - Full Size Neo-Tholian Hull)-->
+	<object ODF="ThoHull4.odf">
+		<requirement>
+			<obj>TresearB.odf</obj>
+			<obj>ThoHull3.odf</obj>
+		</requirement>
+	</object>
+	<!--Conversion Kit (Neo-Tholian Enhancement - Cruiser)-->
+	<object ODF="ThoEqu1.odf">
+		<requirement>
+			<obj>TresearC.odf</obj>
+			<obj>ThoHull1.odf</obj>
+			<obj>ThoMiscR2.odf</obj>
+		</requirement>
+	</object>
+	<!--Conversion Kit (Monitor Conversion)-->
+	<object ODF="ThoEqu2.odf">
+		<requirement>
+			<obj>TresearC.odf</obj>
+			<obj>ThoEqu1.odf</obj>
+			<obj>ThoMiscR1.odf</obj>
+		</requirement>
+	</object>
+	<!--Conversion Kit (Battleship Conversion)-->
+	<object ODF="ThoEqu3.odf">
+		<requirement>
+			<obj>TresearC.odf</obj>
+			<obj>ThoMiscR1.odf</obj>
+			<obj>ThoHull4.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Heavy Disruptor Battery Research)-->
+	<object ODF="ThoMiscR1.odf">
+		<requirement>
+			<obj>ThoMiscR3.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Composite Design Research)-->
+	<object ODF="ThoMiscR2.odf">
+		<requirement>
+			<obj>ttransmit.odf</obj>
+			<obj>ThoMiscR4.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Neo-Tholian Design Rediscovery)-->
+	<object ODF="ThoMiscR3.odf">
+		<requirement>
+			<obj>ttransmit.odf</obj>
+			<obj>ThoMiscR2.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Neo-Tholian Contact Frequencies)-->
+	<object ODF="ThoMiscR4.odf">
+		<requirement>
+			<obj>ttransmit.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Intergalactic Destination Coordinates)-->
+	<object ODF="ThoMiscR5.odf">
+		<requirement>
+			<obj>ttransmit.odf</obj>
+			<obj>ThoMiscR4.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Local Area Portal Generation)-->
+	<object ODF="ThoMiscR6.odf">
+		<requirement>
+			<obj>ttransmit.odf</obj>
+			<obj>ThoMiscR5.odf</obj>
+			<obj>Tyard2.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Energy Cannon)-->
+	<object ODF="ThoMiscR7.odf">
+		<requirement>
+			<obj>ttransmit.odf</obj>
+			<obj>ThoMiscR4.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Enhanced Phaser Power Crystals - Weapons Systems Upgrade I)-->
+	<object ODF="Thopod11.odf">
+		<requirement>
+			<obj>tupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Enhanced Shield Crystals - Shield Systems Upgrade I)-->
+	<object ODF="Thopod12.odf">
+		<requirement>
+			<obj>tupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Sensor Net Upgrade - Sensor Package Upgrade I)-->
+	<object ODF="Thopod13.odf">
+		<requirement>
+			<obj>tupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Crystaline Engine Core Refinement - Propulsion Systems Upgrade I)-->
+	<object ODF="Thopod14.odf">
+		<requirement>
+			<obj>tupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Auxilliary Gravitational Field Generator - Life Support Systems Upgrade II)-->
+	<object ODF="Thopod15.odf">
+		<requirement>
+			<obj>tupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Super Enhanced Phaser Power Crystal Research - Weapon Systems Upgrade II)-->
+	<object ODF="Thopod21.odf">
+		<requirement>
+			<obj>thopod11.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Super Enhanced Shield Crystals Research - Shield Systems Upgrade II)-->
+	<object ODF="Thopod22.odf">
+		<requirement>
+			<obj>thopod12.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Sensor Net Upgrade Phase II - Sensor Package Upgrade II)-->
+	<object ODF="Thopod23.odf">
+		<requirement>
+			<obj>thopod13.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Impulse Drive Plate Polarisation - Propulsion Systems Upgrade II)-->
+	<object ODF="Thopod24.odf">
+		<requirement>
+			<obj>thopod14.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Pod (Sulphur-Ammonia Life Support Systems - Life Support Systems Upgrade II)-->
+	<object ODF="Thopod25.odf">
+		<requirement>
+			<obj>thopod15.odf</obj>
+		</requirement>
+	</object>
+	<!--Planetary Shield (Tholian)-->
+	<object ODF="shieldTholian.odf">
+		<requirement>
+			<obj>thopod22.odf</obj>
+		</requirement>
+	</object>
+	<!--***[ THOLIAN STATIONS ]*********************-->
+	<!--Starbase T-->
+	<object ODF="tbase.odf"/>
+	<!--Crystalene Converter-->
+	<object ODF="tmining.odf"/>
+	<!--Crystaline Resonator-->
+	<object ODF="tsensor.odf">
+		<requirement>
+			<obj>tbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Type TA Mine-->
+	<object ODF="tmine.odf">
+		<requirement>
+			<obj>tbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Crystal Former-->
+	<object ODF="tyard.odf">
+		<requirement>
+			<obj>tbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Neo-Tholian Gate-->
+	<object ODF="tyard2.odf">
+		<requirement>
+			<obj>tyard.odf</obj>
+			<obj>ttransmit.odf</obj>
+			<obj>ThoMiscR5.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Facility (Hulls)-->
+	<object ODF="TresearB.odf">
+		<requirement>
+			<obj>tbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Facility (Conversions)-->
+	<object ODF="TresearC.odf">
+		<requirement>
+			<obj>tbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Facility (Equipment)-->
+	<object ODF="TresearD.odf">
+		<requirement>
+			<obj>tbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Facility (Upgrades)-->
+	<object ODF="tupgrade.odf">
+		<requirement>
+			<obj>TresearB.odf</obj>
+			<obj>TresearC.odf</obj>
+			<obj>TresearD.odf</obj>
+		</requirement>
+	</object>
+	<!--Neo-Tholian Receptor/Transmitter-->
+	<object ODF="ttransmit.odf">
+		<requirement>
+			<obj>tbase.odf</obj>
+			<obj>tupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--Tholian Rift Generator-->
+	<object ODF="tgate.odf">
+		<requirement>
+			<obj>tbase.odf</obj>
+			<obj>ttransmit.odf</obj>
+			<obj>tupgrade.odf</obj>
+			<obj>ThoMiscR6.odf</obj>
+		</requirement>
+	</object>
+	<!--***[ THOLIAN ADVANCED WEAPONS ]**************-->
+	<!--Tholian Web Cannon (quartz, garnet, ruby. amethyst and sapphire class)-->
+	<object ODF="gtweb.odf">
+		<requirement>
+			<obj>ThoMiscR4.odf</obj>
+			<obj>ThoMiscR7.odf</obj>
+		</requirement>
+	</object>
+	<!--Tholian Rift (Tholian Gate)-->
+	<object ODF="gtrift.odf">
+		<requirement>
+			<obj>ttransmit.odf</obj>
+			<obj>ThoMiscR6.odf</obj>
+		</requirement>
+	</object>
+	<!--Crystal Detector Array (Feldspar-S Class EF)-->
+	<object ODF="gdetectt.odf"/>
+	<!--Tholian Crystaliser Beam-->
+	<object ODF="gresourceExtractionBeam.odf"/>
+</techtree>

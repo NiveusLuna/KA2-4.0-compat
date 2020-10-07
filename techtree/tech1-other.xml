@@ -1,0 +1,41 @@
+<techtree><!--Basic KA2 The General War Tech Tree-->
+	<!--Each .ODF entry is followed by a 0, -1, -2-->
+	<!--0 = Nothing is required to build this .ODF-->
+	<!---1 = Impossible to build.  Anything dependent on this .ODF can not be built.-->
+	<!---2 = Impossible to build, but don&apos;t touch dependencies, so that if somehow I already existed or was acquired, you could build anything dependent on me.-->
+	<!--***[ OTHER RACES STATIONS ]************************-->
+	<!--Starbase (M)-->
+	<object ODF="mbase.odf"/>
+	<!--Reserve Fleet Starbase-->
+	<object ODF="fbaser.odf"/>
+	<!--*************** OTHER ADVANCED WEAPONS***************-->
+	<!--Electronic Countermeasures-->
+	<object ODF="gecm.odf"/>
+	<!--Electronic Counter-Countermeasures-->
+	<object ODF="geccm.odf"/>
+	<!--Self Destruct-->
+	<object ODF="gSelfdes.odf"/>
+	<!--Tractor Beam-->
+	<object ODF="gTracbm.odf"/>
+	<!--Cloak-->
+	<object ODF="gcloak.odf"/>
+	<!--Fed/Klingon/ISC Burst Photon-->
+	<object ODF="FAphoton.odf"/>
+	<!--Rom/Gorn Burst Photon (Parallax Torpedo)-->
+	<object ODF="RAphoton.odf"/>
+	<!--Lyran Proximity Warhead Cruise Missiles-->
+	<object ODF="LProxMis.odf"/>
+	<!--Probe-->
+	<object ODF="probe.odf"/>
+	<!--Cloak Detect Probe-->
+	<object ODF="probeC.odf"/>
+	<!--Sha&apos;Kurian Native Cloak Detection Ability-->
+	<object ODF="gDetectS.odf"/>
+	<!--Sha&apos;Kurian GDDS Defensive Mode-->
+	<object ODF="gSGDDS2.odf"/>
+	<!--Quantum Wave Carrier Beam (NPC)-->
+	<object ODF="hQCB.odf"/>
+	<object ODF="fpremnew.odf"/>
+	<object ODF="gtempor.odf"/>
+	<object ODF="gpcloak.odf"/>
+</techtree>
