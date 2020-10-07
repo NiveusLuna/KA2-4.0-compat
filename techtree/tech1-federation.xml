@@ -190,7 +190,9 @@
 	</object>
 	<!--USS Enterprise-A (Hero Ship)-->
 	<object ODF="fenta.odf">
-		<requirement race="federation">
+		<requirement race="federation" buttonHideUnavailable="true"
+			maxCapValue="1" tooltip="Ship available" tooltipOver="Already built"
+			tooltipReached="Already built">
 			<obj>fbase.odf</obj>
 			<obj>FedHull3.odf</obj>
 		</requirement>
@@ -533,7 +535,9 @@
 	</object>
 	<!--Unique Dreadnought (USS Star Empire)-->
 	<object ODF="FStarEmpire.odf">
-		<requirement race="federation" buttonHideUnavailable="true">
+		<requirement race="federation" buttonHideUnavailable="true"
+			maxCapValue="1" tooltip="Ship available" tooltipOver="Already built"
+			tooltipReached="Already built">
 			<obj>fbase.odf</obj>
 			<obj>FedHull6.odf</obj>
 			<obj>FedMix1.odf</obj>
@@ -541,7 +545,9 @@
 	</object>
 	<!--Special Ops Cruiser (USS Cerberus)-->
 	<object ODF="FCerberus.odf">
-		<requirement race="federation" buttonHideUnavailable="true">
+		<requirement race="federation" buttonHideUnavailable="true"
+			maxCapValue="1" tooltip="Ship available" tooltipOver="Already built"
+			tooltipReached="Already built">
 			<obj>fbase.odf</obj>
 			<obj>FedHull2.odf</obj>
 			<obj>FedMix2.odf</obj>
