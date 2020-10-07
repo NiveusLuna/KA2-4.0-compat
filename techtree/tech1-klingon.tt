@@ -1,6 +1,6 @@
 // Basic KA2 The General War Tech Tree
 // Each .ODF entry is followed by a 0, -1, -2
-//  0 = Nothing is required to build this .ODF 
+//  0 = Nothing is required to build this .ODF
 // -1 = Impossible to build.  Anything dependent on this .ODF can not be built.
 // -2 = Impossible to build, but don't touch dependencies, so that if somehow I already existed or was acquired, you could build anything dependent on me.
 
@@ -10,8 +10,8 @@ kconst.odf    1 kbase.odf                          					  			// Construction Ten
 kfreight.odf  1 kbase.odf                          					  			// Mining Freighter (Bloodline Class KDF)
 kcargo.odf    2 kbase.odf klihull2.odf 	         	   					  		// Cargo Freighter (Lifeblood Class KAK)
 ksrepair.odf  3 kbase.odf kresearcha.odf kliEqu2.odf					  			// Repair Frigate (Suspicious-R Class KAR)
-kcolony.odf   3 kbase.odf klihull2.odf kliMiscR3.odf            					  	// Colony Ship (Brave Settler Class KFB) 
-kassault.odf  2 kbase.odf klihull2.odf                 					  			// Assault Transport (Poisoned Barb Class KAPA) 
+kcolony.odf   3 kbase.odf klihull2.odf kliMiscR3.odf            					  	// Colony Ship (Brave Settler Class KFB)
+kassault.odf  2 kbase.odf klihull2.odf                 					  			// Assault Transport (Poisoned Barb Class KAPA)
 kfighter.odf  3 kbase.odf koutpost.odf kcarrier.odf         					  		// Fighter (Iron Fist Class KFA)
 kescort.odf   2 kbase.odf klihull5.odf         	    					  			// Escort (Bird of Prey Class KEC)
 ksfrigate.odf 2 kbase.odf kliEqu1.odf 		    					  			// Science Frigate (Suspicious-S Class KFS)
@@ -29,18 +29,18 @@ kbcruise.odf  5 kbase.odf klihull2.odf kliEqu5.odf kliMiscR1.odf klipod2.odf  		
 kbertaa.odf   3 kbase.odf klihull3.odf klipod2.odf 								// Supercruiser (Bird of Blood Class KCB)
 kdread.odf    5 kbase.odf klihull3.odf kliMiscR1.odf kliMiscR2.odf kliMiscR3.odf 			        // Dreadnought (Accuser Class KDN)
 kbattle.odf   5 kbase.odf klihull4.odf kliMiscR1.odf kliMiscR2.odf klipod2.odf  			        // Battleship (Sword of Kahless Class KBB)
-ksuper.odf    4 kbase.odf ksuperbl.odf klihull5.odf klipod6.odf 						// Experimental Warship (Bird of Prey Class KECX) 
-kcarrier.odf  3 kbase.odf klihull4.odf kliMiscR1.odf 							        // Battlecarrier (Mother of Death Class KCVB) 
+ksuper.odf    4 kbase.odf ksuperbl.odf klihull5.odf klipod6.odf 						// Experimental Warship (Bird of Prey Class KECX)
+kcarrier.odf  3 kbase.odf klihull4.odf kliMiscR1.odf 							        // Battlecarrier (Mother of Death Class KCVB)
 
 // ***[ KLINGON RESEARCH PROJECTS ]*********************
 
 kliHull1.odf  3 kbase.odf kresearcha.odf klihull5.odf 	// Hull Research (F Series)
 kliHull2.odf  3 kbase.odf kresearcha.odf kliHull5.odf	// Hull Research (D Series)
 kliHull3.odf  3 kbase.odf kresearcha.odf klihull2.odf 	// Hull Research (C-I Series)
-kliHull4.odf  3 kbase.odf kresearcha.odf kliHull3.odf	// Hull Research (B Series) 
+kliHull4.odf  3 kbase.odf kresearcha.odf kliHull3.odf	// Hull Research (B Series)
 kliHull5.odf  2 kbase.odf kresearcha.odf 		// Hull Research (E Series)
 
-kliequ1.odf   2 kbase.odf kresearchb.odf 				// Conversion Kit (Science Frigate FS) 
+kliequ1.odf   2 kbase.odf kresearchb.odf 				// Conversion Kit (Science Frigate FS)
 kliequ2.odf   2 kbase.odf kresearchb.odf 				// Conversion Kit (Cargo Frigate FC)
 kliequ3.odf   4 kbase.odf kresearchb.odf klihull1.odf klipod1.odf 	// Conversion Kit (Destroyer Leader DL)
 kliequ4.odf   4 kbase.odf kresearchb.odf klihull2.odf klipod23.odf  	// Conversion Kit (Scout Cruiser CS)
@@ -55,7 +55,7 @@ klipod2.odf   3 kbase.odf kresearchc.odf klipod1.odf                            
 klipod3.odf   3 kbase.odf kresearchc.odf kliequ5.odf           	     		   	// Research Pod (Gravitic Harmonous Resonator Examination - Captured Gorn Weapon)
 klipod4.odf   3 kbase.odf kresearchc.odf klimiscR3.odf               			// Research Pod (Anti-Matter Field Projection Technology - Heavy Weaponry)
 klipod5.odf   4 kbase.odf kresearchc.odf klimiscR3.odf klipod24.odf  			// Research Pod (Enhanced Warp Cores - Assault Phaser Power Capacitor)
-klipod6.odf   4 kbase.odf kresearchc.odf ksuperbl.odf klipod23.odf 			// Research Pod (Modified Cloaking Fields - Project pIH D'ktagh) 
+klipod6.odf   4 kbase.odf kresearchc.odf ksuperbl.odf klipod23.odf 			// Research Pod (Modified Cloaking Fields - Project pIH D'ktagh)
 
 klipod11.odf  2 kbase.odf kupgrade.odf // Research Pod (Weapon Overload Systems - Weapon Systems Upgrade I)
 klipod12.odf  2 kbase.odf kupgrade.odf // Research Pod (Rephased Shield Systems - Shield Systems Upgrade I)
@@ -76,7 +76,7 @@ KliMix3.odf 3 kbase.odf kresearchc.odf rconst.odf                               
 KliMix4.odf 3 kbase.odf kresearchc.odf gconst.odf                      	   		   // Gorn Tech (Qeh'Ral) - Capture
 KliMix5.odf 3 kbase.odf kresearchc.odf iconst.odf                                          // ISC Tech (Grappler Beam) - Capture
 KliMix6.odf 3 kbase.odf kresearchc.odf hconst.odf 				           // Hydran Tech (Steelfist) - Capture
-KliMix7.odf 2 kbase.odf kresearchc.odf                             	           	   // Lyran Tech (ESGs) - Allied   
+KliMix7.odf 2 kbase.odf kresearchc.odf                             	           	   // Lyran Tech (ESGs) - Allied
 
 KQehral.odf     6 kbase.odf klihull4.odf kliMiscR1.odf kliMiscR2.odf klipod2.odf KliMix4.odf  // Unique Battleship (IKS Qeh'ral)
 KFighterB.odf   4 kbase.odf koutpost.odf kcarrier.odf KliMix6.odf                             // Fighter (Steelfist FFA)

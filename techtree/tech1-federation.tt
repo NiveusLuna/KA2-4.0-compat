@@ -1,6 +1,6 @@
 // Basic KA2 The General War Tech Tree
 // Each .ODF entry is followed by a 0, -1, -2
-//  0 = Nothing is required to build this .ODF 
+//  0 = Nothing is required to build this .ODF
 // -1 = Impossible to build.  Anything dependent on this .ODF can not be built.
 // -2 = Impossible to build, but don't touch dependencies, so that if somehow I already existed or was acquired, you could build anything dependent on me.
 
@@ -9,7 +9,7 @@
 fconst.odf      1 fbase.odf                                                           // Construction Tender (Liberty Class FACS)
 ffreight.odf    1 fbase.odf                                                           // Mining Freighter (Freelancer Class FDF)
 fcargo.odf      1 fbase.odf                                                           // Cargo Freighter (Clydesdale Class FAK)
-fsrepair.odf    3 fbase.odf fedhull5.odf fresearchc.odf                               // Fleet Repair Tender (Unity Class FAR) 
+fsrepair.odf    3 fbase.odf fedhull5.odf fresearchc.odf                               // Fleet Repair Tender (Unity Class FAR)
 fcolony.odf     3 fbase.odf fresearcha.odf fresearchb.odf                             // Colony Ship (Independence Class FFB)
 fassault.odf    3 fbase.odf fedhull5.odf fresearcha.odf                               // Troop Transport (Washington Class FAPA)
 ffighter.odf    3 fbase.odf fmonitoring.odf fcarrier.odf                              // Fighter (Hornet FFA)
@@ -71,7 +71,7 @@ fedpod21.odf  3 fbase.odf fedpod11.odf fedpod5.odf               // Research Pod
 fedpod22.odf  3 fbase.odf fedpod12.odf fedpod5.odf               // Research Pod (Auxilliary Shielding Generation Systems - Shield Systems Upgrade II)
 fedpod23.odf  3 fbase.odf fedpod13.odf fedpod5.odf               // Research Pod (Unique Plasma Signature Detection Computer - Sensor Package Upgrade II)
 fedpod24.odf  3 fbase.odf fedpod14.odf fedpod5.odf               // Research Pod (Engine System Additive Shielding - Propulsion Systems Upgrade II)
-fedpod25.odf  3 fbase.odf fedpod15.odf fedpod5.odf               // Research Pod (Emergency Anti-Depressurisation Array - Life Support Systems Upgrade II)  
+fedpod25.odf  3 fbase.odf fedpod15.odf fedpod5.odf               // Research Pod (Emergency Anti-Depressurisation Array - Life Support Systems Upgrade II)
 
 shieldFederation.odf  1 fedpod22.odf    						 // Planetary Shield (Federation)
 
@@ -82,10 +82,10 @@ FedMix2.odf 3 fbase.odf fresearchc.odf rconst.odf                // Romulan Tech
 FedMix3.odf 2 fbase.odf fresearchc.odf                           // Gorn Tech (Excelsior-R) - Allied
 FedMix4.odf 3 fbase.odf fresearchc.odf iconst.odf                // ISC Tech (Jump Drives) - Capture
 FedMix5.odf 2 fbase.odf fresearchc.odf  				         // Hydran Tech (Hornet-B) - Allied
-FedMix6.odf 3 fbase.odf fresearchc.odf lconst.odf                // Lyran Tech (ESGs) - Capture   
+FedMix6.odf 3 fbase.odf fresearchc.odf lconst.odf                // Lyran Tech (ESGs) - Capture
 
-FStarEmpire.odf 3 fbase.odf FedHull6.odf FedMix1.odf                       // Unique Dreadnought (USS Star Empire)  
-FCerberus.odf   3 fbase.odf FedHull2.odf FedMix2.odf					   // Special Ops Cruiser (USS Cerberus) 
+FStarEmpire.odf 3 fbase.odf FedHull6.odf FedMix1.odf                       // Unique Dreadnought (USS Star Empire)
+FCerberus.odf   3 fbase.odf FedHull2.odf FedMix2.odf					   // Special Ops Cruiser (USS Cerberus)
 FBCruiseR.odf   3 fbase.odf FedHull5.odf FedMix3.odf					   // Heavy Battlecruiser (Excelsior Class Refit FBCH)
 FFighterB.odf   4 fbase.odf fmonitoring.odf fcarrier.odf FedMix5.odf       // Fighter (Hornet-B FFA)
 
@@ -97,7 +97,7 @@ gFESG2.odf		1 FedMix6.odf								   // Expanding Sphere Generator (Mirandas and 
 FCarrierUp.odf  1 FedMix5.odf 								   // Carrier Upgrade
 
 ReserveFleetWarpIn.odf 2 fbase.odf fyard.odf                   // Reserve Fleet Warp-In Ability
-                                                 
+
 // ***[ FEDERATION STATIONS ]*********************
 //
 fbase.odf     	 0                                         					// Starbase F

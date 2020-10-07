@@ -1,6 +1,6 @@
 // Basic KA2 The General War Tech Tree
 // Each .ODF entry is followed by a 0, -1, -2
-//  0 = Nothing is required to build this .ODF 
+//  0 = Nothing is required to build this .ODF
 // -1 = Impossible to build.  Anything dependent on this .ODF can not be built.
 // -2 = Impossible to build, but don't touch dependencies, so that if somehow I already existed or was acquired, you could build anything dependent on me.
 
@@ -9,7 +9,7 @@
 lconst.odf      1 lbase.odf                                                           				// Construction Tender (Felidae Class LACS)
 lfreight.odf    1 lbase.odf                                                           				// Mining Freighter (Queen Cat Class LDF)
 lcargo.odf      1 lbase.odf                                                           				// Cargo Freighter (Cougar Class LAK)
-lsrepair.odf    2 lbase.odf lresearchc.odf                               	      					// Fleet Repair Frigate (Bobcat Class LFR) 
+lsrepair.odf    2 lbase.odf lresearchc.odf                               	      					// Fleet Repair Frigate (Bobcat Class LFR)
 lcolony.odf     3 lbase.odf lresearcha.odf lresearchb.odf                             				// Colony Ship (Feline Class LFB)
 lassault.odf    3 lbase.odf lresearcha.odf lresearchb.odf                              				// Troop Transport (Serval Class LAPA)
 lpfighter.odf   4 lbase.odf loutpost.odf LyrMiscR2.odf LyrMiscR3.odf                            	// Psuedo-Fighter (Occicat LPF)
@@ -53,7 +53,7 @@ lyrpod21.odf  2 lbase.odf lyrpod11.odf     // Research Pod (Disruptor Packet Pow
 lyrpod22.odf  2 lbase.odf lyrpod12.odf     // Research Pod (Hyperphased Shield Modulation - Shield Systems Upgrade II)
 lyrpod23.odf  2 lbase.odf lyrpod13.odf     // Research Pod (Additive Sensor Power Relays - Sensor Package Upgrade II)
 lyrpod24.odf  2 lbase.odf lyrpod14.odf     // Research Pod (Hydrogen Injection Nozzles - Propulsion Systems Upgrade II)
-lyrpod25.odf  2 lbase.odf lyrpod15.odf     // Research Pod (Auxilliary Gravitational Field Generator - Life Support Systems Upgrade II)  
+lyrpod25.odf  2 lbase.odf lyrpod15.odf     // Research Pod (Auxilliary Gravitational Field Generator - Life Support Systems Upgrade II)
 
 shieldLyran.odf  1 lyrpod22.odf    		   // Planetary Shield (Lyran)
 
@@ -79,9 +79,9 @@ gLSSJD.odf     	1 LyrMix6.odf								   // Subspace Jump Drive (Wildcat Class LF
 LCarrierUp.odf  1 LyrMix7.odf 								   // Carrier Upgrade
 LStationUp.odf  1 LyrMix7.odf								   // Outpost Upgrade
 
-LOrionWarpIn.odf     2 lbase.odf lyard.odf                     // Orion Pirate Warp-In Ability 
-LShakurianWarpIn.odf 2 lbase.odf lyard.odf                     // ShaKurian Mercenary Warp-In Ability    
-     
+LOrionWarpIn.odf     2 lbase.odf lyard.odf                     // Orion Pirate Warp-In Ability
+LShakurianWarpIn.odf 2 lbase.odf lyard.odf                     // ShaKurian Mercenary Warp-In Ability
+
 // ***[ LYRAN STATIONS ]*********************
 //
 lbase.odf     	 0                                         						// Starbase L

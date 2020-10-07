@@ -1,15 +1,15 @@
 // Basic KA2 The General War Tech Tree
 // Each .ODF entry is followed by a 0, -1, -2
-//  0 = Nothing is required to build this .ODF 
+//  0 = Nothing is required to build this .ODF
 // -1 = Impossible to build.  Anything dependent on this .ODF can not be built.
 // -2 = Impossible to build, but don't touch dependencies, so that if somehow I already existed or was acquired, you could build anything dependent on me.
-                      
+
 // ***[ HYDRAN SHIPS ]************************
 //
 hconst.odf      1 hbase.odf                                                           			// Construction Tender (Peasant Class HACS)
 hfreight.odf    1 hbase.odf                                                           			// Mining Freighter (Serf Class HDF)
 hcargo.odf      1 hbase.odf                                                           			// Cargo Freighter (Merchant Class HAK)
-hsrepair.odf    2 hbase.odf hresearchc.odf                               	      				// Fleet Repair Tender (Squire Class HAR) 
+hsrepair.odf    2 hbase.odf hresearchc.odf                               	      				// Fleet Repair Tender (Squire Class HAR)
 hcolony.odf     3 hbase.odf hresearcha.odf hresearchb.odf                             			// Colony Ship (Autocrat Class HFB)
 hassault.odf    3 hbase.odf hresearcha.odf HydMiscR2.odf                              			// Troop Transport (Saracen Class HAPA)
 hfighter.odf    4 hbase.odf houtpost.odf HydMiscR3.odf HydMiscR4.odf                            // Hellbore Fighter (Fusileer HFA)
@@ -56,7 +56,7 @@ hydpod23.odf  2 hbase.odf hydpod13.odf    // Research Pod (Unique Plasma Signatu
 hydpod24.odf  2 hbase.odf hydpod14.odf    // Research Pod (Engine System Additive Shielding - Propulsion Systems Upgrade II)
 hydpod25.odf  2 hbase.odf hydpod15.odf    // Research Pod (Emergency Anti-Depressurisation Array - Life Support Systems Upgrade II)
 
-shieldHydran.odf  1 hydpod22.odf    	  // Planetary Shield (Hydran)   
+shieldHydran.odf  1 hydpod22.odf    	  // Planetary Shield (Hydran)
 
 // ***[ HYDRAN MIXED TECH ]*********************
 
@@ -70,13 +70,13 @@ HydMix6.odf 3 hbase.odf hresearchc.odf lconst.odf                               
 gDetectH.odf 	1 hydmix1.odf           	 		   			// Esplads (Sensor Post)
 gHAMFP.odf      1 hydmix2.odf 	  	  		   			  	    // AMFP (Monarch Class HDN)
 gHCloak.odf    	1 hydmix3.odf							   	    // Cloak (Archer Class HFS)
-gHGDDS2.odf    	1 hydmix4.odf							   	    // Defensive GDDS (Royal Sovereign Class HCV)  
-gHPPDL.odf      1 hydmix5.odf								    // Light PPD (Regent Class HCL)  
-gHESG.odf		1 hydmix6.odf								   	// Offensive ESG (Knight Class HDD) 
+gHGDDS2.odf    	1 hydmix4.odf							   	    // Defensive GDDS (Royal Sovereign Class HCV)
+gHPPDL.odf      1 hydmix5.odf								    // Light PPD (Regent Class HCL)
+gHESG.odf		1 hydmix6.odf								   	// Offensive ESG (Knight Class HDD)
 
-HMirakWarpIn.odf     2 hbase.odf hyard.odf                      // Mirak Diaspora Warp-In Ability    
-HShakurianWarpIn.odf 2 hbase.odf hyard.odf                      // ShaKurian Mercenary Warp-In Ability        
-		 
+HMirakWarpIn.odf     2 hbase.odf hyard.odf                      // Mirak Diaspora Warp-In Ability
+HShakurianWarpIn.odf 2 hbase.odf hyard.odf                      // ShaKurian Mercenary Warp-In Ability
+
 // ***[ HYDRAN STATIONS ]*********************
 //
 hbase.odf     	 0                                         					// Starbase H
@@ -95,4 +95,4 @@ hupgrade.odf  	 4 hbase.odf hresearcha.odf hresearchb.odf hresearchc.odf  	// Ro
 // ***[ HYDRAN ADVANCED WEAPONS ]**************
 //
 
-hapcan.odf       1  HydMiscR6.odf        					// Proximity Photon Cannon 
+hapcan.odf       1  HydMiscR6.odf        					// Proximity Photon Cannon

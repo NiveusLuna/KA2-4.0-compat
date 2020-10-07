@@ -1,14 +1,14 @@
 // Basic KA2 The General War Tech Tree
 // Each .ODF entry is followed by a 0, -1, -2
-//  0 = Nothing is required to build this .ODF 
+//  0 = Nothing is required to build this .ODF
 // -1 = Impossible to build.  Anything dependent on this .ODF can not be built.
 // -2 = Impossible to build, but don't touch dependencies, so that if somehow I already existed or was acquired, you could build anything dependent on me.
 
 // ***[ ROMULAN SHIPS ]***************************
 //
-rconst.odf    1 rbase.odf                             											// Construction Tender (Merlin Class RACS) 
+rconst.odf    1 rbase.odf                             											// Construction Tender (Merlin Class RACS)
 rfreight.odf  1 rbase.odf                             											// Mining Freighter (Osprey Class RDF)
-rcargo.odf    3 rbase.odf rtrading.odf RomHull11.odf  											// Cargo Freighter (Patrician Class RAK) 
+rcargo.odf    3 rbase.odf rtrading.odf RomHull11.odf  											// Cargo Freighter (Patrician Class RAK)
 rsrepair.odf  2 rbase.odf RomHull10.odf 		       											// Fleet Repair Tender (Talon Class RAR)
 rcolony.odf   2 rbase.odf RomHull11.odf               											// Colony Ship (Sparrow Class RFB)
 rassault.odf  3 rbase.odf RomHull10.odf RomMiscR1.odf 											// Assault Transport (Kestrel Class RAPA)
@@ -25,14 +25,14 @@ rcruise.odf   4 rbase.odf RomHull2.odf RomMiscR2.odf RomMiscR3.odf 								// He
 rkcruise.odf  3 rbase.odf RomHull8.odf RomMiscR2.odf		 									// Heavy Cruiser (Stormbird Class RCKA)
 rtcruise.odf  6 rbase.odf RomHull2.odf RomHull8.odf RomMiscR2.odf RomMiscR3.odf RomEqu3.odf 	// Torpedo Cruiser (Peregrine Class RCT)
 rcve.odf      3 rbase.odf RomMiscR1.odf RomEqu4.odf 											// Escort Carrier (Tribune Class RCVE)
-rccruise.odf  4 rbase.odf RomHull5.odf RomMiscR2.odf RomMiscR3.odf 								// Command Cruiser (Senator Class RCC) 
+rccruise.odf  4 rbase.odf RomHull5.odf RomMiscR2.odf RomMiscR3.odf 								// Command Cruiser (Senator Class RCC)
 rbcruise.odf  5 rbase.odf RomHull5.odf RomMiscR2.odf RomMiscR3.odf Rompod1.odf 					// Battlecruiser (Imperium Class RBC)
 rkbcruise.odf 4 rbase.odf RomHull8.odf RomMiscR2.odf Rompod1.odf 								// Battlecruiser (Raven Class RBKC)
 rdread.odf    4 rbase.odf RomHull3.odf RomMiscR2.odf RomMiscR4.odf 								// Dreadnought (War Eagle Class RDN)
 rkdread.odf   2 rbase.odf RomHull9.odf   				 										// Dreadnought (Condor Class RDKN)
 rbattle.odf   3 rbase.odf RomHull6.odf RomMiscR4.odf 		 									// Battleship (Imperial Hawk Class RBB)
 
-rhero.odf  	  4 rbase.odf RomHull5.odf RomMiscR2.odf RomMiscR3.odf 								// RSE D'Meredene (Hero Ship) 
+rhero.odf  	  4 rbase.odf RomHull5.odf RomMiscR2.odf RomMiscR3.odf 								// RSE D'Meredene (Hero Ship)
 
 // ***[ ROMULAN RESEARCH PROJECTS ]*********************
 
@@ -100,10 +100,10 @@ gRAMFP2.odf	   1 rommix3.odf	 							   				// AMFP (War Eagle Class RDN) - Capt
 gRESG2.odf	   1 rommix7.odf	 							   				// ESG (Centurion Class RCA)
 gRESG2B.odf	   1 rommix8.odf	 							   				// ESG (Centurion Class RCA)
 
-RCarrierUp.odf  1 RomMix6.odf 								   // Carrier Upgrade 
+RCarrierUp.odf  1 RomMix6.odf 								   // Carrier Upgrade
 
-RMirakWarpIn.odf 2 Rbase.odf Ryard.odf                   // Mirak Diaspora Warp-In Ability 
-ROrionWarpIn.odf 2 Rbase.odf Ryard.odf                   // Orion Pirate Warp-In Ability 
+RMirakWarpIn.odf 2 Rbase.odf Ryard.odf                   // Mirak Diaspora Warp-In Ability
+ROrionWarpIn.odf 2 Rbase.odf Ryard.odf                   // Orion Pirate Warp-In Ability
 
 // ***[ ROMULAN STATIONS ]*********************
 //
@@ -124,8 +124,8 @@ rupgrade.odf    4 rbase.odf rresearcha.odf rresearchb.odf rresearchc.odf  	// Re
 // ***[ ROMULAN ADVANCED WEAPONS ]*****************
 //
 gRomSpy.odf      1 rompod2.odf                 		// Romulan Spy (All Classes)
-gRCFDIC.odf      0 				        			// Cohesive Fused Deuterium Irradiation Cannon (Preax Class REC)                             
+gRCFDIC.odf      0 				        			// Cohesive Fused Deuterium Irradiation Cannon (Preax Class REC)
 gREHFRC.odf 	 1 RomMiscR8.odf   		        	// EHF Radiation Cannon (War Eagle Class DN)
 gRCloak.odf 	 0   								// Romulan Specific Cloak
-gRCloakStat.odf  0									// Romulan Station Auto Cloak 
+gRCloakStat.odf  0									// Romulan Station Auto Cloak
 gDetectR.odf     3 rompod23.odf	rompod11.odf romhull6.odf // Cloak Detection

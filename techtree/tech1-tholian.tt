@@ -1,6 +1,6 @@
 // Basic KA2 The General War Tech Tree
 // Each .ODF entry is followed by a 0, -1, -2
-//  0 = Nothing is required to build this .ODF 
+//  0 = Nothing is required to build this .ODF
 // -1 = Impossible to build.  Anything dependent on this .ODF can not be built.
 // -2 = Impossible to build, but don't touch dependencies, so that if somehow I already existed or was acquired, you could build anything dependent on me.
 
@@ -14,8 +14,8 @@ tscout.odf    1 tyard.odf	    	      					// Scout Escort (Feldspar-S Class TES)
 tescort.odf   1 tyard.odf 			                		// Escort (Feldspar Class TEC)
 tdestroy.odf  2 tyard.odf ThoHull2.odf                		// Destroyer (Quartz Class TDD)
 tlcruise.odf  2 tyard.odf ThoHull1.odf		      			// Light Cruiser (Garnet Class TCL)
-tcruise.odf   3 tyard.odf ThoHull1.odf ThoEqu1.odf    		// Heavy Cruiser (Ruby Class TCA) 
-tmonitor.odf  3 tyard.odf ThoHull1.odf ThoEqu2.odf    	    // Defense Monitor (Citrine Class TDM)	
+tcruise.odf   3 tyard.odf ThoHull1.odf ThoEqu1.odf    		// Heavy Cruiser (Ruby Class TCA)
+tmonitor.odf  3 tyard.odf ThoHull1.odf ThoEqu2.odf    	    // Defense Monitor (Citrine Class TDM)
 tbcruise.odf  3 tyard2.odf ThoHull3.odf ThoMiscR1.odf		// Battlecruiser (Amethyst Class TBC)
 tdread.odf    3 tyard2.odf ThoHull4.odf ThoMiscR1.odf		// Dreadnought (Sapphire Class TDN)
 tbattle.odf   3 tyard2.odf ThoEqu3.odf ThoHull4.odf 		// Battleship (Emerald Class TBB)
@@ -23,7 +23,7 @@ tbattle.odf   3 tyard2.odf ThoEqu3.odf ThoHull4.odf 		// Battleship (Emerald Cla
 // ***[ THOLIAN RESEARCH PROJECTS ]*********************
 
 ThoHull1.odf  1 TresearB.odf                    	// Hull Research (Enlarged Basic Hull)
-ThoHull2.odf  2 TresearB.odf ThoMiscR3.odf 			// Hull Research (Neo-Tholian Hull - 1/4 Sized Prototype)				
+ThoHull2.odf  2 TresearB.odf ThoMiscR3.odf 			// Hull Research (Neo-Tholian Hull - 1/4 Sized Prototype)
 ThoHull3.odf  2 TresearB.odf ThoHull2.odf 			// Hull Research (Neo-Tholian Hull - Developmental Hull)
 ThoHull4.odf  2 TresearB.odf ThoHull3.odf    		// Hull Research (Neo-Tholian Hull - Full Size Neo-Tholian Hull)
 
@@ -59,7 +59,7 @@ tmining.odf   0                                         			  	// Crystalene Conv
 tsensor.odf   1 tbase.odf                              			  	  	// Crystaline Resonator
 tmine.odf     1 tbase.odf                              			  	  	// Type TA Mine
 tyard.odf     1 tbase.odf      	                    			  	  	// Crystal Former
-tyard2.odf    3 tyard.odf ttransmit.odf ThoMiscR5.odf    		  	  	// Neo-Tholian Gate 
+tyard2.odf    3 tyard.odf ttransmit.odf ThoMiscR5.odf    		  	  	// Neo-Tholian Gate
 TresearB.odf  1 tbase.odf					  		  					// Research Facility (Hulls)
 TresearC.odf  1 tbase.odf					  		  					// Research Facility (Conversions)
 TresearD.odf  1 tbase.odf					  		  					// Research Facility (Equipment)

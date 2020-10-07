@@ -1,6 +1,6 @@
 // Basic KA2 The General War Tech Tree
 // Each .ODF entry is followed by a 0, -1, -2
-//  0 = Nothing is required to build this .ODF 
+//  0 = Nothing is required to build this .ODF
 // -1 = Impossible to build.  Anything dependent on this .ODF can not be built.
 // -2 = Impossible to build, but don't touch dependencies, so that if somehow I already existed or was acquired, you could build anything dependent on me.
 
@@ -20,11 +20,11 @@ gTracbm.odf  0      	// Tractor Beam
 gcloak.odf   0      	// Cloak
 FAphoton.odf 0			// Fed/Klingon/ISC Burst Photon
 RAphoton.odf 0			// Rom/Gorn Burst Photon (Parallax Torpedo)
-LProxMis.odf 0			// Lyran Proximity Warhead Cruise Missiles 
+LProxMis.odf 0			// Lyran Proximity Warhead Cruise Missiles
 probe.odf    0			// Probe
-probeC.odf   0			// Cloak Detect Probe 
+probeC.odf   0			// Cloak Detect Probe
 
-gDetectS.odf 0			// Sha'Kurian Native Cloak Detection Ability	
+gDetectS.odf 0			// Sha'Kurian Native Cloak Detection Ability
 gSGDDS2.odf  0			// Sha'Kurian GDDS Defensive Mode
 hQCB.odf     0          // Quantum Wave Carrier Beam (NPC)
 
