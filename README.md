@@ -19,5 +19,10 @@ to every ship and station in the game.
 In addition, this will allow either/or tech requirements, simplifying things
 like Romulan frenemy mixed tech.
 
-Find a problem or bug with this port? Please verify that it does not exist
-under the 3.2.7 launcher, then report it using the issue tracker.
+Find a problem or bug introduced by the 4.0 conversion? Please verify that it
+does not exist under the 3.2.7 launcher, then report it using the issue tracker.
+
+Please note that bugs in KA2 are fixed in a different mod (linked below). The
+goal of this mod is solely to make stock KA2 work as if designed for the 4.0
+launcher. In developer terms, this mod is a compatibility layer between KA2 and
+the FleetOps 4.0 beta launcher.
