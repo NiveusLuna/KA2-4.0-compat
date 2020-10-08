@@ -158,7 +158,9 @@
 	</object>
 	<!--General Thormasskk-->
 	<object ODF="ghero.odf">
-		<requirement race="klingon">
+		<requirement race="klingon" buttonHideUnavailable="true"
+			maxCapValue="1" tooltip="Ship available" tooltipOver="Already built"
+			tooltipReached="Already built" countConstructions="true">
 			<obj>gbase.odf</obj>
 			<obj>GorHull6.odf</obj>
 			<obj>GorEqu6.odf</obj>
@@ -167,14 +169,14 @@
 	<!--***[ GORN MIXED TECH ]*********************-->
 	<!--Federation Tech (Esplads) - Allied-->
 	<object ODF="GorMix1.odf">
-		<requirement race="klingon">
+		<requirement race="klingon" buttonHideUnavailable="true">
 			<obj>gbase.odf</obj>
 			<obj>gresearchc.odf</obj>
 		</requirement>
 	</object>
 	<!--Klingon Tech (Cloak) - Capture-->
 	<object ODF="GorMix2.odf">
-		<requirement race="klingon">
+		<requirement race="klingon" buttonHideUnavailable="true">
 			<obj>gbase.odf</obj>
 			<obj>gresearchc.odf</obj>
 			<obj>kconst.odf</obj>
@@ -182,7 +184,7 @@
 	</object>
 	<!--Romulan Tech (EHFRC) - Capture-->
 	<object ODF="GorMix3.odf">
-		<requirement race="klingon">
+		<requirement race="klingon" buttonHideUnavailable="true">
 			<obj>gbase.odf</obj>
 			<obj>gresearchc.odf</obj>
 			<obj>rconst.odf</obj>
@@ -190,7 +192,7 @@
 	</object>
 	<!--ISC Tech (PPD) - Capture-->
 	<object ODF="GorMix4.odf">
-		<requirement race="klingon">
+		<requirement race="klingon" buttonHideUnavailable="true">
 			<obj>gbase.odf</obj>
 			<obj>gresearchc.odf</obj>
 			<obj>iconst.odf</obj>
@@ -198,14 +200,14 @@
 	</object>
 	<!--Hydran Tech (GHRC for Viper) - Allied-->
 	<object ODF="GorMix5.odf">
-		<requirement race="klingon">
+		<requirement race="klingon" buttonHideUnavailable="true">
 			<obj>gbase.odf</obj>
 			<obj>gresearchc.odf</obj>
 		</requirement>
 	</object>
 	<!--Lyran Tech (GNS Queen Derenesktta) - Capture-->
 	<object ODF="GorMix6.odf">
-		<requirement race="klingon">
+		<requirement race="klingon" buttonHideUnavailable="true">
 			<obj>gbase.odf</obj>
 			<obj>gresearchc.odf</obj>
 			<obj>lconst.odf</obj>
@@ -213,11 +215,12 @@
 	</object>
 	<!--Psuedo-Fighter Tender (GNS Queen Derenesktta)-->
 	<object ODF="GCarrier.odf">
-		<requirement race="klingon">
+		<requirement race="klingon" buttonHideUnavailable="true">
 			<obj>gbase.odf</obj>
 			<obj>GorHull5.odf</obj>
 			<obj>GorEqu5.odf</obj>
 			<obj>gormix6.odf</obj>
+			<capList>GornCarrierLimit</capList>
 		</requirement>
 	</object>
 	<!--Esplads (Sensor Emplacement)-->
@@ -228,37 +231,37 @@
 	</object>
 	<!--Cloak (King Snake Class GFF/King Snake GFS)-->
 	<object ODF="gGCloak.odf">
-		<requirement race="klingon">
+		<requirement race="klingon" buttonHideUnavailable="true">
 			<obj>gormix2.odf</obj>
 		</requirement>
 	</object>
 	<!--EHFRC (Grendel Class GDN)-->
 	<object ODF="gGEHFRC.odf">
-		<requirement race="klingon">
+		<requirement race="klingon" buttonHideUnavailable="true">
 			<obj>gormix3.odf</obj>
 		</requirement>
 	</object>
 	<!--EHFRC (King Grendel Class GBB)-->
 	<object ODF="gGEHFRC2.odf">
-		<requirement race="klingon">
+		<requirement race="klingon" buttonHideUnavailable="true">
 			<obj>gormix3.odf</obj>
 		</requirement>
 	</object>
 	<!--PPD (Basilisk Class GBC)-->
 	<object ODF="gGPPDM.odf">
-		<requirement race="klingon">
+		<requirement race="klingon" buttonHideUnavailable="true">
 			<obj>gormix4.odf</obj>
 		</requirement>
 	</object>
 	<!--Carrier Upgrade-->
 	<object ODF="GCarrierUp.odf">
-		<requirement race="klingon">
+		<requirement race="klingon" buttonHideUnavailable="true">
 			<obj>GorMix5.odf</obj>
 		</requirement>
 	</object>
 	<!--Outpost Upgrade-->
 	<object ODF="GStationUp.odf">
-		<requirement race="klingon">
+		<requirement race="klingon" buttonHideUnavailable="true">
 			<obj>GorMix5.odf</obj>
 		</requirement>
 	</object>
@@ -648,4 +651,11 @@
 			<obj>gsuperbl.odf</obj>
 		</requirement>
 	</object>
+	
+	<capacitylist name="GornCarrierLimit" maxCapValue="1"
+	tooltip="Ship available" tooltipOver="Already built"
+	tooltipReached="Already built" countConstructions="true">
+		<obj>GCarrier.odf</obj>
+		<obj>GCarrierB.odf</obj>
+	</capacitylist>
 </techtree>
