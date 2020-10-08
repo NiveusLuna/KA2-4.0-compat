@@ -605,6 +605,7 @@
 		<requirement race="federation">
 			<obj>fbase.odf</obj>
 			<obj>fyard.odf</obj>
+			<caplist>ReserveFleetCap</caplist>
 		</requirement>
 	</object>
 	<!--***[ FEDERATION STATIONS ]*********************-->
