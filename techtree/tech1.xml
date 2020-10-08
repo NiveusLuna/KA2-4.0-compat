@@ -8,4 +8,5 @@
 	<include File="tech1-isc.xml"/>
 	<include File="tech1-tholian.xml"/>
 	<include File="tech1-other.xml"/>
+	<include File="warpin-federation.xml"/>
 </techtree>

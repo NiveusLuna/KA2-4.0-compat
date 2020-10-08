@@ -7,3 +7,4 @@
 #include "tech1-isc.xml"
 #include "tech1-tholian.xml"
 #include "tech1-other.xml"
+#include "warpin-federation.xml"
