@@ -13,5 +13,10 @@
 	tooltipReached="Maximum number of Reserve Fleet vessels requisitioned">
 		<obj>FOBattle.odf</obj>
 		<obj>FOCruise.odf</obj>
+		<obj>FODestroy.odf</obj>
+		<obj>FODread.odf</obj>
+		<obj>FOFrigate.odf</obj>
+		<obj>FOLCruise.odf</obj>
+		<obj>FOScout.odf</obj>
 	</capacitylist>
 </techtree>
