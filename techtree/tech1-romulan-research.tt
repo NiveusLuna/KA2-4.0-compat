@@ -1,0 +1,131 @@
+// Basic KA2 The General War Tech Tree
+// Each .ODF entry is followed by a 0, -1, -2
+//	0 = Nothing is required to build this .ODF
+// -1 = Impossible to build.  Anything dependent on this .ODF can not be built.
+// -2 = Impossible to build, but don't touch dependencies, so that if somehow I already existed or was acquired, you could build anything dependent on me.
+
+// ***[ ROMULAN SHIPS ]***************************
+//
+rconst.odf	  1 rbase.odf																		// Construction Tender (Merlin Class RACS)
+rfreight.odf  1 rbase.odf																		// Mining Freighter (Osprey Class RDF)
+rcargo.odf	  3 rbase.odf rtrading.odf RomHull11.odf											// Cargo Freighter (Patrician Class RAK)
+rsrepair.odf  2 rbase.odf RomHull10.odf															// Fleet Repair Tender (Talon Class RAR)
+rcolony.odf	  2 rbase.odf RomHull11.odf															// Colony Ship (Sparrow Class RFB)
+rassault.odf  3 rbase.odf RomHull10.odf RomMiscR1.odf											// Assault Transport (Kestrel Class RAPA)
+rfighter.odf  3 rbase.odf routpost.odf rcve.odf													// Fighter (Blade RFA)
+rescort.odf	  2 rbase.odf RomHull4.odf															// Escort (Preax Class REC)
+rkescort.odf  2 rbase.odf RomMiscR2.odf															// Escort (Kite Class REKC)
+rfrigate.odf  3 rbase.odf RomHull1.odf RomMiscR1.odf											// Frigate (Gladius Class RFF)
+rscout.odf	  3 rbase.odf RomHull1.odf RomEqu1.odf												// Scout Frigate (Gladius-S Class RFS)
+rkfrigate.odf 2 rbase.odf RomHull7.odf															// Frigate (Finch Class RFKF)
+rkscout.odf	  3 rbase.odf RomHull7.odf RomEqu2.odf												// Scout Frigate (Finch-S Class RFKS)
+rdestroy.odf  1 rbase.odf																		// Destroyer (War Bird Class RDD)
+rlcruise.odf  4 rbase.odf RomHull2.odf RomMiscR1.odf RomMiscR3.odf								// Light Cruiser (Legion Class RCL)
+rcruise.odf	  4 rbase.odf RomHull2.odf RomMiscR2.odf RomMiscR3.odf								// Heavy Cruiser (Centurion Class RCA)
+rkcruise.odf  3 rbase.odf RomHull8.odf RomMiscR2.odf											// Heavy Cruiser (Stormbird Class RCKA)
+rtcruise.odf  6 rbase.odf RomHull2.odf RomHull8.odf RomMiscR2.odf RomMiscR3.odf RomEqu3.odf		// Torpedo Cruiser (Peregrine Class RCT)
+rcve.odf	  3 rbase.odf RomMiscR1.odf RomEqu4.odf												// Escort Carrier (Tribune Class RCVE)
+rccruise.odf  4 rbase.odf RomHull5.odf RomMiscR2.odf RomMiscR3.odf								// Command Cruiser (Senator Class RCC)
+rbcruise.odf  5 rbase.odf RomHull5.odf RomMiscR2.odf RomMiscR3.odf Rompod1.odf					// Battlecruiser (Imperium Class RBC)
+rkbcruise.odf 4 rbase.odf RomHull8.odf RomMiscR2.odf Rompod1.odf								// Battlecruiser (Raven Class RBKC)
+rdread.odf	  4 rbase.odf RomHull3.odf RomMiscR2.odf RomMiscR4.odf								// Dreadnought (War Eagle Class RDN)
+rkdread.odf	  2 rbase.odf RomHull9.odf															// Dreadnought (Condor Class RDKN)
+rbattle.odf	  3 rbase.odf RomHull6.odf RomMiscR4.odf											// Battleship (Imperial Hawk Class RBB)
+
+rhero.odf	  4 rbase.odf RomHull5.odf RomMiscR2.odf RomMiscR3.odf								// RSE D'Meredene (Hero Ship)
+
+// ***[ ROMULAN RESEARCH PROJECTS ]*********************
+
+RomHull1.odf  2 rbase.odf rresearcha.odf											// Hull Research (Ornith Series Screen FF)
+RomHull2.odf  3 rbase.odf rresearcha.odf RomHull1.odf								// Hull Research (Ornith Series Cruiser CL CA)
+RomHull3.odf  3 rbase.odf rresearcha.odf RomHull2.odf								// Hull Research (Ornith Series Dreadnought DN)
+RomHull4.odf  4 rbase.odf rresearcha.odf RomHull1.odf RomHull7.odf					// Hull Research (New Series Escort EC)
+RomHull5.odf  5 rbase.odf rresearcha.odf RomHull4.odf RomHull2.odf RomHull8.odf		// Hull Research (New Series Adv. Cruiser CC BC)
+RomHull6.odf  5 rbase.odf rresearcha.odf RomHull5.odf RomHull3.odf RomHull9.odf		// Hull Research (New Series Battleship BB)
+RomHull7.odf  2 rbase.odf rresearcha.odf											// Hull Research (KR Frigate Refit FKF)
+RomHull8.odf  3 rbase.odf rresearcha.odf RomHull7.odf								// Hull Research (KR Cruiser Refit CKA)
+RomHull9.odf  3 rbase.odf rresearcha.odf RomHull8.odf								// Hull Research (KR Capital Ship Refit BKC DKN)
+RomHull11.odf 2 rbase.odf rresearcha.odf											// Hull Research (Utility Craft FB AK)
+RomHull10.odf 3 rbase.odf rresearcha.odf RomHull11.odf								// Hull Research (Combat Utility Craft AR APA)
+
+RomEqu1.odf	  3 rbase.odf rresearchb.odf RomHull1.odf					// Conversion Kit (Scout Frigate FS)
+RomEqu2.odf	  3 rbase.odf rresearchb.odf RomHull7.odf					// Conversion Kit (Scout Frigate FKS)
+RomEqu3.odf	  4 rbase.odf rresearchb.odf Romhull2.odf Romhull8.odf		// Conversion Kit (Torpedo Cruiser CT)
+RomEqu4.odf	  3 rbase.odf rresearchb.odf Romhull10.odf					// Conversion Kit (Escort Carrier CVE)
+
+RomMiscR1.odf 2 rbase.odf rresearchc.odf											// Research Pod (Type L Plasma Torpedo - Light Plasma Torpedoes)
+RomMiscR2.odf 3 rbase.odf rresearchc.odf RomMiscR1.odf								// Research Pod (Type M Plasma Torpedo - Medium Plasma Torpedoes)
+RomMiscR3.odf 3 rbase.odf rresearchc.odf RomMiscR1.odf								// Research Pod (Twin Torpedo Tube Mountings - Plasma Torpedoes)
+RomMiscR4.odf 4 rbase.odf rresearchc.odf RomMiscR2.odf RomMiscR3.odf				// Research Pod (Multiple Torpedo Tube Mountings - Plasma Torpedoes)
+RomMiscR5.odf 5 rbase.odf rresearchc.odf rompod3.odf RomHull6.odf rompod21.odf		// Research Pod (Assault Phaser Examination - Captured Weaponry)
+RomMiscR6.odf 4 rbase.odf rresearchc.odf rompod3.odf RomHull2.odf					// Research Pod (Graviton Cannon Examination - Captured Weaponry)
+RomMiscR7.odf 4 rbase.odf rresearchc.odf rompod3.odf RomHull5.odf					// Research Pod (Quantum Wave Beam Examination - Captured Weaponry)
+RomMiscR8.odf 4 rbase.odf rresearchc.odf rompod21.odf RomHull3.odf					// Research Pod (Extremely High Frequency Radiation Emitters - Siege Weaponry)
+rompod1.odf	  3 rbase.odf rresearchc.odf RomHull9.odf								// Research Pod (Dual Heavy Weapon Power Relays - Dual CFDICs)
+rompod2.odf	  2 rbase.odf rresearchc.odf											// Research Pod (Tal Shiar Agent Training - Espionage)
+rompod3.odf	  4 rbase.odf rresearchc.odf rompod2.odf rompod21.odf					// Research Pod (Tal Shiar Technology Acquisition Programme - Advanced Weapons)
+
+rompod11.odf  2 rbase.odf rupgrade.odf						  // Research Pod (Plasma Generation Power Booster - Weapons Systems Upgrade I)
+rompod12.odf  2 rbase.odf rupgrade.odf						  // Research Pod (Shield Reinforcement Systems - Shield Systems Upgrade I)
+rompod13.odf  2 rbase.odf rupgrade.odf						  // Research Pod (Sensor Refinement - Sensor Package Upgrade I)
+rompod14.odf  2 rbase.odf rupgrade.odf						  // Research Pod (Impulse Drive Reactor Enhancement - Propulsion Systems Upgrade I)
+rompod15.odf  2 rbase.odf rupgrade.odf						  // Research Pod (Life Support Backup Systems - Life Support Systems Upgrade I)
+rompod21.odf  2 rbase.odf rompod11.odf						  // Research Pod (Disruptor Packet Power Boosters - Weapon Systems Upgrade II)
+rompod22.odf  2 rbase.odf rompod12.odf						  // Research Pod (Hyperphased Shield Modulation - Shield Systems Upgrade II)
+rompod23.odf  2 rbase.odf rompod13.odf						  // Research Pod (Additive Sensor Power Relays - Sensor Package Upgrade II)
+rompod24.odf  2 rbase.odf rompod14.odf						  // Research Pod (Hydrogen Injection Nozzles - Propulsion Systems Upgrade II)
+rompod25.odf  2 rbase.odf rompod15.odf						  // Research Pod (Auxilliary Gravitational Field Generator - Life Support Systems Upgrade II)
+
+shieldRomulan.odf  1 rompod22.odf							  // Planetary Shield (Romulan)
+
+// ***[ ROMULAN MIXED TECH ]*********************
+
+RomMix1.odf 3 rbase.odf rresearchc.odf fconst.odf									   // Federation Tech (Dual Assault Phasers) - Capture
+RomMix2.odf 2 rbase.odf rresearchc.odf												   // Klingon Tech (AMFP) - Allied
+RomMix3.odf 3 rbase.odf rresearchc.odf kconst.odf									   // Klingon Tech (AMFP) - Capture
+RomMix4.odf 3 rbase.odf rresearchc.odf gconst.odf									   // Gorn Tech (GHRC + QCB) - Capture
+RomMix5.odf 3 rbase.odf rresearchc.odf iconst.odf									   // ISC Tech (PPD) - Capture
+RomMix6.odf 3 rbase.odf rresearchc.odf hconst.odf									   // Hydran Tech (Shadowblade) - Capture
+RomMix7.odf 2 rbase.odf rresearchc.odf												   // Lyran Tech (ESG) - Allied
+RomMix8.odf 3 rbase.odf rresearchc.odf lconst.odf									   // Lyran Tech (ESG) - Capture
+
+rfighterb.odf  4 rbase.odf routpost.odf rcve.odf rommix6.odf				// Fighter (Shadowblade RFA)
+
+gRDAssault.odf 3 RomMiscR5.odf rompod3.odf rommix1.odf						// Assault Phaser (Imperial Hawk Class RBB)
+gRGHRC.odf	   3 RomMiscR6.odf rompod3.odf rommix4.odf						// GHRC (Legion Class RCL)
+gRQCB.odf	   3 RomMiscR7.odf rompod3.odf rommix4.odf						// QCB (Senator Class RCC)
+gRPPDM.odf	   1 rommix5.odf												// PPD (Condor Class RKDN)
+gRAMFP.odf	   1 rommix2.odf												// AMFP (War Eagle Class RDN) - Allied
+gRAMFP2.odf	   1 rommix3.odf												// AMFP (War Eagle Class RDN) - Capture
+gRESG2.odf	   1 rommix7.odf												// ESG (Centurion Class RCA)
+gRESG2B.odf	   1 rommix8.odf												// ESG (Centurion Class RCA)
+
+RCarrierUp.odf	1 RomMix6.odf								   // Carrier Upgrade
+
+RMirakWarpIn.odf 2 Rbase.odf Ryard.odf					 // Mirak Diaspora Warp-In Ability
+ROrionWarpIn.odf 2 Rbase.odf Ryard.odf					 // Orion Pirate Warp-In Ability
+
+// ***[ ROMULAN STATIONS ]*********************
+//
+rbase.odf		0															// Starbase R
+routpost.odf	2 rbase.odf RomMiscR1.odf									// Outpost
+rmining.odf		1 rbase.odf													// Dilithium Processor
+rorbital.odf	1 rbase.odf													// Orbital Processing Facility R
+rsensor.odf		1 rbase.odf													// Spy Satellite
+rmine.odf		1 rbase.odf													// Type RA Mine
+ryard.odf		1 rbase.odf													// Shipyard R
+ryard2.odf		4 rbase.odf rresearcha.odf rresearchb.odf rresearchc.odf	// Praetorial Shipyard
+rtrading.odf	1 rbase.odf													// Trading Station R
+rresearcha.odf	1 rbase.odf													// Research Facility (Hulls)
+rresearchb.odf	1 rbase.odf													// Research Facility (Conversions)
+rresearchc.odf	1 rbase.odf													// Research Facility (Equipment)
+rupgrade.odf	4 rbase.odf rresearcha.odf rresearchb.odf rresearchc.odf	// Research Facility (Upgrades)
+
+// ***[ ROMULAN ADVANCED WEAPONS ]*****************
+//
+gRomSpy.odf		 1 rompod2.odf						// Romulan Spy (All Classes)
+gRCFDIC.odf		 0									// Cohesive Fused Deuterium Irradiation Cannon (Preax Class REC)
+gREHFRC.odf		 1 RomMiscR8.odf					// EHF Radiation Cannon (War Eagle Class DN)
+gRCloak.odf		 0									// Romulan Specific Cloak
+gRCloakStat.odf	 0									// Romulan Station Auto Cloak
+gDetectR.odf	 3 rompod23.odf	rompod11.odf romhull6.odf // Cloak Detection

@@ -1,0 +1,122 @@
+// Basic KA2 The General War Tech Tree
+// Each .ODF entry is followed by a 0, -1, -2
+//	0 = Nothing is required to build this .ODF
+// -1 = Impossible to build.  Anything dependent on this .ODF can not be built.
+// -2 = Impossible to build, but don't touch dependencies, so that if somehow I already existed or was acquired, you could build anything dependent on me.
+
+// ***[ FEDERATION SHIPS ]************************
+//
+fconst.odf		1 fbase.odf															  // Construction Tender (Liberty Class FACS)
+ffreight.odf	1 fbase.odf															  // Mining Freighter (Freelancer Class FDF)
+fcargo.odf		1 fbase.odf															  // Cargo Freighter (Clydesdale Class FAK)
+fsrepair.odf	3 fbase.odf fedhull5.odf fresearchc.odf								  // Fleet Repair Tender (Unity Class FAR)
+fcolony.odf		3 fbase.odf fresearcha.odf fresearchb.odf							  // Colony Ship (Independence Class FFB)
+fassault.odf	3 fbase.odf fedhull5.odf fresearcha.odf								  // Troop Transport (Washington Class FAPA)
+ffighter.odf	3 fbase.odf fmonitoring.odf fcarrier.odf							  // Fighter (Hornet FFA)
+fescort.odf		1 fbase.odf															  // Escort (Oberth Class FEC)
+ffrigate.odf	1 fbase.odf															  // Frigate (Okinawa Class FFF)
+fdestroy.odf	2 fbase.odf FedHull1.odf											  // Destroyer (Akula Class Refit FDD)
+fdestroyl.odf	3 fbase.odf FedHull1.odf FedEqu2.odf								  // Destroyer Leader (Warsaw Class FDL)
+flcruise.odf	2 fbase.odf FedHull2.odf											  // Light Cruiser (Miranda Class FCL)
+fgcruise.odf	3 fbase.odf FedHull2.odf FedEqu3.odf								  // Gun Cruiser (Soyuz Class FGC)
+fcruise.odf		2 fbase.odf FedHull3.odf											  // Heavy Cruiser (Constitution Class Refit FCA)
+fgscruise.odf	3 fbase.odf FedHull3.odf FedEqu4.odf								  // Galactic Survey Cruiser (Ranger Class FGSC)
+ftcruise.odf	3 fbase.odf FedHull3.odf FedEqu5.odf								  // Torpedo Cruiser (Salazar Class FCT)
+fccruise.odf	2 fbase.odf FedHull4.odf											  // Command Cruiser (Lexington Class FCC)
+fncruise.odf	3 fbase.odf FedHull4.odf FedEqu6.odf								  // New Heavy cruiser (Richmond Class FNCA)
+fbcruise.odf	2 fbase.odf FedHull5.odf											  // Battlecruiser (Excelsior Class FBC)
+fdread.odf		3 fbase.odf FedHull6.odf FedMiscR1.odf								  // Modern Dreadnought (Ulysses Class FDN)
+fdreadp.odf		5 fbase.odf FedHull6.odf FedMiscR1.odf FedMiscR6.odf fedpod5.odf	  // Plasma Dreadnought (Belknap Class FDNp)
+fbattle.odf		5 fbase.odf FedHull7.odf FedMiscR1.odf FedMiscR3.odf FedMiscR4.odf	  // Battleship (Missouri Class FBB)
+fxbattle.odf	5 fbase.odf FedHull8.odf FedMiscR1.odf FedMiscR3.odf fsuperbl.odf	  // Experimental Battleship (Yamato Class FBBX)
+fcarrier.odf	4 fbase.odf FedHull7.odf FedMiscR1.odf FedMiscR3.odf				  // Fleet Carrier (Ark Royal Class FCVN)
+
+fenta.odf		2 fbase.odf FedHull3.odf											  // USS Enterprise-A (Hero Ship)
+
+// ***[ FEDERATION RESEARCH PROJECTS ]*********************
+
+FedHull1.odf  2 fbase.odf fresearcha.odf									// Hull Research (Destroyer DD)
+FedHull2.odf  3 fbase.odf fresearcha.odf fedHull1.odf						// Hull Research (Light Cruiser CL)
+FedHull3.odf  3 fbase.odf fresearcha.odf fedhull2.odf						// Hull Research (Heavy Cruiser CA)
+FedHull4.odf  3 fbase.odf fresearcha.odf fedhull3.odf						// Hull Research (Command Cruiser CC)
+FedHull5.odf  3 fbase.odf fresearcha.odf fedhull4.odf						// Hull Research (Battlecruiser BC)
+FedHull6.odf  3 fbase.odf fresearcha.odf fedhull5.odf						// Hull Research (Dreadnought Modern DN)
+FedHull7.odf  4 fbase.odf fresearcha.odf fedhull6.odf fedpod5.odf			// Hull Research (Battleship BB)
+FedHull8.odf  4 fbase.odf fresearcha.odf fedhull7.odf fedpod5.odf			// Hull Research (Battleship Experimental BBX)
+
+FedEqu2.odf	  4 fbase.odf fresearchb.odf fedhull1.odf FedMiscR2.odf				// Conversion Kit (Destroyer Leader DL)
+FedEqu3.odf	  4 fbase.odf fresearchb.odf fedhull2.odf FedMiscR2.odf				// Conversion Kit (Gun Cruiser CG)
+FedEqu4.odf	  4 fbase.odf fresearchb.odf fedhull3.odf fedpod4.odf				// Conversion Kit (Galactic Survey Cruiser GSC)
+FedEqu5.odf	  5 fbase.odf fresearchb.odf fedhull3.odf FedMiscR5.odf Fedpod5.odf // Conversion Kit (Torpedo Cruiser CT)
+FedEqu6.odf	  4 fbase.odf fresearchb.odf fedhull4.odf fedpod5.odf				// Conversion Kit (New Heavy Cruiser NCA)
+
+FedMiscR1.odf 3 fbase.odf fresearchc.odf FedHull6.odf										 // Research Pod (Type II-U Warp Nacelles - Capital Ships)
+FedMiscR2.odf 3 fbase.odf fresearchc.odf FedHull1.odf										 // Research Pod (Type H Phaser Emitters - Megaphasers)
+FedMiscR3.odf 3 fbase.odf fresearchc.odf fedpod24.odf										 // Research Pod (Dual Warp Plasma Relays - Dual Warp Cores)
+FedMiscR4.odf 3 fbase.odf fresearchc.odf FedHull6.odf										 // Research Pod (Single Centreline Nacelles - Odd-Numbers of Warp Nacelles)
+FedMiscR5.odf 3 fbase.odf fresearchc.odf FedHull3.odf										 // Research Pod (Proximity Detonation Fuses - Proximity Torpedoes)
+FedMiscR6.odf 3 fbase.odf fresearchc.odf fedpod21.odf										 // Research Pod (Plasma Torpedo Weaponry - Federation Plasma Torpedoes)
+fedpod1.odf	  6 fbase.odf fresearchc.odf fedpod5.odf fsuperbl.odf FedMiscR3.odf fedpod21.odf // Research Pod (Superconductive Power Coils - Assault Phaser)
+fedpod2.odf	  5 fbase.odf fresearchc.odf fedpod5.odf fsuperbl.odf fedpod22.odf				 // Research Pod (Reinforced Spinal Integrity Fields - Assault Phaser)
+fedpod3.odf	  3 fbase.odf fresearchc.odf FedHull4.odf										 // Research Pod (Reiterative Tractor Neam Circuitry - Quantum Wave-Carrier Beam)
+fedpod4.odf	  4 fbase.odf fresearchc.odf fmonitoring.odf fedpod23.odf						 // Research Pod (Enhanced Sensor Plasma Detection Techniques - Cloak Detection)
+fedpod5.odf	  3 fbase.odf fresearchc.odf FedHull6.odf										 // Research Pod (Enemy Vessel Report - Battleship Requisition)
+
+fedpod11.odf  2 fbase.odf fupgrade.odf							 // Research Pod (Weapon Systems Recyclic Energy Circuitry - Weapon Systems Upgrade I)
+fedpod12.odf  2 fbase.odf fupgrade.odf							 // Research Pod (Remodulating Shield Harmonics Booster - Shield Systems Upgrade I)
+fedpod13.odf  2 fbase.odf fupgrade.odf							 // Research Pod (Sensor Package Plasma Detection Subroutines - Sensor Package Upgrade I)
+fedpod14.odf  2 fbase.odf fupgrade.odf							 // Research Pod (Warp Field Streamlining & Impulse Drive Superconductors - Propulsion Systems Upgrade I)
+fedpod15.odf  2 fbase.odf fupgrade.odf							 // Research Pod (Life Support Redundancy Circuitry - Life Support Systems Upgrade I)
+fedpod21.odf  3 fbase.odf fedpod11.odf fedpod5.odf				 // Research Pod (Hyperrelay Weapon Capacitor - Weapon Systems Upgrade II)
+fedpod22.odf  3 fbase.odf fedpod12.odf fedpod5.odf				 // Research Pod (Auxilliary Shielding Generation Systems - Shield Systems Upgrade II)
+fedpod23.odf  3 fbase.odf fedpod13.odf fedpod5.odf				 // Research Pod (Unique Plasma Signature Detection Computer - Sensor Package Upgrade II)
+fedpod24.odf  3 fbase.odf fedpod14.odf fedpod5.odf				 // Research Pod (Engine System Additive Shielding - Propulsion Systems Upgrade II)
+fedpod25.odf  3 fbase.odf fedpod15.odf fedpod5.odf				 // Research Pod (Emergency Anti-Depressurisation Array - Life Support Systems Upgrade II)
+
+shieldFederation.odf  1 fedpod22.odf							 // Planetary Shield (Federation)
+
+// ***[ FEDERATION MIXED TECH ]*********************
+
+FedMix1.odf 3 fbase.odf fresearchc.odf kconst.odf				 // Klingon Tech (Star Empire) - Capture
+FedMix2.odf 3 fbase.odf fresearchc.odf rconst.odf				 // Romulan Tech (Cerberus) - Capture
+FedMix3.odf 2 fbase.odf fresearchc.odf							 // Gorn Tech (Excelsior-R) - Allied
+FedMix4.odf 3 fbase.odf fresearchc.odf iconst.odf				 // ISC Tech (Jump Drives) - Capture
+FedMix5.odf 2 fbase.odf fresearchc.odf							 // Hydran Tech (Hornet-B) - Allied
+FedMix6.odf 3 fbase.odf fresearchc.odf lconst.odf				 // Lyran Tech (ESGs) - Capture
+
+FStarEmpire.odf 3 fbase.odf FedHull6.odf FedMix1.odf					   // Unique Dreadnought (USS Star Empire)
+FCerberus.odf	3 fbase.odf FedHull2.odf FedMix2.odf					   // Special Ops Cruiser (USS Cerberus)
+FBCruiseR.odf	3 fbase.odf FedHull5.odf FedMix3.odf					   // Heavy Battlecruiser (Excelsior Class Refit FBCH)
+FFighterB.odf	4 fbase.odf fmonitoring.odf fcarrier.odf FedMix5.odf	   // Fighter (Hornet-B FFA)
+
+GFHoloGen.odf	1 FedMix2.odf								   // Holographic Generator
+gFSSDG.odf		1 FedMix4.odf								   // Jump Drives (Excelsior)
+gFSSDG2.odf		1 FedMix4.odf								   // Jump Drives (Excelsior-R)
+gFESG2.odf		1 FedMix6.odf								   // Expanding Sphere Generator (Mirandas and USS Cerberus)
+
+FCarrierUp.odf	1 FedMix5.odf								   // Carrier Upgrade
+
+ReserveFleetWarpIn.odf 2 fbase.odf fyard.odf				   // Reserve Fleet Warp-In Ability
+
+// ***[ FEDERATION STATIONS ]*********************
+//
+fbase.odf		 0															// Starbase F
+fmonitoring.odf	 1 fbase.odf												// Monitoring Station
+fmining.odf		 1 fbase.odf												// Dilithium Mining Station
+forbital.odf	 1 fbase.odf												// Orbital Processing Facility F
+fsensor.odf		 2 fbase.odf fmonitoring.odf								// Sensor Probe
+fmine.odf		 2 fbase.odf fmonitoring.odf								// Type FA Mine
+fyard.odf		 1 fbase.odf												// Shipyard F
+fyard2.odf		 4 fbase.odf fresearcha.odf fresearchb.odf fresearchc.odf	// Advanced Shipyard
+ftrading.odf	 1 fbase.odf												// Trading Station F
+fresearcha.odf	 1 fbase.odf												// Utopia Planitia Vessel Hull Research Centre (Hulls)
+fresearchb.odf	 1 fbase.odf												// Utopia Planitia Vessel Modification Centre (Conversions)
+fresearchc.odf	 1 fbase.odf												// Utopia Planitia Miscellaneous Systems Research Centre (Equipment)
+fupgrade.odf	 4 fbase.odf fresearcha.odf fresearchb.odf fresearchc.odf	// Vulcan Research Institute (Upgrades)
+fsuperbl.odf	 2 fbase.odf fupgrade.odf									// Utopia Planitia Experimental Research Laboratory (Super Station)
+
+// ***[ FEDERATION ADVANCED WEAPONS ]**************
+//
+gFDAssault.odf	   3 fedpod1.odf fedpod2.odf fsuperbl.odf		// Dual Assault Phasers (Yamato Class FBBX)
+gFQCB.odf		   1 fedpod3.odf								// Quantum Wave-Carrier Beam (Washington Class FAPA, Lexington Class FCC, Ulysses Class FDN & Missouri Class FBB)
+gDetectF.odf	   3 fedpod4.odf fsensor.odf fmonitoring.odf	// Cloak Detection Equipment (Monitoring Stations, Sensor Probes & Oberth Class EC)
