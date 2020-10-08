@@ -1,0 +1,9 @@
+<techtree>
+	<object ODF="FOBattle.odf" buildPossible="false"/>
+	<object ODF="FOCruise.odf" buildPossible="false"/>
+	<object ODF="FODestroy.odf" buildPossible="false"/>
+	<object ODF="FODread.odf" buildPossible="false"/>
+	<object ODF="FOFrigate.odf" buildPossible="false"/>
+	<object ODF="FOLCruise.odf" buildPossible="false"/>
+	<object ODF="FOScout.odf" buildPossible="false"/>
+</techtree>
