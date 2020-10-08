@@ -5,9 +5,9 @@
 	<!---2 = Impossible to build, but don&apos;t touch dependencies, so that if somehow I already existed or was acquired, you could build anything dependent on me.-->
 	<!--***[ OTHER RACES STATIONS ]************************-->
 	<!--Starbase (M)-->
-	<object ODF="mbase.odf"/>
+	<object ODF="mbase.odf" buildPossible="false"/>
 	<!--Reserve Fleet Starbase-->
-	<object ODF="fbaser.odf"/>
+	<object ODF="fbaser.odf" buildPossible="false"/>
 	<!--*************** OTHER ADVANCED WEAPONS***************-->
 	<!--Electronic Countermeasures-->
 	<object ODF="gecm.odf"/>

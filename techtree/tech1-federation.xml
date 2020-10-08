@@ -609,7 +609,7 @@
 	</object>
 	<!--***[ FEDERATION STATIONS ]*********************-->
 	<!--Starbase F-->
-	<object ODF="fbase.odf"/>
+	<object ODF="fbase.odf" buildPossible="false"/>
 	<!--Monitoring Station-->
 	<object ODF="fmonitoring.odf">
 		<requirement race="federation">
