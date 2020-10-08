@@ -1,12 +1,47 @@
 <techtree>
 	<!-- OBJECT DEFINITIONS -->
-	<object ODF="FOBattle.odf"/><!-- Langley -->
-	<object ODF="FOCruise.odf"/><!-- Constitution -->
-	<object ODF="FODestroy.odf"/><!-- Akula -->
-	<object ODF="FODread.odf"/><!-- Federation -->
-	<object ODF="FOFrigate.odf"/><!-- Davids -->
-	<object ODF="FOLCruise.odf"/><!-- Surya -->
-	<object ODF="FOScout.odf"/><!-- Davids (Scout refit) -->
+	<!-- Langley -->
+	<object ODF="FOBattle.odf">
+		<requirement>
+			<capList>ReserveFleetCap</caplist>
+		</requirement>
+	</object>
+	<!-- Constitution -->
+	<object ODF="FOCruise.odf">
+		<requirement>
+			<capList>ReserveFleetCap</caplist>
+		</requirement>
+	</object>
+	<!-- Akula -->
+	<object ODF="FODestroy.odf">
+		<requirement>
+			<capList>ReserveFleetCap</caplist>
+		</requirement>
+	</object>
+	<!-- Federation -->
+	<object ODF="FODread.odf">
+		<requirement>
+			<capList>ReserveFleetCap</caplist>
+		</requirement>
+	</object>
+	<!-- Davids -->
+	<object ODF="FOFrigate.odf">
+		<requirement>
+			<capList>ReserveFleetCap</caplist>
+		</requirement>
+	</object>
+	<!-- Surya -->
+	<object ODF="FOLCruise.odf">
+		<requirement>
+			<capList>ReserveFleetCap</caplist>
+		</requirement>
+	</object>
+	<!-- Davids (S) -->
+	<object ODF="FOScout.odf">
+		<requirement>
+			<capList>ReserveFleetCap</caplist>
+		</requirement>
+	</object>
 	
 	<!-- FLEETCAP -->
 	<capacitylist name="ReserveFleetCap" maxCapValue="10"
