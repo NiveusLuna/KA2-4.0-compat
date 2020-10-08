@@ -1,12 +1,14 @@
 <techtree>
-	<object ODF="FOBattle.odf"/>
-	<object ODF="FOCruise.odf"/>
-	<object ODF="FODestroy.odf"/>
-	<object ODF="FODread.odf"/>
-	<object ODF="FOFrigate.odf"/>
-	<object ODF="FOLCruise.odf"/>
-	<object ODF="FOScout.odf"/>
+	<!-- OBJECT DEFINITIONS -->
+	<object ODF="FOBattle.odf"/><!-- Langley -->
+	<object ODF="FOCruise.odf"/><!-- Constitution -->
+	<object ODF="FODestroy.odf"/><!-- Akula -->
+	<object ODF="FODread.odf"/><!-- Federation -->
+	<object ODF="FOFrigate.odf"/><!-- Davids -->
+	<object ODF="FOLCruise.odf"/><!-- Surya -->
+	<object ODF="FOScout.odf"/><!-- Davids (Scout refit) -->
 	
+	<!-- FLEETCAP -->
 	<capacitylist name="ReserveFleetCap" maxCapValue="10"
 	tooltip="         Reserve Fleet Support ( %d / %d )"
 	tooltipOver="Maximum number of Reserve Fleet vessels requisitioned"
