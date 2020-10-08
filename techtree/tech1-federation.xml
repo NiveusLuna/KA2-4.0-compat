@@ -1,8 +1,5 @@
-<techtree><!--Basic KA2 The General War Tech Tree-->
-	<!--Each .ODF entry is followed by a 0, -1, -2-->
-	<!--0 = Nothing is required to build this .ODF-->
-	<!---1 = Impossible to build.  Anything dependent on this .ODF can not be built.-->
-	<!---2 = Impossible to build, but don&apos;t touch dependencies, so that if somehow I already existed or was acquired, you could build anything dependent on me.-->
+<techtree>
+	<include file="tech1-federation-research.xml"/>
 	<!--***[ FEDERATION SHIPS ]************************-->
 	<!--Construction Tender (Liberty Class FACS)-->
 	<object ODF="fconst.odf">
@@ -190,9 +187,9 @@
 	</object>
 	<!--USS Enterprise-A (Hero Ship)-->
 	<object ODF="fenta.odf">
-		<requirement race="federation" buttonHideUnavailable="true"
-			maxCapValue="1" tooltip="Ship available" tooltipOver="Already built"
-			tooltipReached="Already built" countConstructions="true">
+		<requirement race="federation" buttonHideUnavailable="true">
+			<cap maxCapValue="1" tooltip="Ship available" tooltipOver="Already built"
+			tooltipReached="Already built" countConstructions="true"/>
 			<obj>fbase.odf</obj>
 			<obj>FedHull3.odf</obj>
 		</requirement>
