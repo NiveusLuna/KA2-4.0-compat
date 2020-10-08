@@ -48,12 +48,12 @@
 	tooltip="         Reserve Fleet Support ( %d / %d )"
 	tooltipOver="Maximum number of Reserve Fleet vessels requisitioned"
 	tooltipReached="Maximum number of Reserve Fleet vessels requisitioned">
-		<obj>FOBattle.odf</obj>
-		<obj>FOCruise.odf</obj>
+		<obj capValue="6">FOBattle.odf</obj>
+		<obj capValue="4">FOCruise.odf</obj>
 		<obj>FODestroy.odf</obj>
-		<obj>FODread.odf</obj>
+		<obj capValue="5">FODread.odf</obj>
 		<obj>FOFrigate.odf</obj>
-		<obj>FOLCruise.odf</obj>
-		<obj>FOScout.odf</obj>
+		<obj capValue="3">FOLCruise.odf</obj>
+		<obj capValue="2">FOScout.odf</obj>
 	</capacitylist>
 </techtree>
