@@ -6,4 +6,12 @@
 	<object ODF="FOFrigate.odf"/>
 	<object ODF="FOLCruise.odf"/>
 	<object ODF="FOScout.odf"/>
+	
+	<capacitylist name="ReserveFleetCap" maxCapValue="10"
+	tooltip="         Reserve Fleet Support ( %d / %d )"
+	tooltipOver="Maximum number of Reserve Fleet vessels requisitioned"
+	tooltipReached="Maximum number of Reserve Fleet vessels requisitioned">
+		<obj>FOBattle.odf</obj>
+		<obj>FOCruise.odf</obj>
+	</capacitylist>
 </techtree>
