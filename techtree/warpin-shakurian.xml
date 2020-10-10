@@ -3,19 +3,19 @@
 	<!-- Long Fang -->
 	<object ODF="SCVA.odf">
 		<requirement>
-			<capList>OrionCap</caplist>
+			<capList>ShakurianCap</caplist>
 		</requirement>
 	</object>
 	<!-- Alpha -->
 	<object ODF="SCVB.odf">
 		<requirement>
-			<capList>OrionCap</caplist>
+			<capList>ShakurianCap</caplist>
 		</requirement>
 	</object>
 	<!-- Hunter -->
 	<object ODF="SCVL.odf">
 		<requirement>
-			<capList>OrionCap</caplist>
+			<capList>ShakurianCap</caplist>
 		</requirement>
 	</object>
 
@@ -27,7 +27,7 @@
 	<object ODF="SSharptooth.odf" />
 	
 	<!-- FLEETCAP -->
-	<capacitylist name="OrionCap" maxCapValue="10"
+	<capacitylist name="ShakurianCap" maxCapValue="10"
 	tooltip="         Orion Pirate Cartel support ( %d / %d )"
 	tooltipOver="Maximum number of Orion Pirate ships hired"
 	tooltipReached="Maximum number of Orion Pirate ships hired">
