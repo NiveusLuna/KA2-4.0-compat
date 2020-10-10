@@ -1,52 +1,44 @@
 <techtree>
 	<!-- OBJECT DEFINITIONS -->
-	<!-- Vixen -->
-	<object ODF="MCarrier.odf">
+	<!-- Scabbard -->
+	<object ODF="PCarrier.odf">
 		<requirement>
 			<capList>MirakCap</caplist>
 		</requirement>
 	</object>
-	<!-- Wolf -->
-	<object ODF="MCruise.odf">
+	<!-- Buccaneer -->
+	<object ODF="PCruise.odf">
 		<requirement>
 			<capList>MirakCap</caplist>
 		</requirement>
 	</object>
-	<!-- Fox -->
-	<object ODF="MDestroy.odf">
+	<!-- Pilferer -->
+	<object ODF="PDestroy.odf">
 		<requirement>
 			<capList>MirakCap</caplist>
 		</requirement>
 	</object>
-	<!-- Wolverine -->
-	<object ODF="MDread.odf">
+	<!-- Kingpin -->
+	<object ODF="PDread.odf">
 		<requirement>
 			<capList>MirakCap</caplist>
 		</requirement>
 	</object>
-	<!-- Dingo -->
-	<object ODF="MFrigate.odf">
+	<!-- Dirk -->
+	<object ODF="PEscort.odf">
 		<requirement>
 			<capList>MirakCap</caplist>
 		</requirement>
 	</object>
-	<!-- Jackal -->
-	<object ODF="MLCruise.odf">
+	<!-- Cutlass -->
+	<object ODF="PLCruise.odf">
 		<requirement>
 			<capList>MirakCap</caplist>
 		</requirement>
 	</object>
-	<!-- Daggerfang (Mirak scatterpack shuttle) -->
-	<!-- No requirement; can only be spawned by MCarrier, and warp-in means it can't be station-dependent -->
-	<object ODF="MFighter.odf" />
-	
-	<!-- Den Mother (Mirak Freighter) -->
-	<!-- Does not count toward the fleetcap, but mentions it anyway -->
-	<object ODF="MFreighter.odf">
-		<requirement>
-			<capList>MirakCap</caplist>
-		</requirement>
-	</object>
+	<!-- Flintlock Assault Craft -->
+	<!-- No requirement; can only be spawned by PCarrier, and warp-in means it can't be station-dependent -->
+	<object ODF="PFighter.odf" />
 	
 	<!-- FLEETCAP -->
 	<capacitylist name="MirakCap" maxCapValue="10"
