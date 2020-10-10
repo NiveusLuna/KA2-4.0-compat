@@ -300,6 +300,17 @@
 			<capList>GornCarrierLimit</capList>
 		</requirement>
 	</object>
+	<!--Psuedo-Fighter Tender (GNS Queen Derenesktta) (Upgraded)-->
+	<object ODF="GCarrierB.odf">
+		<requirement race="klingon" buttonHideUnavailable="true">
+			<obj>gbase.odf</obj>
+			<obj>GorHull5.odf</obj>
+			<obj>GorEqu5.odf</obj>
+			<obj>gormix6.odf</obj>
+			<obj>gormix5.odf</obj>
+			<capList>GornCarrierLimit</capList>
+		</requirement>
+	</object>
 	<!--Esplads (Sensor Emplacement)-->
 	<object ODF="gDetectG.odf">
 		<requirement race="klingon">
