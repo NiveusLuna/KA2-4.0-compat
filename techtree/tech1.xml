@@ -1,11 +1,11 @@
 <techtree>
 	<include File="tech1-federation.xml"/>
-	<include File="tech1-romulan.xml"/>
-	<include File="tech1-klingon.xml"/>
 	<include File="tech1-gorn.xml"/>
 	<include File="tech1-hydran.xml"/>
-	<include File="tech1-lyran.xml"/>
 	<include File="tech1-isc.xml"/>
+	<include File="tech1-klingon.xml"/>
+	<include File="tech1-lyran.xml"/>
+	<include File="tech1-romulan.xml"/>
 	<include File="tech1-tholian.xml"/>
 	<include File="tech1-other.xml"/>
 	<include File="warpin-federation.xml"/>
