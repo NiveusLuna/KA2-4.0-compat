@@ -3,48 +3,48 @@
 	<!-- Langley -->
 	<object ODF="FOBattle.odf">
 		<requirement>
-			<capList>ReserveFleetCap</caplist>
+			<capList>MirakCap</caplist>
 		</requirement>
 	</object>
 	<!-- Constitution -->
 	<object ODF="FOCruise.odf">
 		<requirement>
-			<capList>ReserveFleetCap</caplist>
+			<capList>MirakCap</caplist>
 		</requirement>
 	</object>
 	<!-- Akula -->
 	<object ODF="FODestroy.odf">
 		<requirement>
-			<capList>ReserveFleetCap</caplist>
+			<capList>MirakCap</caplist>
 		</requirement>
 	</object>
 	<!-- Federation -->
 	<object ODF="FODread.odf">
 		<requirement>
-			<capList>ReserveFleetCap</caplist>
+			<capList>MirakCap</caplist>
 		</requirement>
 	</object>
 	<!-- Davids -->
 	<object ODF="FOFrigate.odf">
 		<requirement>
-			<capList>ReserveFleetCap</caplist>
+			<capList>MirakCap</caplist>
 		</requirement>
 	</object>
 	<!-- Surya -->
 	<object ODF="FOLCruise.odf">
 		<requirement>
-			<capList>ReserveFleetCap</caplist>
+			<capList>MirakCap</caplist>
 		</requirement>
 	</object>
 	<!-- Davids (S) -->
 	<object ODF="FOScout.odf">
 		<requirement>
-			<capList>ReserveFleetCap</caplist>
+			<capList>MirakCap</caplist>
 		</requirement>
 	</object>
 
 	<!-- FLEETCAP -->
-	<capacitylist name="ReserveFleetCap" maxCapValue="10"
+	<capacitylist name="MirakCap" maxCapValue="10"
 	tooltip="         Reserve Fleet Support ( %d / %d )"
 	tooltipOver="Maximum number of Reserve Fleet vessels requisitioned"
 	tooltipReached="Maximum number of Reserve Fleet vessels requisitioned">
