@@ -270,6 +270,7 @@
 		<requirement race="klingon">
 			<obj>gbase.odf</obj>
 			<obj>gyard.odf</obj>
+			<cap>MirakCap</cap>
 		</requirement>
 	</object>
 	<!--ShaKurian Mercenary Warp-In Ability-->
