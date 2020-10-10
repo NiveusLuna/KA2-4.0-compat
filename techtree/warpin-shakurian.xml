@@ -32,8 +32,8 @@
 	tooltipOver="Maximum number of Sha'Kurian Mercenaries hired"
 	tooltipReached="Maximum number of Sha'Kurian Mercenaries hired">
 		<!-- Arranged in descending order of (intended) slots used -->
-		<obj capValue="5">PDread.odf</obj>
-		<obj capValue="4">PBCruise.odf</obj>
-		<obj capValue="3">PCruise.odf</obj>
+		<obj capValue="8">SCVB.odf</obj>
+		<obj capValue="3">SCVA.odf</obj>
+		<obj capValue="1">SCVL.odf</obj>
 	</capacitylist>
 </techtree>
