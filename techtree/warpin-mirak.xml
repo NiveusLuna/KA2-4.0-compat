@@ -7,37 +7,37 @@
 		</requirement>
 	</object>
 	<!-- Constitution -->
-	<object ODF="FOCruise.odf">
+	<object ODF="MCruise.odf">
 		<requirement>
 			<capList>MirakCap</caplist>
 		</requirement>
 	</object>
 	<!-- Akula -->
-	<object ODF="FODestroy.odf">
+	<object ODF="MDestroy.odf">
 		<requirement>
 			<capList>MirakCap</caplist>
 		</requirement>
 	</object>
 	<!-- Federation -->
-	<object ODF="FODread.odf">
+	<object ODF="MDread.odf">
 		<requirement>
 			<capList>MirakCap</caplist>
 		</requirement>
 	</object>
 	<!-- Davids -->
-	<object ODF="FOFrigate.odf">
+	<object ODF="MFrigate.odf">
 		<requirement>
 			<capList>MirakCap</caplist>
 		</requirement>
 	</object>
 	<!-- Surya -->
-	<object ODF="FOLCruise.odf">
+	<object ODF="MLCruise.odf">
 		<requirement>
 			<capList>MirakCap</caplist>
 		</requirement>
 	</object>
 	<!-- Davids (S) -->
-	<object ODF="FOScout.odf">
+	<object ODF="MScout.odf">
 		<requirement>
 			<capList>MirakCap</caplist>
 		</requirement>
@@ -50,11 +50,11 @@
 	tooltipReached="Maximum number of Reserve Fleet vessels requisitioned">
 		<!-- Arranged in descending order of (intended) slots used -->
 		<obj capValue="6">MCarrier.odf</obj>
-		<obj capValue="5">FODread.odf</obj>
-		<obj capValue="4">FOCruise.odf</obj>
-		<obj capValue="3">FOLCruise.odf</obj>
-		<obj>FODestroy.odf</obj><!-- Typo in original list; likely supposed to be 3 -->
-		<obj capValue="2">FOScout.odf</obj>
-		<obj>FOFrigate.odf</obj><!-- Typo in original list; likely supposed to be 2 -->
+		<obj capValue="5">MDread.odf</obj>
+		<obj capValue="4">MCruise.odf</obj>
+		<obj capValue="3">MLCruise.odf</obj>
+		<obj>MDestroy.odf</obj><!-- Typo in original list; likely supposed to be 3 -->
+		<obj capValue="2">MScout.odf</obj>
+		<obj>MFrigate.odf</obj><!-- Typo in original list; likely supposed to be 2 -->
 	</capacitylist>
 </techtree>
