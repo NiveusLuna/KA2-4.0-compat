@@ -61,5 +61,6 @@
 		<obj>MDestroy.odf</obj><!-- Typo in original list; likely supposed to be 3 -->
 		<obj capValue="2">MScout.odf</obj>
 		<obj>MFrigate.odf</obj><!-- Typo in original list; likely supposed to be 2 -->
+		<obj capValue="0">MFreight.odf</obj>
 	</capacitylist>
 </techtree>
