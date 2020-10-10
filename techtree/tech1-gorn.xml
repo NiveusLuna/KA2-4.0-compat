@@ -158,8 +158,8 @@
 	</object>
 	<!--General Thormasskk-->
 	<object ODF="ghero.odf">
-		<requirement race="klingon" buttonHideUnavailable="true"
-			maxCapValue="1" tooltip="Ship available" tooltipOver="Already built"
+		<requirement race="klingon" buttonHideUnavailable="true">
+			<cap maxCapValue="1" tooltip="Ship available" tooltipOver="Already built"
 			tooltipReached="Already built" countConstructions="true">
 			<obj>gbase.odf</obj>
 			<obj>GorHull6.odf</obj>
