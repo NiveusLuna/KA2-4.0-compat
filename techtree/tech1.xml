@@ -9,4 +9,7 @@
 	<include File="tech1-tholian.xml"/>
 	<include File="tech1-other.xml"/>
 	<include File="warpin-federation.xml"/>
+	<include File="warpin-mirak.xml"/>
+	<include File="warpin-orion.xml"/>
+	<include File="warpin-shakurian.xml"/>
 </techtree>
