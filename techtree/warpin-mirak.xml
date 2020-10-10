@@ -6,50 +6,55 @@
 			<capList>MirakCap</caplist>
 		</requirement>
 	</object>
-	<!-- Constitution -->
+	<!-- Wolf -->
 	<object ODF="MCruise.odf">
 		<requirement>
 			<capList>MirakCap</caplist>
 		</requirement>
 	</object>
-	<!-- Akula -->
+	<!-- Fox -->
 	<object ODF="MDestroy.odf">
 		<requirement>
 			<capList>MirakCap</caplist>
 		</requirement>
 	</object>
-	<!-- Federation -->
+	<!-- Wolverine -->
 	<object ODF="MDread.odf">
 		<requirement>
 			<capList>MirakCap</caplist>
 		</requirement>
 	</object>
-	<!-- Davids -->
+	<!-- Dingo -->
 	<object ODF="MFrigate.odf">
 		<requirement>
 			<capList>MirakCap</caplist>
 		</requirement>
 	</object>
-	<!-- Surya -->
+	<!-- Jackal -->
 	<object ODF="MLCruise.odf">
 		<requirement>
 			<capList>MirakCap</caplist>
 		</requirement>
 	</object>
-	<!-- Davids (S) -->
-	<object ODF="MScout.odf">
+	<!-- Daggerfang (Mirak scatterpack shuttle) -->
+	<!-- No requirement; can only be spawned by MCarrier, and warp-in means it can't be station-dependent -->
+	<object ODF="MFighter.odf" />
+	
+	<!-- Den Mother (Mirak Freighter) -->
+	<!-- Does not count toward the fleetcap, but mentions it anyway -->
+	<object ODF="MFreighter.odf">
 		<requirement>
 			<capList>MirakCap</caplist>
 		</requirement>
 	</object>
-
+	
 	<!-- FLEETCAP -->
 	<capacitylist name="MirakCap" maxCapValue="10"
-	tooltip="         Reserve Fleet Support ( %d / %d )"
-	tooltipOver="Maximum number of Reserve Fleet vessels requisitioned"
-	tooltipReached="Maximum number of Reserve Fleet vessels requisitioned">
+	tooltip="         Mirak Diaspora support ( %d / %d )"
+	tooltipOver="Maximum number of Mirak refugees hired"
+	tooltipReached="Maximum number of Mirak refugees hired">
 		<!-- Arranged in descending order of (intended) slots used -->
-		<obj capValue="6">MCarrier.odf</obj>
+		<obj capValue="5">MCarrier.odf</obj>
 		<obj capValue="5">MDread.odf</obj>
 		<obj capValue="4">MCruise.odf</obj>
 		<obj capValue="3">MLCruise.odf</obj>
