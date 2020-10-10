@@ -28,9 +28,9 @@
 	
 	<!-- FLEETCAP -->
 	<capacitylist name="ShakurianCap" maxCapValue="10"
-	tooltip="         Orion Pirate Cartel support ( %d / %d )"
-	tooltipOver="Maximum number of Orion Pirate ships hired"
-	tooltipReached="Maximum number of Orion Pirate ships hired">
+	tooltip="         Sha'Kurian Mercenary support ( %d / %d )"
+	tooltipOver="Maximum number of Sha'Kurian Mercenaries hired"
+	tooltipReached="Maximum number of Sha'Kurian Mercenaries hired">
 		<!-- Arranged in descending order of (intended) slots used -->
 		<obj capValue="5">PDread.odf</obj>
 		<obj capValue="4">PBCruise.odf</obj>
