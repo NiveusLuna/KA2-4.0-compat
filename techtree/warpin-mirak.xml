@@ -1,7 +1,7 @@
 <techtree>
 	<!-- OBJECT DEFINITIONS -->
-	<!-- Langley -->
-	<object ODF="FOBattle.odf">
+	<!-- Vixen -->
+	<object ODF="MCarrier.odf">
 		<requirement>
 			<capList>MirakCap</caplist>
 		</requirement>
@@ -49,7 +49,7 @@
 	tooltipOver="Maximum number of Reserve Fleet vessels requisitioned"
 	tooltipReached="Maximum number of Reserve Fleet vessels requisitioned">
 		<!-- Arranged in descending order of (intended) slots used -->
-		<obj capValue="6">FOBattle.odf</obj>
+		<obj capValue="6">MCarrier.odf</obj>
 		<obj capValue="5">FODread.odf</obj>
 		<obj capValue="4">FOCruise.odf</obj>
 		<obj capValue="3">FOLCruise.odf</obj>
