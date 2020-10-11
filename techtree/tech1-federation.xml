@@ -43,14 +43,6 @@
 			<obj>fresearcha.odf</obj>
 		</requirement>
 	</object>
-	<!--Fighter (Hornet FFA)-->
-	<object ODF="ffighter.odf">
-		<requirement race="federation">
-			<obj>fbase.odf</obj>
-			<obj>fmonitoring.odf</obj>
-			<obj>fcarrier.odf</obj>
-		</requirement>
-	</object>
 	<!--Escort (Oberth Class FEC)-->
 	<object ODF="fescort.odf">
 		<requirement race="federation">
@@ -313,6 +305,33 @@
 			<obj>fedpod4.odf</obj>
 			<obj>fsensor.odf</obj>
 			<obj>fmonitoring.odf</obj>
+		</requirement>
+	</object>
+	<!-- ***[ FEDERATION FIGHTERS, SHUTTLES, AND HANGARS ]*********** -->
+	<!--Fighter (Hornet FFA)-->
+	<object ODF="ffighter.odf">
+		<requirement race="federation">
+			<obj>fbase.odf</obj>
+			<obj>fmonitoring.odf</obj>
+			<obj>fcarrier.odf</obj>
+		</requirement>
+	</object>
+	<!-- Hangars -->
+	<object ODF="FHangar.odf" />
+	<object ODF="FHangarAS1.odf" />
+	<object ODF="FHangarAS2.odf" />
+	<object ODF="FHangarAS3.odf" />
+	<object ODF="FHangarS1.odf" />
+	<object ODF="FHangarS2.odf" />
+	<object ODF="FHangarS3.odf" />
+	<!-- Wasp assault shuttle -->
+	<object ODF="FAShuttle.odf">
+		<requirement race="federation">
+		</requirement>
+	</object>
+	<!-- Type 2 Shuttle -->
+	<object ODF="FShuttle.odf">
+		<requirement race="federation">
 		</requirement>
 	</object>
 </techtree>

@@ -365,7 +365,7 @@
 	</object>
 	<!--Fighter (Hornet-B FFA)-->
 	<object ODF="FFighterB.odf">
-		<requirement race="federation" buttonHideUnavailable="true">
+		<requirement race="federation">
 			<obj>fbase.odf</obj>
 			<obj>fmonitoring.odf</obj>
 			<obj>fcarrierb.odf</obj>
@@ -374,10 +374,12 @@
 	</object>
 	<!--Upgraded Carrier-->
 	<object ODF="FCarrierB.odf">
-		<requirement race="federation" buttonHideUnavailable="true">
+		<requirement race="federation">
 			<obj>FedMix5.odf</obj>
 		</requirement>
 	</object>
+	<!-- Upgraded Hangar -->
+	<object ODF="FHangarB.odf" />
 	<!--Holographic Generator-->
 	<object ODF="GFHoloGen.odf">
 		<requirement race="federation" buttonHideUnavailable="true">
