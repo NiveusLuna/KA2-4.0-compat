@@ -231,6 +231,12 @@
 			<obj>klipod15.odf</obj>
 		</requirement>
 	</object>
+	<!-- Planetary Shield -->
+	<object ODF="shieldKlingon.odf">
+		<requirement race="cardassian" buttonHideUnavailable="true">
+			<obj>klipod22.odf</obj>
+		</requirement>
+	</object>
 	<!--***[ KLINGON MIXED TECH ]*********************-->
 	<!--Federation Tech (EsPlaD) - Capture-->
 	<object ODF="KliMix1.odf">
