@@ -351,4 +351,20 @@
 			<obj>KliMix6.odf</obj>
 		</requirement>
 	</object>
+	<!--Orion Pirate Warp-In Ability-->
+	<object ODF="KOrionWarpIn.odf">
+		<requirement race="cardassian">
+			<obj>kbase.odf</obj>
+			<obj>kyard.odf</obj>
+			<cap>OrionCap</cap>
+		</requirement>
+	</object>
+	<!--ShaKurian Mercenary Warp-In Ability-->
+	<object ODF="KShakurianWarpIn.odf">
+		<requirement race="cardassian">
+			<obj>kbase.odf</obj>
+			<obj>kyard.odf</obj>
+			<cap>ShakurianCap</cap>
+		</requirement>
+	</object>
 </techtree>
