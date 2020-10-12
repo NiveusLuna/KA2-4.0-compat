@@ -194,8 +194,8 @@
 		</requirement>
 	</object>
 	<!--Planetary Shield (Hydran)-->
-	<object ODF="shieldHydran.odf" buttonHideUnavailable="true">
-		<requirement race="hydran">
+	<object ODF="shieldHydran.odf">
+		<requirement race="hydran" buttonHideUnavailable="true">
 			<obj>hydpod22.odf</obj>
 		</requirement>
 	</object>
