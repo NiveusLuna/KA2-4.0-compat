@@ -330,7 +330,7 @@
 	</object>
 	<!--Experimental Cloak (Bird of Prey Class KECX)-->
 	<object ODF="gkfwc.odf">
-		<requirement race="cardassian">
+		<requirement>
 			<obj>klipod6.odf</obj>
 			<obj>ksuperbl.odf</obj>
 		</requirement>

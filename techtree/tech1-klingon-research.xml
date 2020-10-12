@@ -305,16 +305,16 @@
 	</object>
 	<!--Cloak Detection (Suspicious-S Class KFS)-->
 	<object ODF="gDetectK.odf">
-		<requirement race="cardassian">
+		<requirement>
 			<obj>KliMix1.odf</obj>
 		</requirement>
 	</object>
 	<!--Sensor Array Cloak (Frenemy)-->
 	<object ODF="gKCloakR.odf">
-		<requirement race="cardassian">
+		<requirement>
 			<obj>KliMix2.odf</obj>
 		</requirement>
-		<requirement race="cardassian">
+		<requirement>
 			<obj>KliMix3.odf</obj>
 		</requirement>
 	</object>
