@@ -341,4 +341,10 @@
 	<object ODF="ksphoton.odf"/>
 	<!-- Said shuttle -->
 	<object ODF="kshuttle.odf"/>
+	<!-- fighter/shuttle spawners -->
+	<object ODF="khangar.odf"/>
+	<object ODF="khangarb.odf"/>
+	<object ODF="khangars1.odf"/>
+	<object ODF="khangars2.odf"/>
+	<object ODF="khangars3.odf"/>
 </techtree>
