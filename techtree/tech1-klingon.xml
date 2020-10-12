@@ -1,4 +1,6 @@
-<techtree><!--Basic KA2 The General War Tech Tree-->
+<techtree>
+	<include file="tech1-klingon-research.xml"/>
+	<!--Basic KA2 The General War Tech Tree-->
 	<!--Each .ODF entry is followed by a 0, -1, -2-->
 	<!--0 = Nothing is required to build this .ODF-->
 	<!---1 = Impossible to build.  Anything dependent on this .ODF can not be built.-->
