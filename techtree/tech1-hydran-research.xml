@@ -202,7 +202,7 @@
 	<!--***[ HYDRAN MIXED TECH ]*********************-->
 	<!--Federation Tech (Esplads) - Allied-->
 	<object ODF="HydMix1.odf">
-		<requirement race="hydran">
+		<requirement race="hydran" buttonHideUnavailable="true">
 			<ally race="federation" />
 			<obj>hbase.odf</obj>
 			<obj>hresearchc.odf</obj>
@@ -210,7 +210,7 @@
 	</object>
 	<!--Klingon Tech (AMFP) - Capture-->
 	<object ODF="HydMix2.odf">
-		<requirement race="hydran">
+		<requirement race="hydran" buttonHideUnavailable="true">
 			<obj>hbase.odf</obj>
 			<obj>hresearchc.odf</obj>
 			<obj>kconst.odf</obj>
@@ -218,7 +218,7 @@
 	</object>
 	<!--Romulan Tech (Cloak) - Capture-->
 	<object ODF="HydMix3.odf">
-		<requirement race="hydran">
+		<requirement race="hydran" buttonHideUnavailable="true">
 			<obj>hbase.odf</obj>
 			<obj>hresearchc.odf</obj>
 			<obj>rconst.odf</obj>
@@ -226,7 +226,7 @@
 	</object>
 	<!--Gorn Tech (GDDS) - Allied-->
 	<object ODF="HydMix4.odf">
-		<requirement race="hydran">
+		<requirement race="hydran" buttonHideUnavailable="true">
 			<ally race="klingon" />
 			<obj>hbase.odf</obj>
 			<obj>hresearchc.odf</obj>
@@ -234,7 +234,7 @@
 	</object>
 	<!--ISC Tech (PPD) - Capture-->
 	<object ODF="HydMix5.odf">
-		<requirement race="hydran">
+		<requirement race="hydran" buttonHideUnavailable="true">
 			<obj>hbase.odf</obj>
 			<obj>hresearchc.odf</obj>
 			<obj>iconst.odf</obj>
@@ -242,7 +242,7 @@
 	</object>
 	<!--Lyran Tech (Offensive ESG) - Capture-->
 	<object ODF="HydMix6.odf">
-		<requirement race="hydran">
+		<requirement race="hydran" buttonHideUnavailable="true">
 			<obj>hbase.odf</obj>
 			<obj>hresearchc.odf</obj>
 			<obj>lconst.odf</obj>
