@@ -317,9 +317,6 @@
 		<requirement race="cardassian">
 			<obj>KliMix2.odf</obj>
 		</requirement>
-	</object>
-	<!--Sensor Array Cloak (Capture)-->
-	<object ODF="gKCloakR2.odf">
 		<requirement race="cardassian">
 			<obj>KliMix3.odf</obj>
 		</requirement>
