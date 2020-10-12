@@ -299,6 +299,8 @@
 			<obj>kliMiscR2.odf</obj>
 			<obj>klipod2.odf</obj>
 			<obj>KliMix4.odf</obj>
+			<cap maxCapValue="1" tooltip="Ship available" tooltipOver="Already built"
+			tooltipReached="Already built" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--Fighter (Steelfist FFA)-->
@@ -316,7 +318,7 @@
 			<obj>KliMix1.odf</obj>
 		</requirement>
 	</object>
-	<!--Sensor Array Cloak (Allied)-->
+	<!--Sensor Array Cloak (Frenemy)-->
 	<object ODF="gKCloakR.odf">
 		<requirement race="cardassian">
 			<obj>KliMix2.odf</obj>
