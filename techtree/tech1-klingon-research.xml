@@ -246,7 +246,6 @@
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
 			<obj mustNotHave="true">KliMix3.odf</obj>
-			<obj mustNotHave="true">rconst.odf</obj>
 		</requirement>
 	</object>
 	<!--Romulan Tech (Sensor Cloaking) - Capture-->
