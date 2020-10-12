@@ -246,6 +246,7 @@
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
 			<obj mustNotHave="true">KliMix3.odf</obj>
+			<ally race="romulan"/>
 		</requirement>
 	</object>
 	<!--Romulan Tech (Sensor Cloaking) - Capture-->
@@ -286,6 +287,7 @@
 		<requirement race="cardassian" buttonHideUnavailable="true">
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
+			<ally race="lyran"/>
 		</requirement>
 	</object>
 	<!--Unique Battleship (IKS Qeh&apos;ral)-->
