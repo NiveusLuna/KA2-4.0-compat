@@ -245,6 +245,8 @@
 		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
+			<obj mustNotHave="true">KliMix3.odf</obj>
+			<obj mustNotHave="true">rconst.odf</obj>
 		</requirement>
 	</object>
 	<!--Romulan Tech (Sensor Cloaking) - Capture-->
@@ -253,6 +255,7 @@
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
 			<obj>rconst.odf</obj>
+			<obj mustNotHave="true">KliMix2.odf</obj>
 		</requirement>
 	</object>
 	<!--Gorn Tech (Qeh&apos;Ral) - Capture-->
