@@ -8,32 +8,32 @@
 	<!--***[ HYDRAN SHIPS ]************************-->
 	<!--Construction Tender (Peasant Class HACS)-->
 	<object ODF="hconst.odf">
-		<requirement>
+		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 		</requirement>
 	</object>
 	<!--Mining Freighter (Serf Class HDF)-->
 	<object ODF="hfreight.odf">
-		<requirement>
+		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 		</requirement>
 	</object>
 	<!--Cargo Freighter (Merchant Class HAK)-->
 	<object ODF="hcargo.odf">
-		<requirement>
+		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 		</requirement>
 	</object>
 	<!--Fleet Repair Tender (Squire Class HAR)-->
 	<object ODF="hsrepair.odf">
-		<requirement>
+		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 			<obj>hresearchc.odf</obj>
 		</requirement>
 	</object>
 	<!--Colony Ship (Autocrat Class HFB)-->
 	<object ODF="hcolony.odf">
-		<requirement>
+		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 			<obj>hresearcha.odf</obj>
 			<obj>hresearchb.odf</obj>
@@ -41,7 +41,7 @@
 	</object>
 	<!--Troop Transport (Saracen Class HAPA)-->
 	<object ODF="hassault.odf">
-		<requirement>
+		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 			<obj>hresearcha.odf</obj>
 			<obj>HydMiscR2.odf</obj>
@@ -49,7 +49,7 @@
 	</object>
 	<!--Hellbore Fighter (Fusileer HFA)-->
 	<object ODF="hfighter.odf">
-		<requirement>
+		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 			<obj>houtpost.odf</obj>
 			<obj>HydMiscR3.odf</obj>
@@ -58,7 +58,7 @@
 	</object>
 	<!--Fusion Beam Fighter (Halberdier HFA)-->
 	<object ODF="hfighterb.odf">
-		<requirement>
+		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 			<obj>houtpost.odf</obj>
 			<obj>HydMiscR2.odf</obj>
@@ -67,20 +67,20 @@
 	</object>
 	<!--Scout Frigate (Archer Class HFS)-->
 	<object ODF="hscout.odf">
-		<requirement>
+		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 			<obj>HydEqu1.odf</obj>
 		</requirement>
 	</object>
 	<!--Frigate (Yeoman Class HFF)-->
 	<object ODF="hfrigate.odf">
-		<requirement>
+		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 		</requirement>
 	</object>
 	<!--Destroyer (Knight Class HDD)-->
 	<object ODF="hdestroy.odf">
-		<requirement>
+		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 			<obj>HydHull1.odf</obj>
 			<obj>HydMiscR2.odf</obj>
@@ -88,7 +88,7 @@
 	</object>
 	<!--Destroyer Leader (Paladin Class HDL)-->
 	<object ODF="hdestroyl.odf">
-		<requirement>
+		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 			<obj>HydHull1.odf</obj>
 			<obj>HydMiscR2.odf</obj>
@@ -97,7 +97,7 @@
 	</object>
 	<!--Light Cruiser (Regent Class HCL)-->
 	<object ODF="hlcruise.odf">
-		<requirement>
+		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 			<obj>HydHull2.odf</obj>
 			<obj>HydMiscR2.odf</obj>
@@ -105,7 +105,7 @@
 	</object>
 	<!--Heavy Cruiser (Baron Class HCA)-->
 	<object ODF="hcruise.odf">
-		<requirement>
+		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 			<obj>HydHull3.odf</obj>
 			<obj>HydMiscR2.odf</obj>
@@ -114,7 +114,7 @@
 	</object>
 	<!--Hellbore Monitor (Pikeman Class HMH)-->
 	<object ODF="hmonitor.odf">
-		<requirement>
+		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 			<obj>HydHull4.odf</obj>
 			<obj>HydMiscR3.odf</obj>
@@ -125,7 +125,7 @@
 	</object>
 	<!--Command Cruiser (Duke Class HCC)-->
 	<object ODF="hccruise.odf">
-		<requirement>
+		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 			<obj>HydHull4.odf</obj>
 			<obj>HydMiscR1.odf</obj>
@@ -135,7 +135,7 @@
 	</object>
 	<!--Dreadnought (Monarch Class HDN)-->
 	<object ODF="hdread.odf">
-		<requirement>
+		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 			<obj>HydHull5.odf</obj>
 			<obj>HydMiscR1.odf</obj>
@@ -145,7 +145,7 @@
 	</object>
 	<!--Fleet Carrier (Royal Sovereign Class HCV)-->
 	<object ODF="hcarrier.odf">
-		<requirement>
+		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 			<obj>HydHull5.odf</obj>
 			<obj>HydMiscR1.odf</obj>
@@ -159,69 +159,69 @@
 	<object ODF="hbase.odf"/>
 	<!--Outpost-->
 	<object ODF="houtpost.odf">
-		<requirement>
+		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 			<obj>HydMiscR3.odf</obj>
 		</requirement>
 	</object>
 	<!--Dilithium Purifier-->
 	<object ODF="hmining.odf">
-		<requirement>
+		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 		</requirement>
 	</object>
 	<!--Orbital Processing Facility H-->
 	<object ODF="horbital.odf">
-		<requirement>
+		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 		</requirement>
 	</object>
 	<!--Sensor Probe-->
 	<object ODF="hsensor.odf">
-		<requirement>
+		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 		</requirement>
 	</object>
 	<!--Type HA Mine-->
 	<object ODF="hmine.odf">
-		<requirement>
+		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 			<obj>HydMiscR3.odf</obj>
 		</requirement>
 	</object>
 	<!--Shipyard H-->
 	<object ODF="hyard.odf">
-		<requirement>
+		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 		</requirement>
 	</object>
 	<!--Trading Station H-->
 	<object ODF="htrading.odf">
-		<requirement>
+		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 		</requirement>
 	</object>
 	<!--HRN Hull Development Centre (Hulls)-->
 	<object ODF="hresearcha.odf">
-		<requirement>
+		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 		</requirement>
 	</object>
 	<!--HRN Modification Complex (Conversions)-->
 	<object ODF="hresearchb.odf">
-		<requirement>
+		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 		</requirement>
 	</object>
 	<!--Royal Armoury (Equipment)-->
 	<object ODF="hresearchc.odf">
-		<requirement>
+		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 		</requirement>
 	</object>
 	<!--Royal Shipyard Committee (Upgrades)-->
 	<object ODF="hupgrade.odf">
-		<requirement>
+		<requirement race="hydran">
 			<obj>hbase.odf</obj>
 			<obj>hresearcha.odf</obj>
 			<obj>hresearchb.odf</obj>
@@ -231,7 +231,7 @@
 	<!--***[ HYDRAN ADVANCED WEAPONS ]**************-->
 	<!--Proximity Photon Cannon-->
 	<object ODF="hapcan.odf">
-		<requirement>
+		<requirement race="hydran">
 			<obj>HydMiscR6.odf</obj>
 		</requirement>
 	</object>
