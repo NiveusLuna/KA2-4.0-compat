@@ -157,6 +157,18 @@
 			<obj>klipod2.odf</obj>
 		</requirement>
 	</object>
+	<!--IKS TegH'GaH - Colonel Thok Mak (Emperor Class KBC)-->
+	<object ODF="khero.odf">
+		<requirement race="cardassian" buttonHideUnavailable="true">
+			<obj>kbase.odf</obj>
+			<obj>klihull2.odf</obj>
+			<obj>kliEqu5.odf</obj>
+			<obj>kliMiscR1.odf</obj>
+			<obj>klipod2.odf</obj>
+			<cap maxCapValue="1" tooltip="Ship available" tooltipOver="Already built"
+			tooltipReached="Already built" countConstructions="true"/>
+		</requirement>
+	</object>
 	<!--Supercruiser (Bird of Blood Class KCB)-->
 	<object ODF="kbertaa.odf">
 		<requirement race="cardassian">
