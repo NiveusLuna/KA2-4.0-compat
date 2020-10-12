@@ -339,4 +339,6 @@
 	<object ODF="gkcloak.odf"/>
 	<!--Photon Torpedo - Fighter Version-->
 	<object ODF="ksphoton.odf"/>
+	<!-- Said shuttle -->
+	<object ODF="kshuttle.odf"/>
 </techtree>
