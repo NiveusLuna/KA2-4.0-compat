@@ -47,24 +47,6 @@
 			<obj>HydMiscR2.odf</obj>
 		</requirement>
 	</object>
-	<!--Hellbore Fighter (Fusileer HFA)-->
-	<object ODF="hfighter.odf">
-		<requirement race="hydran">
-			<obj>hbase.odf</obj>
-			<obj>houtpost.odf</obj>
-			<obj>HydMiscR3.odf</obj>
-			<obj>HydMiscR4.odf</obj>
-		</requirement>
-	</object>
-	<!--Fusion Beam Fighter (Halberdier HFA)-->
-	<object ODF="hfighterb.odf">
-		<requirement race="hydran">
-			<obj>hbase.odf</obj>
-			<obj>houtpost.odf</obj>
-			<obj>HydMiscR2.odf</obj>
-			<obj>HydMiscR4.odf</obj>
-		</requirement>
-	</object>
 	<!--Scout Frigate (Archer Class HFS)-->
 	<object ODF="hscout.odf">
 		<requirement race="hydran">
@@ -233,6 +215,29 @@
 	<object ODF="hapcan.odf">
 		<requirement race="hydran">
 			<obj>HydMiscR6.odf</obj>
+		</requirement>
+	</object>
+	<!--***[ HYDRAN FIGHTERS AND HANGARS ]**************-->
+	<!--Hellbore Fighter (Fusileer HFA)-->
+	<object ODF="hfighter.odf" />
+	<!--Fusion Beam Fighter (Halberdier HFA)-->
+	<object ODF="hfighterb.odf" />
+	<!--Hellbore Fighter spawner-->
+	<object ODF="hhangar2a.odf">
+		<requirement race="hydran">
+			<obj>hbase.odf</obj>
+			<obj>houtpost.odf</obj>
+			<obj>HydMiscR3.odf</obj>
+			<obj>HydMiscR4.odf</obj>
+		</requirement>
+	</object>
+	<!--Fusion Beam Fighter spawner-->
+	<object ODF="hhangar2b.odf">
+		<requirement race="hydran">
+			<obj>hbase.odf</obj>
+			<obj>houtpost.odf</obj>
+			<obj>HydMiscR2.odf</obj>
+			<obj>HydMiscR4.odf</obj>
 		</requirement>
 	</object>
 </techtree>
