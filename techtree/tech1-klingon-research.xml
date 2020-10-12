@@ -234,7 +234,7 @@
 	<!--***[ KLINGON MIXED TECH ]*********************-->
 	<!--Federation Tech (EsPlaD) - Capture-->
 	<object ODF="KliMix1.odf">
-		<requirement race="cardassian">
+		<requirement race="cardassian" buttonHideUnavailable="true">
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
 			<obj>fconst.odf</obj>
@@ -242,7 +242,7 @@
 	</object>
 	<!--Romulan Tech (Sensor Cloaking) - Allied-->
 	<object ODF="KliMix2.odf">
-		<requirement race="cardassian">
+		<requirement race="cardassian" buttonHideUnavailable="true">
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
 			<obj mustNotHave="true">KliMix3.odf</obj>
@@ -250,7 +250,7 @@
 	</object>
 	<!--Romulan Tech (Sensor Cloaking) - Capture-->
 	<object ODF="KliMix3.odf">
-		<requirement race="cardassian">
+		<requirement race="cardassian" buttonHideUnavailable="true">
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
 			<obj>rconst.odf</obj>
@@ -259,7 +259,7 @@
 	</object>
 	<!--Gorn Tech (Qeh&apos;Ral) - Capture-->
 	<object ODF="KliMix4.odf">
-		<requirement race="cardassian">
+		<requirement race="cardassian" buttonHideUnavailable="true">
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
 			<obj>gconst.odf</obj>
@@ -267,7 +267,7 @@
 	</object>
 	<!--ISC Tech (Grappler Beam) - Capture-->
 	<object ODF="KliMix5.odf">
-		<requirement race="cardassian">
+		<requirement race="cardassian" buttonHideUnavailable="true">
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
 			<obj>iconst.odf</obj>
@@ -275,7 +275,7 @@
 	</object>
 	<!--Hydran Tech (Steelfist) - Capture-->
 	<object ODF="KliMix6.odf">
-		<requirement race="cardassian">
+		<requirement race="cardassian" buttonHideUnavailable="true">
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
 			<obj>hconst.odf</obj>
@@ -283,14 +283,14 @@
 	</object>
 	<!--Lyran Tech (ESGs) - Allied-->
 	<object ODF="KliMix7.odf">
-		<requirement race="cardassian">
+		<requirement race="cardassian" buttonHideUnavailable="true">
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
 		</requirement>
 	</object>
 	<!--Unique Battleship (IKS Qeh&apos;ral)-->
 	<object ODF="KQehral.odf">
-		<requirement race="cardassian">
+		<requirement race="cardassian" buttonHideUnavailable="true">
 			<obj>kbase.odf</obj>
 			<obj>klihull4.odf</obj>
 			<obj>kliMiscR1.odf</obj>
@@ -325,13 +325,13 @@
 	</object>
 	<!--Grappler (Suspicious-C Class KFC)-->
 	<object ODF="gHoldBm.odf">
-		<requirement race="cardassian">
+		<requirement race="cardassian" buttonHideUnavailable="true">
 			<obj>KliMix5.odf</obj>
 		</requirement>
 	</object>
 	<!--Expanding Sphere Generator (Poisoned Barb)-->
 	<object ODF="gKESG2.odf">
-		<requirement race="cardassian">
+		<requirement race="cardassian" buttonHideUnavailable="true">
 			<obj>KliMix7.odf</obj>
 		</requirement>
 	</object>
