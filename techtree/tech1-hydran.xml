@@ -220,102 +220,32 @@
 	<!--***[ HYDRAN FIGHTERS AND HANGARS ]**************-->
 	<!--Hellbore Fighter (Fusileer HFA)-->
 	<object ODF="hfighter.odf">
- 		<!-- <requirement race="hydran"> -->
-			<!-- <obj>hbase.odf</obj> -->
-			<!-- <obj>houtpost.odf</obj> -->
-			<!-- <obj>HydMiscR3.odf</obj> -->
-			<!-- <obj>HydMiscR4.odf</obj> -->
-		<!-- </requirement> -->
+ 		<requirement race="hydran">
+			<obj>hbase.odf</obj>
+			<obj>houtpost.odf</obj>
+			<obj>HydMiscR3.odf</obj>
+			<obj>HydMiscR4.odf</obj>
+		</requirement>
 	</object>
 	<!--Hellbore Fighter spawners-->
-	<object ODF="hhangar2a.odf">
-		<requirement race="hydran">
-			<obj>hbase.odf</obj>
-			<obj>houtpost.odf</obj>
-			<obj>HydMiscR3.odf</obj>
-			<obj>HydMiscR4.odf</obj>
-		</requirement>
-	</object>
-	<object ODF="hhangar3a.odf">
-		<requirement race="hydran">
-			<obj>hbase.odf</obj>
-			<obj>houtpost.odf</obj>
-			<obj>HydMiscR3.odf</obj>
-			<obj>HydMiscR4.odf</obj>
-		</requirement>
-	</object>
-	<object ODF="hhangar4a.odf">
-		<requirement race="hydran">
-			<obj>hbase.odf</obj>
-			<obj>houtpost.odf</obj>
-			<obj>HydMiscR3.odf</obj>
-			<obj>HydMiscR4.odf</obj>
-		</requirement>
-	</object>
-	<object ODF="hhangar5a.odf">
-		<requirement race="hydran">
-			<obj>hbase.odf</obj>
-			<obj>houtpost.odf</obj>
-			<obj>HydMiscR3.odf</obj>
-			<obj>HydMiscR4.odf</obj>
-		</requirement>
-	</object>
-	<object ODF="hhangar6a.odf">
-		<requirement race="hydran">
-			<obj>hbase.odf</obj>
-			<obj>houtpost.odf</obj>
-			<obj>HydMiscR3.odf</obj>
-			<obj>HydMiscR4.odf</obj>
-		</requirement>
-	</object>
+	<object ODF="hhangar2a.odf" />
+	<object ODF="hhangar3a.odf" />
+	<object ODF="hhangar4a.odf" />
+	<object ODF="hhangar5a.odf" />
+	<object ODF="hhangar6a.odf" />
 	<!--Fusion Beam Fighter (Halberdier HFA)-->
  	<object ODF="hfighterb.odf">
-		<!-- <requirement race="hydran"> -->
-			<!-- <obj>hbase.odf</obj> -->
-			<!-- <obj>houtpost.odf</obj> -->
-			<!-- <obj>HydMiscR2.odf</obj> -->
-			<!-- <obj>HydMiscR4.odf</obj> -->
-		<!-- </requirement> -->
+		<requirement race="hydran">
+			<obj>hbase.odf</obj>
+			<obj>houtpost.odf</obj>
+			<obj>HydMiscR2.odf</obj>
+			<obj>HydMiscR4.odf</obj>
+		</requirement>
 	</object>
 	<!--Fusion Beam Fighter spawner-->
-	<object ODF="hhangar2b.odf">
-		<requirement race="hydran">
-			<obj>hbase.odf</obj>
-			<obj>houtpost.odf</obj>
-			<obj>HydMiscR2.odf</obj>
-			<obj>HydMiscR4.odf</obj>
-		</requirement>
-	</object>
-	<object ODF="hhangar3b.odf">
-		<requirement race="hydran">
-			<obj>hbase.odf</obj>
-			<obj>houtpost.odf</obj>
-			<obj>HydMiscR2.odf</obj>
-			<obj>HydMiscR4.odf</obj>
-		</requirement>
-	</object>
-	<object ODF="hhangar4b.odf">
-		<requirement race="hydran">
-			<obj>hbase.odf</obj>
-			<obj>houtpost.odf</obj>
-			<obj>HydMiscR2.odf</obj>
-			<obj>HydMiscR4.odf</obj>
-		</requirement>
-	</object>
-	<object ODF="hhangar5b.odf">
-		<requirement race="hydran">
-			<obj>hbase.odf</obj>
-			<obj>houtpost.odf</obj>
-			<obj>HydMiscR2.odf</obj>
-			<obj>HydMiscR4.odf</obj>
-		</requirement>
-	</object>
-	<object ODF="hhangar6b.odf">
-		<requirement race="hydran">
-			<obj>hbase.odf</obj>
-			<obj>houtpost.odf</obj>
-			<obj>HydMiscR2.odf</obj>
-			<obj>HydMiscR4.odf</obj>
-		</requirement>
-	</object>
+	<object ODF="hhangar2b.odf" />
+	<object ODF="hhangar3b.odf" />
+	<object ODF="hhangar4b.odf" />
+	<object ODF="hhangar5b.odf" />
+	<object ODF="hhangar6b.odf" />
 </techtree>
