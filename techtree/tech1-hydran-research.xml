@@ -203,6 +203,7 @@
 	<!--Federation Tech (Esplads) - Allied-->
 	<object ODF="HydMix1.odf">
 		<requirement race="hydran">
+			<ally race="federation" />
 			<obj>hbase.odf</obj>
 			<obj>hresearchc.odf</obj>
 		</requirement>
@@ -226,6 +227,7 @@
 	<!--Gorn Tech (GDDS) - Allied-->
 	<object ODF="HydMix4.odf">
 		<requirement race="hydran">
+			<ally race="klingon" />
 			<obj>hbase.odf</obj>
 			<obj>hresearchc.odf</obj>
 		</requirement>
