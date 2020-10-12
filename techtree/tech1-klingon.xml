@@ -6,26 +6,26 @@
 	<!--***[ KLINGON SHIPS ]***************************-->
 	<!--Construction Tender (Warpig Class KACS)-->
 	<object ODF="kconst.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 		</requirement>
 	</object>
 	<!--Mining Freighter (Bloodline Class KDF)-->
 	<object ODF="kfreight.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 		</requirement>
 	</object>
 	<!--Cargo Freighter (Lifeblood Class KAK)-->
 	<object ODF="kcargo.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>klihull2.odf</obj>
 		</requirement>
 	</object>
 	<!--Repair Frigate (Suspicious-R Class KAR)-->
 	<object ODF="ksrepair.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kresearcha.odf</obj>
 			<obj>kliEqu2.odf</obj>
@@ -33,7 +33,7 @@
 	</object>
 	<!--Colony Ship (Brave Settler Class KFB)-->
 	<object ODF="kcolony.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>klihull2.odf</obj>
 			<obj>kliMiscR3.odf</obj>
@@ -41,14 +41,14 @@
 	</object>
 	<!--Assault Transport (Poisoned Barb Class KAPA)-->
 	<object ODF="kassault.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>klihull2.odf</obj>
 		</requirement>
 	</object>
 	<!--Fighter (Iron Fist Class KFA)-->
 	<object ODF="kfighter.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>koutpost.odf</obj>
 			<obj>kcarrier.odf</obj>
@@ -56,34 +56,34 @@
 	</object>
 	<!--Escort (Bird of Prey Class KEC)-->
 	<object ODF="kescort.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>klihull5.odf</obj>
 		</requirement>
 	</object>
 	<!--Science Frigate (Suspicious-S Class KFS)-->
 	<object ODF="ksfrigate.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kliEqu1.odf</obj>
 		</requirement>
 	</object>
 	<!--Cargo Frigate (Suspicious-C Class KFC)-->
 	<object ODF="kcfrigate.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kliEqu2.odf</obj>
 		</requirement>
 	</object>
 	<!--Battle Frigate (Suspicious Class KFF)-->
 	<object ODF="kfrigate.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 		</requirement>
 	</object>
 	<!--Destroyer (Insurrection Class KDD)-->
 	<object ODF="kdestroy.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>klihull1.odf</obj>
 			<obj>klipod1.odf</obj>
@@ -91,7 +91,7 @@
 	</object>
 	<!--Destroyer Leader (Captain Class KDL)-->
 	<object ODF="kdestroyl.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>klihull1.odf</obj>
 			<obj>kliEqu3.odf</obj>
@@ -99,21 +99,21 @@
 	</object>
 	<!--Light Cruiser (Relentless Class KCL)-->
 	<object ODF="klcruise.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kliHull2.odf</obj>
 		</requirement>
 	</object>
 	<!--Heavy Cruiser (Great Powerful Conquerer Class KCA)-->
 	<object ODF="kcruise.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kliHull2.odf</obj>
 		</requirement>
 	</object>
 	<!--Scout Cruiser (War Scout Class KCS)-->
 	<object ODF="kscruise.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kliHull2.odf</obj>
 			<obj>kliEqu4.odf</obj>
@@ -121,7 +121,7 @@
 	</object>
 	<!--Torpedo Cruiser (Shortsword Class KCT)-->
 	<object ODF="ktcruise.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kliHull2.odf</obj>
 			<obj>kliEqu5.odf</obj>
@@ -132,7 +132,7 @@
 	</object>
 	<!--Command Cruiser (Warrior&apos;s Anger Class KCC)-->
 	<object ODF="kccruise.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>klihull2.odf</obj>
 			<obj>kliEqu5.odf</obj>
@@ -142,14 +142,14 @@
 	</object>
 	<!--Battlecruiser (Kronos Class KBC)-->
 	<object ODF="kqonos.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>klihull2.odf</obj>
 		</requirement>
 	</object>
 	<!--Battlecruiser (Emperor Class KBC)-->
 	<object ODF="kbcruise.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>klihull2.odf</obj>
 			<obj>kliEqu5.odf</obj>
@@ -159,7 +159,7 @@
 	</object>
 	<!--Supercruiser (Bird of Blood Class KCB)-->
 	<object ODF="kbertaa.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>klihull3.odf</obj>
 			<obj>klipod2.odf</obj>
@@ -167,7 +167,7 @@
 	</object>
 	<!--Dreadnought (Accuser Class KDN)-->
 	<object ODF="kdread.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>klihull3.odf</obj>
 			<obj>kliMiscR1.odf</obj>
@@ -177,7 +177,7 @@
 	</object>
 	<!--Battleship (Sword of Kahless Class KBB)-->
 	<object ODF="kbattle.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>klihull4.odf</obj>
 			<obj>kliMiscR1.odf</obj>
@@ -187,7 +187,7 @@
 	</object>
 	<!--Experimental Warship (Bird of Prey Class KECX)-->
 	<object ODF="ksuper.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>ksuperbl.odf</obj>
 			<obj>klihull5.odf</obj>
@@ -196,7 +196,7 @@
 	</object>
 	<!--Battlecarrier (Mother of Death Class KCVB)-->
 	<object ODF="kcarrier.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>klihull4.odf</obj>
 			<obj>kliMiscR1.odf</obj>
@@ -205,7 +205,7 @@
 	<!--***[ KLINGON RESEARCH PROJECTS ]*********************-->
 	<!--Hull Research (F Series)-->
 	<object ODF="kliHull1.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kresearcha.odf</obj>
 			<obj>klihull5.odf</obj>
@@ -213,7 +213,7 @@
 	</object>
 	<!--Hull Research (D Series)-->
 	<object ODF="kliHull2.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kresearcha.odf</obj>
 			<obj>kliHull5.odf</obj>
@@ -221,7 +221,7 @@
 	</object>
 	<!--Hull Research (C-I Series)-->
 	<object ODF="kliHull3.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kresearcha.odf</obj>
 			<obj>klihull2.odf</obj>
@@ -229,7 +229,7 @@
 	</object>
 	<!--Hull Research (B Series)-->
 	<object ODF="kliHull4.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kresearcha.odf</obj>
 			<obj>kliHull3.odf</obj>
@@ -237,28 +237,28 @@
 	</object>
 	<!--Hull Research (E Series)-->
 	<object ODF="kliHull5.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kresearcha.odf</obj>
 		</requirement>
 	</object>
 	<!--Conversion Kit (Science Frigate FS)-->
 	<object ODF="kliequ1.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kresearchb.odf</obj>
 		</requirement>
 	</object>
 	<!--Conversion Kit (Cargo Frigate FC)-->
 	<object ODF="kliequ2.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kresearchb.odf</obj>
 		</requirement>
 	</object>
 	<!--Conversion Kit (Destroyer Leader DL)-->
 	<object ODF="kliequ3.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kresearchb.odf</obj>
 			<obj>klihull1.odf</obj>
@@ -267,7 +267,7 @@
 	</object>
 	<!--Conversion Kit (Scout Cruiser CS)-->
 	<object ODF="kliequ4.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kresearchb.odf</obj>
 			<obj>klihull2.odf</obj>
@@ -276,7 +276,7 @@
 	</object>
 	<!--Conversion Kit (C-II Series Conversion)-->
 	<object ODF="kliequ5.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kresearchb.odf</obj>
 			<obj>klihull2.odf</obj>
@@ -284,7 +284,7 @@
 	</object>
 	<!--Research Pod (Trilithium Depeleted Pellets - Heavy Photon Torpedoes)-->
 	<object ODF="klimiscR1.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
 			<obj>kliequ5.odf</obj>
@@ -292,7 +292,7 @@
 	</object>
 	<!--Research Pod (Dual Forward Torpedo Tubes - Capital Ships and Cruisers)-->
 	<object ODF="klimiscR2.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
 			<obj>kliHull2.odf</obj>
@@ -300,7 +300,7 @@
 	</object>
 	<!--Research Pod (Centreform Non-Propulsive Nacelles - Specialised Cruisers)-->
 	<object ODF="klimiscR3.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
 			<obj>kliHull2.odf</obj>
@@ -308,7 +308,7 @@
 	</object>
 	<!--Research Pod (Proximity Detonation Fuses - Proximity Torpedoes)-->
 	<object ODF="klimiscR4.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
 			<obj>kliHull2.odf</obj>
@@ -316,7 +316,7 @@
 	</object>
 	<!--Research Pod (Frequency Modulated Particle Weapons - FMPA Cannons)-->
 	<object ODF="klipod1.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
 			<obj>kliHull5.odf</obj>
@@ -324,7 +324,7 @@
 	</object>
 	<!--Research Pod (Dual Advanced Weapon Wing Mounts - Dual FMPA Cannons)-->
 	<object ODF="klipod2.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
 			<obj>klipod1.odf</obj>
@@ -332,7 +332,7 @@
 	</object>
 	<!--Research Pod (Gravitic Harmonous Resonator Examination - Captured Gorn Weapon)-->
 	<object ODF="klipod3.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
 			<obj>kliequ5.odf</obj>
@@ -340,7 +340,7 @@
 	</object>
 	<!--Research Pod (Anti-Matter Field Projection Technology - Heavy Weaponry)-->
 	<object ODF="klipod4.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
 			<obj>klimiscR3.odf</obj>
@@ -348,7 +348,7 @@
 	</object>
 	<!--Research Pod (Enhanced Warp Cores - Assault Phaser Power Capacitor)-->
 	<object ODF="klipod5.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
 			<obj>klimiscR3.odf</obj>
@@ -357,7 +357,7 @@
 	</object>
 	<!--Research Pod (Modified Cloaking Fields - Project pIH D&apos;ktagh)-->
 	<object ODF="klipod6.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
 			<obj>ksuperbl.odf</obj>
@@ -366,70 +366,70 @@
 	</object>
 	<!--Research Pod (Weapon Overload Systems - Weapon Systems Upgrade I)-->
 	<object ODF="klipod11.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kupgrade.odf</obj>
 		</requirement>
 	</object>
 	<!--Research Pod (Rephased Shield Systems - Shield Systems Upgrade I)-->
 	<object ODF="klipod12.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kupgrade.odf</obj>
 		</requirement>
 	</object>
 	<!--Research Pod (Sensor Reallignment - Sensor Package Upgrade I)-->
 	<object ODF="klipod13.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kupgrade.odf</obj>
 		</requirement>
 	</object>
 	<!--Research Pod (Warp Field Manipulation - Propulsion Systems Upgrade I)-->
 	<object ODF="klipod14.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kupgrade.odf</obj>
 		</requirement>
 	</object>
 	<!--Research Pod (Life Support Redundancy Systems - Life Support Systems Upgrade I)-->
 	<object ODF="klipod15.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kupgrade.odf</obj>
 		</requirement>
 	</object>
 	<!--Research Pod (Disruptor Packet Power Booster - Weapon Systems Upgrade II)-->
 	<object ODF="klipod21.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>klipod11.odf</obj>
 		</requirement>
 	</object>
 	<!--Research Pod (Hyperphased Shield Modulation - Shield Systems Upgrade II)-->
 	<object ODF="klipod22.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>klipod12.odf</obj>
 		</requirement>
 	</object>
 	<!--Research Pod (Additive Sensor Power Relays - Sensor Package Upgrade II)-->
 	<object ODF="klipod23.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>klipod13.odf</obj>
 		</requirement>
 	</object>
 	<!--Research Pod (Hydrogen Injection Nozzles - Propulsion Systems Upgrade II)-->
 	<object ODF="klipod24.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>klipod14.odf</obj>
 		</requirement>
 	</object>
 	<!--Research Pod (Auxilliary Gravitational Field Generator - Life Support Systems Upgrade II)-->
 	<object ODF="klipod25.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>klipod15.odf</obj>
 		</requirement>
@@ -437,7 +437,7 @@
 	<!--***[ KLINGON MIXED TECH ]*********************-->
 	<!--Federation Tech (EsPlaD) - Capture-->
 	<object ODF="KliMix1.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
 			<obj>fconst.odf</obj>
@@ -445,14 +445,14 @@
 	</object>
 	<!--Romulan Tech (Sensor Cloaking) - Allied-->
 	<object ODF="KliMix2.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
 		</requirement>
 	</object>
 	<!--Romulan Tech (Sensor Cloaking) - Capture-->
 	<object ODF="KliMix3.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
 			<obj>rconst.odf</obj>
@@ -460,7 +460,7 @@
 	</object>
 	<!--Gorn Tech (Qeh&apos;Ral) - Capture-->
 	<object ODF="KliMix4.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
 			<obj>gconst.odf</obj>
@@ -468,7 +468,7 @@
 	</object>
 	<!--ISC Tech (Grappler Beam) - Capture-->
 	<object ODF="KliMix5.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
 			<obj>iconst.odf</obj>
@@ -476,7 +476,7 @@
 	</object>
 	<!--Hydran Tech (Steelfist) - Capture-->
 	<object ODF="KliMix6.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
 			<obj>hconst.odf</obj>
@@ -484,14 +484,14 @@
 	</object>
 	<!--Lyran Tech (ESGs) - Allied-->
 	<object ODF="KliMix7.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kresearchc.odf</obj>
 		</requirement>
 	</object>
 	<!--Unique Battleship (IKS Qeh&apos;ral)-->
 	<object ODF="KQehral.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>klihull4.odf</obj>
 			<obj>kliMiscR1.odf</obj>
@@ -502,7 +502,7 @@
 	</object>
 	<!--Fighter (Steelfist FFA)-->
 	<object ODF="KFighterB.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>koutpost.odf</obj>
 			<obj>kcarrier.odf</obj>
@@ -511,31 +511,31 @@
 	</object>
 	<!--Cloak Detection (Suspicious-S Class KFS)-->
 	<object ODF="gDetectK.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>KliMix1.odf</obj>
 		</requirement>
 	</object>
 	<!--Sensor Array Cloak (Allied)-->
 	<object ODF="gKCloakR.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>KliMix2.odf</obj>
 		</requirement>
 	</object>
 	<!--Sensor Array Cloak (Capture)-->
 	<object ODF="gKCloakR2.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>KliMix3.odf</obj>
 		</requirement>
 	</object>
 	<!--Grappler (Suspicious-C Class KFC)-->
 	<object ODF="gHoldBm.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>KliMix5.odf</obj>
 		</requirement>
 	</object>
 	<!--Expanding Sphere Generator (Poisoned Barb)-->
 	<object ODF="gKESG2.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>KliMix7.odf</obj>
 		</requirement>
 	</object>
@@ -544,43 +544,43 @@
 	<object ODF="kbase.odf"/>
 	<!--Outpost-->
 	<object ODF="koutpost.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 		</requirement>
 	</object>
 	<!--Dilithium Refinery-->
 	<object ODF="kmining.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 		</requirement>
 	</object>
 	<!--Orbital Processing Facility K-->
 	<object ODF="korbital.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 		</requirement>
 	</object>
 	<!--Sensor Array-->
 	<object ODF="ksensor.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 		</requirement>
 	</object>
 	<!--Type KA Mine-->
 	<object ODF="kmine.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 		</requirement>
 	</object>
 	<!--Shipyard K-->
 	<object ODF="kyard.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 		</requirement>
 	</object>
 	<!--Imperial Shipyard-->
 	<object ODF="kyard2.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kresearcha.odf</obj>
 			<obj>kresearchb.odf</obj>
@@ -589,31 +589,31 @@
 	</object>
 	<!--Trading Station K-->
 	<object ODF="ktrading.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 		</requirement>
 	</object>
 	<!--KDF Warship Research Laboratory (Hulls)-->
 	<object ODF="kresearcha.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 		</requirement>
 	</object>
 	<!--KDF Warship Conversion Laboratory (Conversions)-->
 	<object ODF="kresearchb.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 		</requirement>
 	</object>
 	<!--Imperial Armory (Equipment)-->
 	<object ODF="kresearchc.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 		</requirement>
 	</object>
 	<!--Imperial Research Institute (Upgrades)-->
 	<object ODF="kupgrade.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kresearcha.odf</obj>
 			<obj>kresearchb.odf</obj>
@@ -622,7 +622,7 @@
 	</object>
 	<!--Project pIH D&apos;ktagh Station (Super Station)-->
 	<object ODF="ksuperbl.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>kbase.odf</obj>
 			<obj>kupgrade.odf</obj>
 		</requirement>
@@ -630,32 +630,32 @@
 	<!--***[ KLINGON ADVANCED WEAPONS ]*****************-->
 	<!--Assault Phaser (Sword of Kahless Class KBB)-->
 	<object ODF="gkassault.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>klipod5.odf</obj>
 			<obj>klipod21.odf</obj>
 		</requirement>
 	</object>
 	<!--Gravimetric Harmonic Resonance Cannon (Warrior&apos;s Anger Class KCC)-->
 	<object ODF="gkghrc.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>klipod3.odf</obj>
 		</requirement>
 	</object>
 	<!--Anti-Matter Field Projector (Accuser Class KDN)-->
 	<object ODF="gkamfp.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>klipod4.odf</obj>
 		</requirement>
 	</object>
 	<!--Communication Jammer (Suspicious-S Class KFS)-->
 	<object ODF="gkjammer.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>klipod23.odf</obj>
 		</requirement>
 	</object>
 	<!--Experimental Cloak (Bird of Prey Class KECX)-->
 	<object ODF="gkfwc.odf">
-		<requirement>
+		<requirement race="cardassian">
 			<obj>klipod6.odf</obj>
 			<obj>ksuperbl.odf</obj>
 		</requirement>
