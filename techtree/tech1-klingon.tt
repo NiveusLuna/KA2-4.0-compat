@@ -32,6 +32,8 @@ kbattle.odf	  5 kbase.odf klihull4.odf kliMiscR1.odf kliMiscR2.odf klipod2.odf		
 ksuper.odf	  4 kbase.odf ksuperbl.odf klihull5.odf klipod6.odf									// Experimental Warship (Bird of Prey Class KECX)
 kcarrier.odf  3 kbase.odf klihull4.odf kliMiscR1.odf											// Battlecarrier (Mother of Death Class KCVB)
 
+khero.odf	  5 kbase.odf klihull2.odf kliEqu5.odf kliMiscR1.odf klipod2.odf					// IKS TegH'GaH (Hero Ship)
+
 // ***[ KLINGON RESEARCH PROJECTS ]*********************
 
 kliHull1.odf  3 kbase.odf kresearcha.odf klihull5.odf	// Hull Research (F Series)
@@ -68,6 +70,8 @@ klipod23.odf  2 kbase.odf klipod13.odf // Research Pod (Additive Sensor Power Re
 klipod24.odf  2 kbase.odf klipod14.odf // Research Pod (Hydrogen Injection Nozzles - Propulsion Systems Upgrade II)
 klipod25.odf  2 kbase.odf klipod15.odf // Research Pod (Auxilliary Gravitational Field Generator - Life Support Systems Upgrade II)
 
+shieldKlingon.odf  1 klipod22.odf	   // Planetary Shield (Klingon)
+
 // ***[ KLINGON MIXED TECH ]*********************
 
 KliMix1.odf 3 kbase.odf kresearchc.odf fconst.odf									// Federation Tech (EsPlaD) - Capture
@@ -84,32 +88,36 @@ KFighterB.odf	4 kbase.odf koutpost.odf kcarrier.odf KliMix6.odf							  // Fight
 gDetectK.odf	1 KliMix1.odf								   // Cloak Detection (Suspicious-S Class KFS)
 gKCloakR.odf	1 KliMix2.odf								   // Sensor Array Cloak (Allied)
 gKCloakR2.odf	1 KliMix3.odf								   // Sensor Array Cloak (Capture)
-gHoldBm.odf		1 KliMix5.odf								   // Grappler (Suspicious-C Class KFC)
+gKGrappler.odf	1 KliMix5.odf								   // Grappler (Suspicious-C Class KFC)
 gKESG2.odf		1 KliMix7.odf								   // Expanding Sphere Generator (Poisoned Barb)
+
+KCarrierUp.odf	1 KliMix6.odf								   // Carrier Upgrade
+
+KOrionWarpIn.odf	 2 kbase.odf kyard.odf					   // Orion Pirate Warp-In Ability
+KShakurianWarpIn.odf 2 kbase.odf kyard.odf					   // ShaKurian Mercenary Warp-In Ability
 
 // ***[ KLINGON STATIONS ]*********************
 //
-kbase.odf		0												  // Starbase K
-koutpost.odf	1 kbase.odf											  // Outpost
-kmining.odf		1 kbase.odf											  // Dilithium Refinery
-korbital.odf	1 kbase.odf							  // Orbital Processing Facility K
-ksensor.odf		1 kbase.odf										  // Sensor Array
-kmine.odf		1 kbase.odf										  // Type KA Mine
-kyard.odf		1 kbase.odf										  // Shipyard K
+kbase.odf		0														  // Starbase K
+koutpost.odf	1 kbase.odf												  // Outpost
+kmining.odf		1 kbase.odf												  // Dilithium Refinery
+korbital.odf	1 kbase.odf												  // Orbital Processing Facility K
+ksensor.odf		1 kbase.odf												  // Sensor Array
+kmine.odf		1 kbase.odf												  // Type KA Mine
+kyard.odf		1 kbase.odf												  // Shipyard K
 kyard2.odf		4 kbase.odf kresearcha.odf kresearchb.odf kresearchc.odf  // Imperial Shipyard
-ktrading.odf	1 kbase.odf										  // Trading Station K
-kresearcha.odf	1 kbase.odf										  // KDF Warship Research Laboratory (Hulls)
-kresearchb.odf	1 kbase.odf										  // KDF Warship Conversion Laboratory (Conversions)
-kresearchc.odf	1 kbase.odf										  // Imperial Armory (Equipment)
+ktrading.odf	1 kbase.odf												  // Trading Station K
+kresearcha.odf	1 kbase.odf												  // KDF Warship Research Laboratory (Hulls)
+kresearchb.odf	1 kbase.odf												  // KDF Warship Conversion Laboratory (Conversions)
+kresearchc.odf	1 kbase.odf												  // Imperial Armory (Equipment)
 kupgrade.odf	4 kbase.odf kresearcha.odf kresearchb.odf kresearchc.odf  // Imperial Research Institute (Upgrades)
-ksuperbl.odf	2 kbase.odf kupgrade.odf				  // Project pIH D'ktagh Station (Super Station)
+ksuperbl.odf	2 kbase.odf kupgrade.odf								  // Project pIH D'ktagh Station (Super Station)
 
 // ***[ KLINGON ADVANCED WEAPONS ]*****************
 //
-gkassault.odf 2 klipod5.odf klipod21.odf				// Assault Phaser (Sword of Kahless Class KBB)
-gkghrc.odf	  1 klipod3.odf								// Gravimetric Harmonic Resonance Cannon (Warrior's Anger Class KCC)
-gkamfp.odf	  1 klipod4.odf							// Anti-Matter Field Projector (Accuser Class KDN)
-gkjammer.odf  1 klipod23.odf						// Communication Jammer (Suspicious-S Class KFS)
-gkfwc.odf	  2 klipod6.odf ksuperbl.odf			// Experimental Cloak (Bird of Prey Class KECX)
-gkcloak.odf	  0							// Klingon Specific Cloak
-ksphoton.odf  0							// Photon Torpedo - Fighter Version
+gKAssault.odf 2 klipod5.odf klipod21.odf				// Assault Phaser (Sword of Kahless Class KBB)
+gKGHRC.odf	  1 klipod3.odf								// Gravimetric Harmonic Resonance Cannon (Warrior's Anger Class KCC)
+gKAMFP.odf	  1 klipod4.odf								// Anti-Matter Field Projector (Accuser Class KDN)
+gKJammer.odf  1 klipod23.odf							// Communication Jammer (Suspicious-S Class KFS)
+gKCloakE.odf  0											// Experimental Cloak (Bird of Prey Class KECX)
+gKCloak.odf	  0											// Klingon Specific Cloak
