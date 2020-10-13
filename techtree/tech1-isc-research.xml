@@ -400,6 +400,12 @@
 			<obj>ISCMix5.odf</obj>
 		</requirement>
 	</object>
+	<!--Upgraded Carrier-->
+	<object ODF="ICarrierB.odf">
+		<requirement race="borg">
+			<obj>ISCMix5.odf</obj>
+		</requirement>
+	</object>
 	<!--Frigate Refit-->
 	<object ODF="IFFRefit.odf">
 		<requirement race="borg">
