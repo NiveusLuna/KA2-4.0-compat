@@ -217,7 +217,7 @@
 			<obj>HydMiscR6.odf</obj>
 		</requirement>
 	</object>
-	<!--***[ HYDRAN FIGHTERS AND HANGARS ]**************-->
+	<!--***[ HYDRAN FIGHTERS ]**************-->
 	<!--Hellbore Fighter (Fusileer HFA)-->
 	<object ODF="hfighter.odf">
  		<requirement race="hydran">
@@ -228,11 +228,6 @@
 		</requirement>
 	</object>
 	<!--Hellbore Fighter spawners-->
-	<object ODF="hhangar2a.odf" />
-	<object ODF="hhangar3a.odf" />
-	<object ODF="hhangar4a.odf" />
-	<object ODF="hhangar5a.odf" />
-	<object ODF="hhangar6a.odf" />
 	<!--Fusion Beam Fighter (Halberdier HFA)-->
  	<object ODF="hfighterb.odf">
 		<requirement race="hydran">
@@ -243,9 +238,4 @@
 		</requirement>
 	</object>
 	<!--Fusion Beam Fighter spawner-->
-	<object ODF="hhangar2b.odf" />
-	<object ODF="hhangar3b.odf" />
-	<object ODF="hhangar4b.odf" />
-	<object ODF="hhangar5b.odf" />
-	<object ODF="hhangar6b.odf" />
 </techtree>

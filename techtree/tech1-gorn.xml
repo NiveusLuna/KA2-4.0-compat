@@ -312,6 +312,4 @@
 			<obj>gsuperbl.odf</obj>
 		</requirement>
 	</object>
-	<!--Hangar (fighter spawner)-->
-	<object ODF="GHangar.odf" />
 </techtree>

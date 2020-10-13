@@ -307,7 +307,7 @@
 			<obj>fmonitoring.odf</obj>
 		</requirement>
 	</object>
-	<!-- ***[ FEDERATION FIGHTERS, SHUTTLES, AND HANGARS ]*********** -->
+	<!-- ***[ FEDERATION FIGHTERS AND SHUTTLES ]*********** -->
 	<!--Fighter (Hornet FFA)-->
 	<object ODF="ffighter.odf">
 		<requirement race="federation">
@@ -316,14 +316,6 @@
 			<obj>fcarrier.odf</obj>
 		</requirement>
 	</object>
-	<!-- Hangars -->
-	<object ODF="FHangar.odf" />
-	<object ODF="FHangarAS1.odf" />
-	<object ODF="FHangarAS2.odf" />
-	<object ODF="FHangarAS3.odf" />
-	<object ODF="FHangarS1.odf" />
-	<object ODF="FHangarS2.odf" />
-	<object ODF="FHangarS3.odf" />
 	<!-- Wasp assault shuttle -->
 	<object ODF="FAShuttle.odf">
 		<requirement race="federation">
