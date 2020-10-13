@@ -361,6 +361,7 @@
 		</requirement>
 	</object>
 	
+	<!-- Gorn carrier cap -->
 	<capacitylist name="GornCarrierLimit" maxCapValue="1"
 	tooltip="Ship available" tooltipOver="Already built"
 	tooltipReached="Already built" countConstructions="true">
