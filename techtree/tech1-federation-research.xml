@@ -281,8 +281,8 @@
 		</requirement>
 	</object>
 	<!--Planetary Shield (Federation)-->
-	<object ODF="shieldFederation.odf" buttonHideUnavailable="true">
-		<requirement race="federation">
+	<object ODF="shieldFederation.odf">
+		<requirement race="federation" buttonHideUnavailable="true">
 			<obj>fedpod22.odf</obj>
 		</requirement>
 	</object>
