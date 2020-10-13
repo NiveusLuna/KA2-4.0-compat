@@ -250,7 +250,7 @@
 	</object>
 	<!--Esplads (Sensor Post)-->
 	<object ODF="gDetectH.odf">
-		<requirement race="hydran" buttonHideUnavailable="true">
+		<requirement race="hydran">
 			<obj>hydmix1.odf</obj>
 		</requirement>
 	</object>
