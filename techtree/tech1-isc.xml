@@ -175,6 +175,8 @@
 	<!--Commander Nortene-->
 	<object ODF="ihero.odf">
 		<requirement race="borg">
+			<cap maxCapValue="1" tooltip="Ship available" tooltipOver="Already built"
+			tooltipReached="Already built" countConstructions="true"/>
 			<obj>ibase.odf</obj>
 			<obj>ISCHull6.odf</obj>
 			<obj>ISCEqu7.odf</obj>
