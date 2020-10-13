@@ -249,6 +249,7 @@
 		<requirement race="klingon" buttonHideUnavailable="true">
 			<obj>gbase.odf</obj>
 			<obj>gresearchc.odf</obj>
+			<ally race="federation"/>
 		</requirement>
 	</object>
 	<!--Klingon Tech (Cloak) - Capture-->
@@ -280,6 +281,7 @@
 		<requirement race="klingon" buttonHideUnavailable="true">
 			<obj>gbase.odf</obj>
 			<obj>gresearchc.odf</obj>
+			<ally race="hydran"/>
 		</requirement>
 	</object>
 	<!--Lyran Tech (GNS Queen Derenesktta) - Capture-->
