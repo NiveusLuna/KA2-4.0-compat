@@ -303,7 +303,7 @@
 	<!--***[ ISC MIXED TECH ]*********************-->
 	<!--Federation Tech (Sensor Post) - Capture-->
 	<object ODF="ISCMix1.odf">
-		<requirement race="borg">
+		<requirement race="borg" buttonHideUnavailable="true">
 			<obj>ibase.odf</obj>
 			<obj>iresearchc.odf</obj>
 			<obj>fconst.odf</obj>
@@ -311,7 +311,7 @@
 	</object>
 	<!--Klingon Tech (Grappler) - Capture-->
 	<object ODF="ISCMix2.odf">
-		<requirement race="borg">
+		<requirement race="borg" buttonHideUnavailable="true">
 			<obj>ibase.odf</obj>
 			<obj>iresearchc.odf</obj>
 			<obj>kconst.odf</obj>
@@ -319,7 +319,7 @@
 	</object>
 	<!--Romulan Tech (Cloak) - Capture-->
 	<object ODF="ISCMix3.odf">
-		<requirement race="borg">
+		<requirement race="borg" buttonHideUnavailable="true">
 			<obj>ibase.odf</obj>
 			<obj>iresearchc.odf</obj>
 			<obj>rconst.odf</obj>
@@ -327,7 +327,7 @@
 	</object>
 	<!--Gorn Tech (GHRC) - Capture-->
 	<object ODF="ISCMix4.odf">
-		<requirement race="borg">
+		<requirement race="borg" buttonHideUnavailable="true">
 			<obj>ibase.odf</obj>
 			<obj>iresearchc.odf</obj>
 			<obj>gconst.odf</obj>
@@ -335,7 +335,7 @@
 	</object>
 	<!--Hydran Tech (FA-IX Fighter) - Capture-->
 	<object ODF="ISCMix5.odf">
-		<requirement race="borg">
+		<requirement race="borg" buttonHideUnavailable="true">
 			<obj>ibase.odf</obj>
 			<obj>iresearchc.odf</obj>
 			<obj>hconst.odf</obj>
@@ -343,7 +343,7 @@
 	</object>
 	<!--Lyran Tech (Defensive ESG) - Capture-->
 	<object ODF="ISCMix6.odf">
-		<requirement race="borg">
+		<requirement race="borg" buttonHideUnavailable="true">
 			<obj>ibase.odf</obj>
 			<obj>iresearchc.odf</obj>
 			<obj>lconst.odf</obj>
@@ -359,44 +359,44 @@
 	</object>
 	<!--Sensor Buoy-->
 	<object ODF="ISensor.odf">
-		<requirement race="borg">
+		<requirement race="borg" buttonHideUnavailable="true">
 			<obj>ibase.odf</obj>
 			<obj>iscmix1.odf</obj>
 		</requirement>
 	</object>
 	<!--Grappler (APA)-->
 	<object ODF="gIGrappler.odf">
-		<requirement race="borg">
+		<requirement race="borg" buttonHideUnavailable="true">
 			<obj>iscmix2.odf</obj>
 		</requirement>
 	</object>
 	<!--Cloak (FS)-->
 	<object ODF="gICloak.odf">
-		<requirement race="borg">
+		<requirement race="borg" buttonHideUnavailable="true">
 			<obj>iscmix3.odf</obj>
 		</requirement>
 	</object>
 	<!--GHRC (DD)-->
 	<object ODF="gIGHRC.odf">
-		<requirement race="borg">
+		<requirement race="borg" buttonHideUnavailable="true">
 			<obj>iscmix4.odf</obj>
 		</requirement>
 	</object>
 	<!--GHRC (DDd)-->
 	<object ODF="gIGHRC2.odf">
-		<requirement race="borg">
+		<requirement race="borg" buttonHideUnavailable="true">
 			<obj>iscmix4.odf</obj>
 		</requirement>
 	</object>
 	<!--Defensive ESG (CV)-->
 	<object ODF="gIESG2.odf">
-		<requirement race="borg">
+		<requirement race="borg" buttonHideUnavailable="true">
 			<obj>iscmix6.odf</obj>
 		</requirement>
 	</object>
 	<!--Carrier Upgrade-->
 	<object ODF="ICarrierUp.odf">
-		<requirement race="borg">
+		<requirement race="borg" buttonHideUnavailable="true">
 			<obj>ISCMix5.odf</obj>
 		</requirement>
 	</object>
@@ -408,31 +408,31 @@
 	</object>
 	<!--Frigate Refit-->
 	<object ODF="IFFRefit.odf">
-		<requirement race="borg">
+		<requirement race="borg" buttonHideUnavailable="true">
 			<obj>ISCEqu2.odf</obj>
 		</requirement>
 	</object>
 	<!--Destroyer Refit-->
 	<object ODF="IDDRefit.odf">
-		<requirement race="borg">
+		<requirement race="borg" buttonHideUnavailable="true">
 			<obj>ISCEqu3.odf</obj>
 		</requirement>
 	</object>
 	<!--Destroyer Leader Refit-->
 	<object ODF="IDLRefit.odf">
-		<requirement race="borg">
+		<requirement race="borg" buttonHideUnavailable="true">
 			<obj>ISCEqu3.odf</obj>
 		</requirement>
 	</object>
 	<!--Cruiser Refit-->
 	<object ODF="ICARefit.odf">
-		<requirement race="borg">
+		<requirement race="borg" buttonHideUnavailable="true">
 			<obj>ISCEqu6.odf</obj>
 		</requirement>
 	</object>
 	<!--Dreadnought Refit-->
 	<object ODF="IDNRefit.odf">
-		<requirement race="borg">
+		<requirement race="borg" buttonHideUnavailable="true">
 			<obj>ISCEqu7.odf</obj>
 		</requirement>
 	</object>
