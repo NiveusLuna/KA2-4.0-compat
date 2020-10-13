@@ -353,7 +353,7 @@
 	<object ODF="IFighterB.odf">
 		<requirement race="borg">
 			<obj>ibase.odf</obj>
-			<obj>icarrier.odf</obj>
+			<obj>icarrierB.odf</obj>
 			<obj>iscmix5.odf</obj>
 		</requirement>
 	</object>
