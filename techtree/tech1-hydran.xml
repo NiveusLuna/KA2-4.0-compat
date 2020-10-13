@@ -227,7 +227,6 @@
 			<obj>HydMiscR4.odf</obj>
 		</requirement>
 	</object>
-	<!--Hellbore Fighter spawners-->
 	<!--Fusion Beam Fighter (Halberdier HFA)-->
  	<object ODF="hfighterb.odf">
 		<requirement race="hydran">
@@ -237,5 +236,4 @@
 			<obj>HydMiscR4.odf</obj>
 		</requirement>
 	</object>
-	<!--Fusion Beam Fighter spawner-->
 </techtree>
