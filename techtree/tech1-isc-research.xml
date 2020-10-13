@@ -296,7 +296,7 @@
 	</object>
 	<!--Planetary Shield (ISC)-->
 	<object ODF="shieldConcordium.odf">
-		<requirement race="borg">
+		<requirement race="borg" buttonHideUnavailable="true">
 			<obj>ISCPod22.odf</obj>
 		</requirement>
 	</object>
