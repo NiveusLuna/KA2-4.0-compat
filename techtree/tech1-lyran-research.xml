@@ -194,14 +194,14 @@
 	</object>
 	<!--Planetary Shield (Lyran)-->
 	<object ODF="shieldLyran.odf">
-		<requirement race="lyran">
+		<requirement race="lyran" buttonHideUnavailable="true">
 			<obj>lyrpod22.odf</obj>
 		</requirement>
 	</object>
 	<!--***[ LYRAN MIXED TECH ]*********************-->
 	<!--Federation Tech (EsPlaD) - Capture-->
 	<object ODF="LyrMix1.odf">
-		<requirement race="lyran">
+		<requirement race="lyran" buttonHideUnavailable="true">
 			<obj>lbase.odf</obj>
 			<obj>lresearchc.odf</obj>
 			<obj>fconst.odf</obj>
@@ -209,21 +209,21 @@
 	</object>
 	<!--Klingon Tech (Grappler Beam) - Allied-->
 	<object ODF="LyrMix2.odf">
-		<requirement race="lyran">
+		<requirement race="lyran" buttonHideUnavailable="true">
 			<obj>lbase.odf</obj>
 			<obj>lresearchc.odf</obj>
 		</requirement>
 	</object>
 	<!--Romulan Tech (Scout Cloaking) - Allied-->
 	<object ODF="LyrMix3.odf">
-		<requirement race="lyran">
+		<requirement race="lyran" buttonHideUnavailable="true">
 			<obj>lbase.odf</obj>
 			<obj>lresearchc.odf</obj>
 		</requirement>
 	</object>
 	<!--Romulan Tech (Scout Cloaking) - Capture-->
 	<object ODF="LyrMix4.odf">
-		<requirement race="lyran">
+		<requirement race="lyran" buttonHideUnavailable="true">
 			<obj>lbase.odf</obj>
 			<obj>lresearchc.odf</obj>
 			<obj>rconst.odf</obj>
@@ -231,7 +231,7 @@
 	</object>
 	<!--Gorn Tech (GHRC) - Capture-->
 	<object ODF="LyrMix5.odf">
-		<requirement race="lyran">
+		<requirement race="lyran" buttonHideUnavailable="true">
 			<obj>lbase.odf</obj>
 			<obj>lresearchc.odf</obj>
 			<obj>gconst.odf</obj>
@@ -239,7 +239,7 @@
 	</object>
 	<!--ISC Tech (Jump Drive) - Capture-->
 	<object ODF="LyrMix6.odf">
-		<requirement race="lyran">
+		<requirement race="lyran" buttonHideUnavailable="true">
 			<obj>lbase.odf</obj>
 			<obj>lresearchc.odf</obj>
 			<obj>iconst.odf</obj>
@@ -247,7 +247,7 @@
 	</object>
 	<!--Hydran Tech (Occilot LPF) - Capture-->
 	<object ODF="LyrMix7.odf">
-		<requirement race="lyran">
+		<requirement race="lyran" buttonHideUnavailable="true">
 			<obj>lbase.odf</obj>
 			<obj>lresearchc.odf</obj>
 			<obj>hconst.odf</obj>
@@ -271,37 +271,37 @@
 	</object>
 	<!--Grappler (Serval Class LAPA)-->
 	<object ODF="gLGrappler.odf">
-		<requirement race="lyran">
+		<requirement race="lyran" buttonHideUnavailable="true">
 			<obj>LyrMix2.odf</obj>
 		</requirement>
 	</object>
 	<!--Cloak (Wildcat Class LFS - Allied)-->
 	<object ODF="gLCloak.odf">
-		<requirement race="lyran">
+		<requirement race="lyran" buttonHideUnavailable="true">
 			<obj>LyrMix3.odf</obj>
 		</requirement>
 	</object>
 	<!--Cloak (Wildcat Class LFS - Capture)-->
 	<object ODF="gLCloak2.odf">
-		<requirement race="lyran">
+		<requirement race="lyran" buttonHideUnavailable="true">
 			<obj>LyrMix4.odf</obj>
 		</requirement>
 	</object>
 	<!--GHRC (Caracal Class LDD)-->
 	<object ODF="gLGHRC.odf">
-		<requirement race="lyran">
+		<requirement race="lyran" buttonHideUnavailable="true">
 			<obj>LyrMix5.odf</obj>
 		</requirement>
 	</object>
 	<!--Subspace Jump Drive (Wildcat Class LFS)-->
 	<object ODF="gLSSJD.odf">
-		<requirement race="lyran">
+		<requirement race="lyran" buttonHideUnavailable="true">
 			<obj>LyrMix6.odf</obj>
 		</requirement>
 	</object>
 	<!--Carrier Upgrade-->
 	<object ODF="LCarrierUp.odf">
-		<requirement race="lyran">
+		<requirement race="lyran" buttonHideUnavailable="true">
 			<obj>LyrMix7.odf</obj>
 		</requirement>
 	</object>
@@ -312,7 +312,7 @@
 		</requirement>
 	</object>
 	<!--Outpost Upgrade-->
-	<object ODF="LStationUp.odf">
+	<object ODF="LStationUp.odf" buttonHideUnavailable="true">
 		<requirement race="lyran">
 			<obj>LyrMix7.odf</obj>
 		</requirement>
