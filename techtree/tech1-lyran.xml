@@ -47,7 +47,7 @@
 			<obj>lresearchb.odf</obj>
 		</requirement>
 	</object>
-	<!--Psuedo-Fighter (Occicat LPF)-->
+	<!--Pseudo-Fighter (Occicat LPF)-->
 	<object ODF="lpfighter.odf">
 		<requirement race="lyran">
 			<obj>lbase.odf</obj>
@@ -131,7 +131,7 @@
 			<obj>LyrMiscR5.odf</obj>
 		</requirement>
 	</object>
-	<!--Psuedo-Fighter Tender (Lioness Class LTPF)-->
+	<!--Pseudo-Fighter Tender (Lioness Class LTPF)-->
 	<object ODF="lcarrier.odf">
 		<requirement race="lyran">
 			<obj>lbase.odf</obj>

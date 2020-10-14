@@ -63,7 +63,7 @@
 			<obj>LyrHull5.odf</obj>
 		</requirement>
 	</object>
-	<!--Conversion Kit (Psuedo-Fighter Tender)-->
+	<!--Conversion Kit (Pseudo-Fighter Tender)-->
 	<object ODF="LyrEqu4.odf">
 		<requirement race="lyran">
 			<obj>lbase.odf</obj>
@@ -256,7 +256,7 @@
 			<obj>hconst.odf</obj>
 		</requirement>
 	</object>
-	<!--Psuedo-Fighter (Occilot LPF)-->
+	<!--Pseudo-Fighter (Occilot LPF)-->
 	<object ODF="lpfighterb.odf">
 		<requirement race="lyran">
 			<obj>lbase.odf</obj>
