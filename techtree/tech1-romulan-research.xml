@@ -307,6 +307,7 @@
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
 			<ally race="cardassian" />
+			<obj mustNotHave="true">RomMix3.odf</obj>
 		</requirement>
 	</object>
 	<!--Klingon Tech (AMFP) - Capture-->
@@ -315,6 +316,7 @@
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
 			<obj>kconst.odf</obj>
+			<obj mustNotHave="true">RomMix2.odf</obj>
 		</requirement>
 	</object>
 	<!--Gorn Tech (GHRC + QCB) - Capture-->
@@ -347,6 +349,7 @@
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
 			<ally race="lyran" />
+			<obj mustNotHave="true">RomMix8.odf</obj>
 		</requirement>
 	</object>
 	<!--Lyran Tech (ESG) - Capture-->
@@ -355,6 +358,7 @@
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
 			<obj>lconst.odf</obj>
+			<obj mustNotHave="true">RomMix7.odf</obj>
 		</requirement>
 	</object>
 	<!--Fighter (Shadowblade RFA)-->
