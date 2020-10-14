@@ -288,14 +288,14 @@
 	</object>
 	<!--Planetary Shield (Romulan)-->
 	<object ODF="shieldRomulan.odf">
-		<requirement race="romulan">
+		<requirement race="romulan" buttonHideUnavailable="true">
 			<obj>rompod22.odf</obj>
 		</requirement>
 	</object>
 	<!--***[ ROMULAN MIXED TECH ]*********************-->
 	<!--Federation Tech (Dual Assault Phasers) - Capture-->
 	<object ODF="RomMix1.odf">
-		<requirement race="romulan">
+		<requirement race="romulan" buttonHideUnavailable="true">
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
 			<obj>fconst.odf</obj>
@@ -303,14 +303,14 @@
 	</object>
 	<!--Klingon Tech (AMFP) - Allied-->
 	<object ODF="RomMix2.odf">
-		<requirement race="romulan">
+		<requirement race="romulan" buttonHideUnavailable="true">
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
 		</requirement>
 	</object>
 	<!--Klingon Tech (AMFP) - Capture-->
 	<object ODF="RomMix3.odf">
-		<requirement race="romulan">
+		<requirement race="romulan" buttonHideUnavailable="true">
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
 			<obj>kconst.odf</obj>
@@ -318,7 +318,7 @@
 	</object>
 	<!--Gorn Tech (GHRC + QCB) - Capture-->
 	<object ODF="RomMix4.odf">
-		<requirement race="romulan">
+		<requirement race="romulan" buttonHideUnavailable="true">
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
 			<obj>gconst.odf</obj>
@@ -326,7 +326,7 @@
 	</object>
 	<!--ISC Tech (PPD) - Capture-->
 	<object ODF="RomMix5.odf">
-		<requirement race="romulan">
+		<requirement race="romulan" buttonHideUnavailable="true">
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
 			<obj>iconst.odf</obj>
@@ -334,7 +334,7 @@
 	</object>
 	<!--Hydran Tech (Shadowblade) - Capture-->
 	<object ODF="RomMix6.odf">
-		<requirement race="romulan">
+		<requirement race="romulan" buttonHideUnavailable="true">
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
 			<obj>hconst.odf</obj>
@@ -342,14 +342,14 @@
 	</object>
 	<!--Lyran Tech (ESG) - Allied-->
 	<object ODF="RomMix7.odf">
-		<requirement race="romulan">
+		<requirement race="romulan" buttonHideUnavailable="true">
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
 		</requirement>
 	</object>
 	<!--Lyran Tech (ESG) - Capture-->
 	<object ODF="RomMix8.odf">
-		<requirement race="romulan">
+		<requirement race="romulan" buttonHideUnavailable="true">
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
 			<obj>lconst.odf</obj>
@@ -357,7 +357,7 @@
 	</object>
 	<!--Fighter (Shadowblade RFA)-->
 	<object ODF="rfighterb.odf">
-		<requirement race="romulan">
+		<requirement race="romulan" buttonHideUnavailable="true">
 			<obj>rbase.odf</obj>
 			<obj>routpost.odf</obj>
 			<obj>rcve.odf</obj>
@@ -366,7 +366,7 @@
 	</object>
 	<!--Assault Phaser (Imperial Hawk Class RBB)-->
 	<object ODF="gRDAssault.odf">
-		<requirement race="romulan">
+		<requirement race="romulan" buttonHideUnavailable="true">
 			<obj>RomMiscR5.odf</obj>
 			<obj>rompod3.odf</obj>
 			<obj>rommix1.odf</obj>
@@ -374,7 +374,7 @@
 	</object>
 	<!--GHRC (Legion Class RCL)-->
 	<object ODF="gRGHRC.odf">
-		<requirement race="romulan">
+		<requirement race="romulan" buttonHideUnavailable="true">
 			<obj>RomMiscR6.odf</obj>
 			<obj>rompod3.odf</obj>
 			<obj>rommix4.odf</obj>
@@ -382,7 +382,7 @@
 	</object>
 	<!--QCB (Senator Class RCC)-->
 	<object ODF="gRQCB.odf">
-		<requirement race="romulan">
+		<requirement race="romulan" buttonHideUnavailable="true">
 			<obj>RomMiscR7.odf</obj>
 			<obj>rompod3.odf</obj>
 			<obj>rommix4.odf</obj>
@@ -390,37 +390,37 @@
 	</object>
 	<!--PPD (Condor Class RKDN)-->
 	<object ODF="gRPPDM.odf">
-		<requirement race="romulan">
+		<requirement race="romulan" buttonHideUnavailable="true">
 			<obj>rommix5.odf</obj>
 		</requirement>
 	</object>
 	<!--AMFP (War Eagle Class RDN) - Allied-->
 	<object ODF="gRAMFP.odf">
-		<requirement race="romulan">
+		<requirement race="romulan" buttonHideUnavailable="true">
 			<obj>rommix2.odf</obj>
 		</requirement>
 	</object>
 	<!--AMFP (War Eagle Class RDN) - Capture-->
 	<object ODF="gRAMFP2.odf">
-		<requirement race="romulan">
+		<requirement race="romulan" buttonHideUnavailable="true">
 			<obj>rommix3.odf</obj>
 		</requirement>
 	</object>
 	<!--ESG (Centurion Class RCA)-->
 	<object ODF="gRESG2.odf">
-		<requirement race="romulan">
+		<requirement race="romulan" buttonHideUnavailable="true">
 			<obj>rommix7.odf</obj>
 		</requirement>
 	</object>
 	<!--ESG (Centurion Class RCA)-->
 	<object ODF="gRESG2B.odf">
-		<requirement race="romulan">
+		<requirement race="romulan" buttonHideUnavailable="true">
 			<obj>rommix8.odf</obj>
 		</requirement>
 	</object>
 	<!--Carrier Upgrade-->
 	<object ODF="RCarrierUp.odf">
-		<requirement race="romulan">
+		<requirement race="romulan" buttonHideUnavailable="true">
 			<obj>RomMix6.odf</obj>
 		</requirement>
 	</object>
@@ -429,6 +429,7 @@
 		<requirement race="romulan">
 			<obj>Rbase.odf</obj>
 			<obj>Ryard.odf</obj>
+			<cap>MirakCap</cap>
 		</requirement>
 	</object>
 	<!--Orion Pirate Warp-In Ability-->
@@ -436,6 +437,7 @@
 		<requirement race="romulan">
 			<obj>Rbase.odf</obj>
 			<obj>Ryard.odf</obj>
+			<cap>OrionCap</cap>
 		</requirement>
 	</object>
 </techtree>
