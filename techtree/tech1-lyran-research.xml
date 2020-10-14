@@ -212,6 +212,7 @@
 		<requirement race="lyran" buttonHideUnavailable="true">
 			<obj>lbase.odf</obj>
 			<obj>lresearchc.odf</obj>
+			<ally race="cardassian" />
 		</requirement>
 	</object>
 	<!--Romulan Tech (Scout Cloaking) - Allied-->
