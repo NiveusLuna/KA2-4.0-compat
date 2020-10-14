@@ -219,6 +219,8 @@
 		<requirement race="lyran" buttonHideUnavailable="true">
 			<obj>lbase.odf</obj>
 			<obj>lresearchc.odf</obj>
+			<ally race="romulan" />
+			<obj mustNotHave="true">LyrMix4.odf</obj>
 		</requirement>
 	</object>
 	<!--Romulan Tech (Scout Cloaking) - Capture-->
@@ -227,6 +229,7 @@
 			<obj>lbase.odf</obj>
 			<obj>lresearchc.odf</obj>
 			<obj>rconst.odf</obj>
+			<obj mustNotHave="true">LyrMix3.odf</obj>
 		</requirement>
 	</object>
 	<!--Gorn Tech (GHRC) - Capture-->
@@ -275,14 +278,11 @@
 			<obj>LyrMix2.odf</obj>
 		</requirement>
 	</object>
-	<!--Cloak (Wildcat Class LFS - Allied)-->
+	<!--Cloak (Wildcat Class LFS - Frenemy)-->
 	<object ODF="gLCloak.odf">
 		<requirement race="lyran" buttonHideUnavailable="true">
 			<obj>LyrMix3.odf</obj>
 		</requirement>
-	</object>
-	<!--Cloak (Wildcat Class LFS - Capture)-->
-	<object ODF="gLCloak2.odf">
 		<requirement race="lyran" buttonHideUnavailable="true">
 			<obj>LyrMix4.odf</obj>
 		</requirement>
