@@ -366,7 +366,7 @@
 		<requirement race="romulan" buttonHideUnavailable="true">
 			<obj>rbase.odf</obj>
 			<obj>routpost.odf</obj>
-			<obj>rcve.odf</obj>
+			<obj>rcveb.odf</obj>
 			<obj>rommix6.odf</obj>
 		</requirement>
 	</object>
