@@ -400,14 +400,11 @@
 			<obj>rommix5.odf</obj>
 		</requirement>
 	</object>
-	<!--AMFP (War Eagle Class RDN) - Allied-->
+	<!--AMFP (War Eagle Class RDN) - Frenemy-->
 	<object ODF="gRAMFP.odf">
 		<requirement race="romulan" buttonHideUnavailable="true">
 			<obj>rommix2.odf</obj>
 		</requirement>
-	</object>
-	<!--AMFP (War Eagle Class RDN) - Capture-->
-	<object ODF="gRAMFP2.odf">
 		<requirement race="romulan" buttonHideUnavailable="true">
 			<obj>rommix3.odf</obj>
 		</requirement>
