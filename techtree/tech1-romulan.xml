@@ -1,4 +1,5 @@
-<techtree><!--Basic KA2 The General War Tech Tree-->
+<techtree>
+	<!--Basic KA2 The General War Tech Tree-->
 	<!--Each .ODF entry is followed by a 0, -1, -2-->
 	<!--0 = Nothing is required to build this .ODF-->
 	<!---1 = Impossible to build.  Anything dependent on this .ODF can not be built.-->
@@ -6,19 +7,19 @@
 	<!--***[ ROMULAN SHIPS ]***************************-->
 	<!--Construction Tender (Merlin Class RACS)-->
 	<object ODF="rconst.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 		</requirement>
 	</object>
 	<!--Mining Freighter (Osprey Class RDF)-->
 	<object ODF="rfreight.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 		</requirement>
 	</object>
 	<!--Cargo Freighter (Patrician Class RAK)-->
 	<object ODF="rcargo.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rtrading.odf</obj>
 			<obj>RomHull11.odf</obj>
@@ -26,21 +27,21 @@
 	</object>
 	<!--Fleet Repair Tender (Talon Class RAR)-->
 	<object ODF="rsrepair.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>RomHull10.odf</obj>
 		</requirement>
 	</object>
 	<!--Colony Ship (Sparrow Class RFB)-->
 	<object ODF="rcolony.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>RomHull11.odf</obj>
 		</requirement>
 	</object>
 	<!--Assault Transport (Kestrel Class RAPA)-->
 	<object ODF="rassault.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>RomHull10.odf</obj>
 			<obj>RomMiscR1.odf</obj>
@@ -48,7 +49,7 @@
 	</object>
 	<!--Fighter (Blade RFA)-->
 	<object ODF="rfighter.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>routpost.odf</obj>
 			<obj>rcve.odf</obj>
@@ -56,21 +57,21 @@
 	</object>
 	<!--Escort (Preax Class REC)-->
 	<object ODF="rescort.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>RomHull4.odf</obj>
 		</requirement>
 	</object>
 	<!--Escort (Kite Class REKC)-->
 	<object ODF="rkescort.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>RomMiscR2.odf</obj>
 		</requirement>
 	</object>
 	<!--Frigate (Gladius Class RFF)-->
 	<object ODF="rfrigate.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>RomHull1.odf</obj>
 			<obj>RomMiscR1.odf</obj>
@@ -78,7 +79,7 @@
 	</object>
 	<!--Scout Frigate (Gladius-S Class RFS)-->
 	<object ODF="rscout.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>RomHull1.odf</obj>
 			<obj>RomEqu1.odf</obj>
@@ -86,14 +87,14 @@
 	</object>
 	<!--Frigate (Finch Class RFKF)-->
 	<object ODF="rkfrigate.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>RomHull7.odf</obj>
 		</requirement>
 	</object>
 	<!--Scout Frigate (Finch-S Class RFKS)-->
 	<object ODF="rkscout.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>RomHull7.odf</obj>
 			<obj>RomEqu2.odf</obj>
@@ -101,13 +102,13 @@
 	</object>
 	<!--Destroyer (War Bird Class RDD)-->
 	<object ODF="rdestroy.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 		</requirement>
 	</object>
 	<!--Light Cruiser (Legion Class RCL)-->
 	<object ODF="rlcruise.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>RomHull2.odf</obj>
 			<obj>RomMiscR1.odf</obj>
@@ -116,7 +117,7 @@
 	</object>
 	<!--Heavy Cruiser (Centurion Class RCA)-->
 	<object ODF="rcruise.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>RomHull2.odf</obj>
 			<obj>RomMiscR2.odf</obj>
@@ -125,7 +126,7 @@
 	</object>
 	<!--Heavy Cruiser (Stormbird Class RCKA)-->
 	<object ODF="rkcruise.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>RomHull8.odf</obj>
 			<obj>RomMiscR2.odf</obj>
@@ -133,7 +134,7 @@
 	</object>
 	<!--Torpedo Cruiser (Peregrine Class RCT)-->
 	<object ODF="rtcruise.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>RomHull2.odf</obj>
 			<obj>RomHull8.odf</obj>
@@ -144,7 +145,7 @@
 	</object>
 	<!--Escort Carrier (Tribune Class RCVE)-->
 	<object ODF="rcve.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>RomMiscR1.odf</obj>
 			<obj>RomEqu4.odf</obj>
@@ -152,7 +153,7 @@
 	</object>
 	<!--Command Cruiser (Senator Class RCC)-->
 	<object ODF="rccruise.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>RomHull5.odf</obj>
 			<obj>RomMiscR2.odf</obj>
@@ -161,7 +162,7 @@
 	</object>
 	<!--Battlecruiser (Imperium Class RBC)-->
 	<object ODF="rbcruise.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>RomHull5.odf</obj>
 			<obj>RomMiscR2.odf</obj>
@@ -171,7 +172,7 @@
 	</object>
 	<!--Battlecruiser (Raven Class RBKC)-->
 	<object ODF="rkbcruise.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>RomHull8.odf</obj>
 			<obj>RomMiscR2.odf</obj>
@@ -180,7 +181,7 @@
 	</object>
 	<!--Dreadnought (War Eagle Class RDN)-->
 	<object ODF="rdread.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>RomHull3.odf</obj>
 			<obj>RomMiscR2.odf</obj>
@@ -189,14 +190,14 @@
 	</object>
 	<!--Dreadnought (Condor Class RDKN)-->
 	<object ODF="rkdread.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>RomHull9.odf</obj>
 		</requirement>
 	</object>
 	<!--Battleship (Imperial Hawk Class RBB)-->
 	<object ODF="rbattle.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>RomHull6.odf</obj>
 			<obj>RomMiscR4.odf</obj>
@@ -204,7 +205,7 @@
 	</object>
 	<!--RSE D&apos;Meredene (Hero Ship)-->
 	<object ODF="rhero.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>RomHull5.odf</obj>
 			<obj>RomMiscR2.odf</obj>
@@ -214,14 +215,14 @@
 	<!--***[ ROMULAN RESEARCH PROJECTS ]*********************-->
 	<!--Hull Research (Ornith Series Screen FF)-->
 	<object ODF="RomHull1.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rresearcha.odf</obj>
 		</requirement>
 	</object>
 	<!--Hull Research (Ornith Series Cruiser CL CA)-->
 	<object ODF="RomHull2.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rresearcha.odf</obj>
 			<obj>RomHull1.odf</obj>
@@ -229,7 +230,7 @@
 	</object>
 	<!--Hull Research (Ornith Series Dreadnought DN)-->
 	<object ODF="RomHull3.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rresearcha.odf</obj>
 			<obj>RomHull2.odf</obj>
@@ -237,7 +238,7 @@
 	</object>
 	<!--Hull Research (New Series Escort EC)-->
 	<object ODF="RomHull4.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rresearcha.odf</obj>
 			<obj>RomHull1.odf</obj>
@@ -246,7 +247,7 @@
 	</object>
 	<!--Hull Research (New Series Adv. Cruiser CC BC)-->
 	<object ODF="RomHull5.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rresearcha.odf</obj>
 			<obj>RomHull4.odf</obj>
@@ -256,7 +257,7 @@
 	</object>
 	<!--Hull Research (New Series Battleship BB)-->
 	<object ODF="RomHull6.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rresearcha.odf</obj>
 			<obj>RomHull5.odf</obj>
@@ -266,14 +267,14 @@
 	</object>
 	<!--Hull Research (KR Frigate Refit FKF)-->
 	<object ODF="RomHull7.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rresearcha.odf</obj>
 		</requirement>
 	</object>
 	<!--Hull Research (KR Cruiser Refit CKA)-->
 	<object ODF="RomHull8.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rresearcha.odf</obj>
 			<obj>RomHull7.odf</obj>
@@ -281,7 +282,7 @@
 	</object>
 	<!--Hull Research (KR Capital Ship Refit BKC DKN)-->
 	<object ODF="RomHull9.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rresearcha.odf</obj>
 			<obj>RomHull8.odf</obj>
@@ -289,14 +290,14 @@
 	</object>
 	<!--Hull Research (Utility Craft FB AK)-->
 	<object ODF="RomHull11.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rresearcha.odf</obj>
 		</requirement>
 	</object>
 	<!--Hull Research (Combat Utility Craft AR APA)-->
 	<object ODF="RomHull10.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rresearcha.odf</obj>
 			<obj>RomHull11.odf</obj>
@@ -304,7 +305,7 @@
 	</object>
 	<!--Conversion Kit (Scout Frigate FS)-->
 	<object ODF="RomEqu1.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rresearchb.odf</obj>
 			<obj>RomHull1.odf</obj>
@@ -312,7 +313,7 @@
 	</object>
 	<!--Conversion Kit (Scout Frigate FKS)-->
 	<object ODF="RomEqu2.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rresearchb.odf</obj>
 			<obj>RomHull7.odf</obj>
@@ -320,7 +321,7 @@
 	</object>
 	<!--Conversion Kit (Torpedo Cruiser CT)-->
 	<object ODF="RomEqu3.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rresearchb.odf</obj>
 			<obj>Romhull2.odf</obj>
@@ -329,7 +330,7 @@
 	</object>
 	<!--Conversion Kit (Escort Carrier CVE)-->
 	<object ODF="RomEqu4.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rresearchb.odf</obj>
 			<obj>Romhull10.odf</obj>
@@ -337,14 +338,14 @@
 	</object>
 	<!--Research Pod (Type L Plasma Torpedo - Light Plasma Torpedoes)-->
 	<object ODF="RomMiscR1.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
 		</requirement>
 	</object>
 	<!--Research Pod (Type M Plasma Torpedo - Medium Plasma Torpedoes)-->
 	<object ODF="RomMiscR2.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
 			<obj>RomMiscR1.odf</obj>
@@ -352,7 +353,7 @@
 	</object>
 	<!--Research Pod (Twin Torpedo Tube Mountings - Plasma Torpedoes)-->
 	<object ODF="RomMiscR3.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
 			<obj>RomMiscR1.odf</obj>
@@ -360,7 +361,7 @@
 	</object>
 	<!--Research Pod (Multiple Torpedo Tube Mountings - Plasma Torpedoes)-->
 	<object ODF="RomMiscR4.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
 			<obj>RomMiscR2.odf</obj>
@@ -369,7 +370,7 @@
 	</object>
 	<!--Research Pod (Assault Phaser Examination - Captured Weaponry)-->
 	<object ODF="RomMiscR5.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
 			<obj>rompod3.odf</obj>
@@ -379,7 +380,7 @@
 	</object>
 	<!--Research Pod (Graviton Cannon Examination - Captured Weaponry)-->
 	<object ODF="RomMiscR6.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
 			<obj>rompod3.odf</obj>
@@ -388,7 +389,7 @@
 	</object>
 	<!--Research Pod (Quantum Wave Beam Examination - Captured Weaponry)-->
 	<object ODF="RomMiscR7.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
 			<obj>rompod3.odf</obj>
@@ -397,7 +398,7 @@
 	</object>
 	<!--Research Pod (Extremely High Frequency Radiation Emitters - Siege Weaponry)-->
 	<object ODF="RomMiscR8.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
 			<obj>rompod21.odf</obj>
@@ -406,7 +407,7 @@
 	</object>
 	<!--Research Pod (Dual Heavy Weapon Power Relays - Dual CFDICs)-->
 	<object ODF="rompod1.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
 			<obj>RomHull9.odf</obj>
@@ -414,14 +415,14 @@
 	</object>
 	<!--Research Pod (Tal Shiar Agent Training - Espionage)-->
 	<object ODF="rompod2.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
 		</requirement>
 	</object>
 	<!--Research Pod (Tal Shiar Technology Acquisition Programme - Advanced Weapons)-->
 	<object ODF="rompod3.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
 			<obj>rompod2.odf</obj>
@@ -430,84 +431,84 @@
 	</object>
 	<!--Research Pod (Plasma Generation Power Booster - Weapons Systems Upgrade I)-->
 	<object ODF="rompod11.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rupgrade.odf</obj>
 		</requirement>
 	</object>
 	<!--Research Pod (Shield Reinforcement Systems - Shield Systems Upgrade I)-->
 	<object ODF="rompod12.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rupgrade.odf</obj>
 		</requirement>
 	</object>
 	<!--Research Pod (Sensor Refinement - Sensor Package Upgrade I)-->
 	<object ODF="rompod13.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rupgrade.odf</obj>
 		</requirement>
 	</object>
 	<!--Research Pod (Impulse Drive Reactor Enhancement - Propulsion Systems Upgrade I)-->
 	<object ODF="rompod14.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rupgrade.odf</obj>
 		</requirement>
 	</object>
 	<!--Research Pod (Life Support Backup Systems - Life Support Systems Upgrade I)-->
 	<object ODF="rompod15.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rupgrade.odf</obj>
 		</requirement>
 	</object>
 	<!--Research Pod (Disruptor Packet Power Boosters - Weapon Systems Upgrade II)-->
 	<object ODF="rompod21.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rompod11.odf</obj>
 		</requirement>
 	</object>
 	<!--Research Pod (Hyperphased Shield Modulation - Shield Systems Upgrade II)-->
 	<object ODF="rompod22.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rompod12.odf</obj>
 		</requirement>
 	</object>
 	<!--Research Pod (Additive Sensor Power Relays - Sensor Package Upgrade II)-->
 	<object ODF="rompod23.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rompod13.odf</obj>
 		</requirement>
 	</object>
 	<!--Research Pod (Hydrogen Injection Nozzles - Propulsion Systems Upgrade II)-->
 	<object ODF="rompod24.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rompod14.odf</obj>
 		</requirement>
 	</object>
 	<!--Research Pod (Auxilliary Gravitational Field Generator - Life Support Systems Upgrade II)-->
 	<object ODF="rompod25.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rompod15.odf</obj>
 		</requirement>
 	</object>
 	<!--Planetary Shield (Romulan)-->
 	<object ODF="shieldRomulan.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rompod22.odf</obj>
 		</requirement>
 	</object>
 	<!--***[ ROMULAN MIXED TECH ]*********************-->
 	<!--Federation Tech (Dual Assault Phasers) - Capture-->
 	<object ODF="RomMix1.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
 			<obj>fconst.odf</obj>
@@ -515,14 +516,14 @@
 	</object>
 	<!--Klingon Tech (AMFP) - Allied-->
 	<object ODF="RomMix2.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
 		</requirement>
 	</object>
 	<!--Klingon Tech (AMFP) - Capture-->
 	<object ODF="RomMix3.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
 			<obj>kconst.odf</obj>
@@ -530,7 +531,7 @@
 	</object>
 	<!--Gorn Tech (GHRC + QCB) - Capture-->
 	<object ODF="RomMix4.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
 			<obj>gconst.odf</obj>
@@ -538,7 +539,7 @@
 	</object>
 	<!--ISC Tech (PPD) - Capture-->
 	<object ODF="RomMix5.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
 			<obj>iconst.odf</obj>
@@ -546,7 +547,7 @@
 	</object>
 	<!--Hydran Tech (Shadowblade) - Capture-->
 	<object ODF="RomMix6.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
 			<obj>hconst.odf</obj>
@@ -554,14 +555,14 @@
 	</object>
 	<!--Lyran Tech (ESG) - Allied-->
 	<object ODF="RomMix7.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
 		</requirement>
 	</object>
 	<!--Lyran Tech (ESG) - Capture-->
 	<object ODF="RomMix8.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
 			<obj>lconst.odf</obj>
@@ -569,7 +570,7 @@
 	</object>
 	<!--Fighter (Shadowblade RFA)-->
 	<object ODF="rfighterb.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>routpost.odf</obj>
 			<obj>rcve.odf</obj>
@@ -578,7 +579,7 @@
 	</object>
 	<!--Assault Phaser (Imperial Hawk Class RBB)-->
 	<object ODF="gRDAssault.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>RomMiscR5.odf</obj>
 			<obj>rompod3.odf</obj>
 			<obj>rommix1.odf</obj>
@@ -586,7 +587,7 @@
 	</object>
 	<!--GHRC (Legion Class RCL)-->
 	<object ODF="gRGHRC.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>RomMiscR6.odf</obj>
 			<obj>rompod3.odf</obj>
 			<obj>rommix4.odf</obj>
@@ -594,7 +595,7 @@
 	</object>
 	<!--QCB (Senator Class RCC)-->
 	<object ODF="gRQCB.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>RomMiscR7.odf</obj>
 			<obj>rompod3.odf</obj>
 			<obj>rommix4.odf</obj>
@@ -602,50 +603,50 @@
 	</object>
 	<!--PPD (Condor Class RKDN)-->
 	<object ODF="gRPPDM.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rommix5.odf</obj>
 		</requirement>
 	</object>
 	<!--AMFP (War Eagle Class RDN) - Allied-->
 	<object ODF="gRAMFP.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rommix2.odf</obj>
 		</requirement>
 	</object>
 	<!--AMFP (War Eagle Class RDN) - Capture-->
 	<object ODF="gRAMFP2.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rommix3.odf</obj>
 		</requirement>
 	</object>
 	<!--ESG (Centurion Class RCA)-->
 	<object ODF="gRESG2.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rommix7.odf</obj>
 		</requirement>
 	</object>
 	<!--ESG (Centurion Class RCA)-->
 	<object ODF="gRESG2B.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rommix8.odf</obj>
 		</requirement>
 	</object>
 	<!--Carrier Upgrade-->
 	<object ODF="RCarrierUp.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>RomMix6.odf</obj>
 		</requirement>
 	</object>
 	<!--Mirak Diaspora Warp-In Ability-->
 	<object ODF="RMirakWarpIn.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>Rbase.odf</obj>
 			<obj>Ryard.odf</obj>
 		</requirement>
 	</object>
 	<!--Orion Pirate Warp-In Ability-->
 	<object ODF="ROrionWarpIn.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>Rbase.odf</obj>
 			<obj>Ryard.odf</obj>
 		</requirement>
@@ -655,44 +656,44 @@
 	<object ODF="rbase.odf"/>
 	<!--Outpost-->
 	<object ODF="routpost.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>RomMiscR1.odf</obj>
 		</requirement>
 	</object>
 	<!--Dilithium Processor-->
 	<object ODF="rmining.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 		</requirement>
 	</object>
 	<!--Orbital Processing Facility R-->
 	<object ODF="rorbital.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 		</requirement>
 	</object>
 	<!--Spy Satellite-->
 	<object ODF="rsensor.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 		</requirement>
 	</object>
 	<!--Type RA Mine-->
 	<object ODF="rmine.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 		</requirement>
 	</object>
 	<!--Shipyard R-->
 	<object ODF="ryard.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 		</requirement>
 	</object>
 	<!--Praetorial Shipyard-->
 	<object ODF="ryard2.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rresearcha.odf</obj>
 			<obj>rresearchb.odf</obj>
@@ -701,31 +702,31 @@
 	</object>
 	<!--Trading Station R-->
 	<object ODF="rtrading.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 		</requirement>
 	</object>
 	<!--Research Facility (Hulls)-->
 	<object ODF="rresearcha.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 		</requirement>
 	</object>
 	<!--Research Facility (Conversions)-->
 	<object ODF="rresearchb.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 		</requirement>
 	</object>
 	<!--Research Facility (Equipment)-->
 	<object ODF="rresearchc.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 		</requirement>
 	</object>
 	<!--Research Facility (Upgrades)-->
 	<object ODF="rupgrade.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rbase.odf</obj>
 			<obj>rresearcha.odf</obj>
 			<obj>rresearchb.odf</obj>
@@ -735,7 +736,7 @@
 	<!--***[ ROMULAN ADVANCED WEAPONS ]*****************-->
 	<!--Romulan Spy (All Classes)-->
 	<object ODF="gRomSpy.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rompod2.odf</obj>
 		</requirement>
 	</object>
@@ -743,7 +744,7 @@
 	<object ODF="gRCFDIC.odf"/>
 	<!--EHF Radiation Cannon (War Eagle Class DN)-->
 	<object ODF="gREHFRC.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>RomMiscR8.odf</obj>
 		</requirement>
 	</object>
@@ -753,7 +754,7 @@
 	<object ODF="gRCloakStat.odf"/>
 	<!--Cloak Detection-->
 	<object ODF="gDetectR.odf">
-		<requirement>
+		<requirement race="romulan">
 			<obj>rompod23.odf</obj>
 			<obj>rompod11.odf</obj>
 			<obj>romhull6.odf</obj>
