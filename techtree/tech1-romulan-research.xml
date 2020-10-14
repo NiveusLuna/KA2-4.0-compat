@@ -306,6 +306,7 @@
 		<requirement race="romulan" buttonHideUnavailable="true">
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
+			<ally race="cardassian" />
 		</requirement>
 	</object>
 	<!--Klingon Tech (AMFP) - Capture-->
@@ -345,6 +346,7 @@
 		<requirement race="romulan" buttonHideUnavailable="true">
 			<obj>rbase.odf</obj>
 			<obj>rresearchc.odf</obj>
+			<ally race="lyran" />
 		</requirement>
 	</object>
 	<!--Lyran Tech (ESG) - Capture-->
