@@ -305,8 +305,20 @@
 			<obj>LyrMix7.odf</obj>
 		</requirement>
 	</object>
+	<!--Upgraded Carrier-->
+	<object ODF="lcarrierb.odf">
+		<requirement race="lyran">
+			<obj>LyrMix7.odf</obj>
+		</requirement>
+	</object>
 	<!--Outpost Upgrade-->
 	<object ODF="LStationUp.odf">
+		<requirement race="lyran">
+			<obj>LyrMix7.odf</obj>
+		</requirement>
+	</object>
+	<!--Upgraded Outpost-->
+	<object ODF="LOutpostB.odf">
 		<requirement race="lyran">
 			<obj>LyrMix7.odf</obj>
 		</requirement>
