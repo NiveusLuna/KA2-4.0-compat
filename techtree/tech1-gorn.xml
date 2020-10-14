@@ -187,7 +187,7 @@
 	<!--***[ GORN STATIONS ]*********************-->
 	<!--Starbase G-->
 	<object ODF="gbase.odf" buildPossible="false"/>
-	<!--Psuedo-Fighter Station-->
+	<!--Pseudo-Fighter Station-->
 	<object ODF="goutpost.odf">
 		<requirement race="klingon">
 			<obj>gbase.odf</obj>

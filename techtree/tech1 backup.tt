@@ -314,7 +314,7 @@ ghero.odf     3 gbase.odf GorHull6.odf GorEqu6.odf 						// General Thormasskk
 // ***[ GORN STATIONS ]*********************
 //
 gbase.odf      0                                      			// Starbase G
-goutpost.odf   2 gbase.odf GorMiscR1.odf				// Psuedo-Fighter Station
+goutpost.odf   2 gbase.odf GorMiscR1.odf				// Pseudo-Fighter Station
 gmining.odf    1 gbase.odf                                     		// Dilithium Emulsifier
 gorbital.odf   1 gbase.odf			                      	// Orbital Processing Facility G
 gsensor.odf    1 gbase.odf                            			// Sensor Emplacement
@@ -620,7 +620,7 @@ lcargo.odf      1 lbase.odf                                                     
 lsrepair.odf    2 lbase.odf lresearchc.odf                               	      			// Fleet Repair Frigate (Bobcat Class LFR) 
 lcolony.odf     3 lbase.odf lresearcha.odf lresearchb.odf                             			// Colony Ship (Feline Class LFB)
 lassault.odf    3 lbase.odf lresearcha.odf lresearchb.odf                              			// Troop Transport (Serval Class LAPA)
-lpfighter.odf   4 lbase.odf loutpost.odf LyrMiscR2.odf LyrMiscR3.odf                            	// Psuedo-Fighter (Occicat LPF)
+lpfighter.odf   4 lbase.odf loutpost.odf LyrMiscR2.odf LyrMiscR3.odf                            	// Pseudo-Fighter (Occicat LPF)
 lscout.odf      2 lbase.odf LyrEqu1.odf                                               			// Scout Frigate (Wildcat Class LFS)
 lfrigate.odf    1 lbase.odf                                             				// Frigate (Lynx Class LFF)
 ldestroy.odf    3 lbase.odf LyrHull1.odf LyrMiscR2.odf                                			// Destroyer (Caracal Class LDD)
@@ -630,7 +630,7 @@ lmonitor.odf    4 lbase.odf LyrHull3.odf LyrEqu2.odf LyrMiscR6.odf   					// Gui
 lbcruise.odf    4 lbase.odf LyrHull4.odf LyrMiscR1.odf LyrMiscR2.odf             			// Battlecruiser (Panther Class LBC)
 ldread.odf      5 lbase.odf LyrHull5.odf LyrMiscR1.odf LyrMiscR2.odf LyrMiscR5.odf                      // Dreadnought (Lion Class LDN)
 lbattle.odf     6 lbase.odf LyrHull5.odf LyrEqu3.odf LyrMiscR1.odf LyrMiscR2.odf LyrMiscR5.odf          // Battleship (Royal Lion Class LBB)
-lcarrier.odf    5 lbase.odf LyrHull5.odf LyrMiscR2.odf LyrMiscR3.odf LyrEqu4.odf 			// Psuedo-Fighter Tender (Lioness Class LTPF)
+lcarrier.odf    5 lbase.odf LyrHull5.odf LyrMiscR2.odf LyrMiscR3.odf LyrEqu4.odf 			// Pseudo-Fighter Tender (Lioness Class LTPF)
 
 // ***[ LYRAN RESEARCH PROJECTS ]*********************
 //
@@ -643,7 +643,7 @@ LyrHull5.odf  3 lbase.odf lresearcha.odf LyrHull4.odf                 // Hull Re
 LyrEqu1.odf   2 lbase.odf lresearchb.odf 			      // Conversion Kit (Scout Frigate FS)
 LyrEqu2.odf   3 lbase.odf lresearchb.odf LyrHull3.odf		      // Conversion Kit (Guided Missile Monitor MNG)
 LyrEqu3.odf   4 lbase.odf lresearchb.odf LyrHull4.odf LyrHull5.odf    // Conversion Kit (Battleship BB)
-LyrEqu4.odf   4 lbase.odf lresearchb.odf LyrHull3.odf LyrHull5.odf    // Conversion Kit (Psuedo-Fighter Tender)
+LyrEqu4.odf   4 lbase.odf lresearchb.odf LyrHull3.odf LyrHull5.odf    // Conversion Kit (Pseudo-Fighter Tender)
 
 LyrMiscR1.odf 4 lbase.odf lresearchc.odf LyrHull4.odf lyrpod14.odf                    // Research Pod (Multi-Barrel Heavy Disruptors)
 LyrMiscR2.odf 3 lbase.odf lresearchc.odf LyrHull1.odf                                 // Research Pod (Heavy Phaser Cannon)

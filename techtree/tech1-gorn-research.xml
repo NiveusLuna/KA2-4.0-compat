@@ -292,7 +292,7 @@
 			<obj>lconst.odf</obj>
 		</requirement>
 	</object>
-	<!--Psuedo-Fighter Tender (GNS Queen Derenesktta)-->
+	<!--Pseudo-Fighter Tender (GNS Queen Derenesktta)-->
 	<object ODF="GCarrier.odf">
 		<requirement race="klingon" buttonHideUnavailable="true">
 			<obj>gbase.odf</obj>
@@ -302,7 +302,7 @@
 			<capList>GornCarrierLimit</capList>
 		</requirement>
 	</object>
-	<!--Psuedo-Fighter Tender (GNS Queen Derenesktta) (Upgraded)-->
+	<!--Pseudo-Fighter Tender (GNS Queen Derenesktta) (Upgraded)-->
 	<object ODF="GCarrierB.odf">
 		<requirement race="klingon" buttonHideUnavailable="true">
 			<obj>gbase.odf</obj>

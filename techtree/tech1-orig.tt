@@ -398,7 +398,7 @@ GorMix4.odf 3 gbase.odf gresearchc.odf iconst.odf									// ISC Tech (PPD) - Ca
 GorMix5.odf 2 gbase.odf gresearchc.odf												// Hydran Tech (GHRC for Viper) - Allied
 GorMix6.odf 3 gbase.odf gresearchc.odf lconst.odf									// Lyran Tech (GNS Queen Derenesktta) - Capture
 
-GCarrier.odf  4 gbase.odf GorHull5.odf GorEqu5.odf gormix6.odf						// Psuedo-Fighter Tender (GNS Queen Derenesktta)
+GCarrier.odf  4 gbase.odf GorHull5.odf GorEqu5.odf gormix6.odf						// Pseudo-Fighter Tender (GNS Queen Derenesktta)
 
 gDetectG.odf		  1 gormix1.odf								// Esplads (Sensor Emplacement)
 gGCloak.odf			  1 gormix2.odf								// Cloak (King Snake Class GFF/King Snake GFS)
@@ -415,7 +415,7 @@ GShakurianWarpIn.odf  2 gbase.odf gyard.odf						// ShaKurian Mercenary Warp-In 
 // ***[ GORN STATIONS ]*********************
 //
 gbase.odf	   0														// Starbase G
-goutpost.odf   2 gbase.odf GorMiscR1.odf								// Psuedo-Fighter Station
+goutpost.odf   2 gbase.odf GorMiscR1.odf								// Pseudo-Fighter Station
 gmining.odf	   1 gbase.odf												// Dilithium Emulsifier
 gorbital.odf   1 gbase.odf												// Orbital Processing Facility G
 gsensor.odf	   1 gbase.odf												// Sensor Emplacement
@@ -776,7 +776,7 @@ lcargo.odf		1 lbase.odf																			// Cargo Freighter (Cougar Class LAK)
 lsrepair.odf	2 lbase.odf lresearchc.odf															// Fleet Repair Frigate (Bobcat Class LFR)
 lcolony.odf		3 lbase.odf lresearcha.odf lresearchb.odf											// Colony Ship (Feline Class LFB)
 lassault.odf	3 lbase.odf lresearcha.odf lresearchb.odf											// Troop Transport (Serval Class LAPA)
-lpfighter.odf	4 lbase.odf loutpost.odf LyrMiscR2.odf LyrMiscR3.odf								// Psuedo-Fighter (Occicat LPF)
+lpfighter.odf	4 lbase.odf loutpost.odf LyrMiscR2.odf LyrMiscR3.odf								// Pseudo-Fighter (Occicat LPF)
 lscout.odf		2 lbase.odf LyrEqu1.odf																// Scout Frigate (Wildcat Class LFS)
 lfrigate.odf	1 lbase.odf																			// Frigate (Lynx Class LFF)
 ldestroy.odf	3 lbase.odf LyrHull1.odf LyrMiscR2.odf												// Destroyer (Caracal Class LDD)
@@ -786,7 +786,7 @@ lmonitor.odf	4 lbase.odf LyrHull3.odf LyrEqu2.odf LyrMiscR6.odf									// Guide
 lbcruise.odf	4 lbase.odf LyrHull4.odf LyrMiscR1.odf LyrMiscR2.odf								// Battlecruiser (Panther Class LBC)
 ldread.odf		5 lbase.odf LyrHull5.odf LyrMiscR1.odf LyrMiscR2.odf LyrMiscR5.odf					// Dreadnought (Lion Class LDN)
 lbattle.odf		6 lbase.odf LyrHull5.odf LyrEqu3.odf LyrMiscR1.odf LyrMiscR2.odf LyrMiscR5.odf		// Battleship (Royal Lion Class LBB)
-lcarrier.odf	5 lbase.odf LyrHull5.odf LyrMiscR2.odf LyrMiscR3.odf LyrEqu4.odf					// Psuedo-Fighter Tender (Lioness Class LTPF)
+lcarrier.odf	5 lbase.odf LyrHull5.odf LyrMiscR2.odf LyrMiscR3.odf LyrEqu4.odf					// Pseudo-Fighter Tender (Lioness Class LTPF)
 
 // ***[ LYRAN RESEARCH PROJECTS ]*********************
 //
@@ -799,7 +799,7 @@ LyrHull5.odf  3 lbase.odf lresearcha.odf LyrHull4.odf		// Hull Research (Capital
 LyrEqu1.odf	  2 lbase.odf lresearchb.odf								// Conversion Kit (Scout Frigate FS)
 LyrEqu2.odf	  3 lbase.odf lresearchb.odf LyrHull3.odf					// Conversion Kit (Guided Missile Monitor MNG)
 LyrEqu3.odf	  4 lbase.odf lresearchb.odf LyrHull4.odf LyrHull5.odf		// Conversion Kit (Battleship BB)
-LyrEqu4.odf	  4 lbase.odf lresearchb.odf LyrHull3.odf LyrHull5.odf		// Conversion Kit (Psuedo-Fighter Tender)
+LyrEqu4.odf	  4 lbase.odf lresearchb.odf LyrHull3.odf LyrHull5.odf		// Conversion Kit (Pseudo-Fighter Tender)
 
 LyrMiscR1.odf 4 lbase.odf lresearchc.odf LyrHull4.odf lyrpod24.odf						// Research Pod (Multi-Barrel Heavy Disruptors)
 LyrMiscR2.odf 3 lbase.odf lresearchc.odf LyrHull1.odf									// Research Pod (Heavy Phaser Cannon)
@@ -831,7 +831,7 @@ LyrMix5.odf 3 lbase.odf lresearchc.odf gconst.odf									// Gorn Tech (GHRC) - 
 LyrMix6.odf 3 lbase.odf lresearchc.odf iconst.odf									// ISC Tech (Jump Drive) - Capture
 LyrMix7.odf 3 lbase.odf lresearchc.odf hconst.odf									// Hydran Tech (Occilot LPF) - Capture
 
-lpfighterb.odf	 5 lbase.odf loutpost.odf LyrMiscR2.odf LyrMiscR3.odf LyrMix7.odf	// Psuedo-Fighter (Occilot LPF)
+lpfighterb.odf	 5 lbase.odf loutpost.odf LyrMiscR2.odf LyrMiscR3.odf LyrMix7.odf	// Pseudo-Fighter (Occilot LPF)
 
 gDetectL.odf	1 LyrMix1.odf								   // Cloak Detection (Sensor Post)
 gLGrappler.odf	1 LyrMix2.odf								   // Grappler (Serval Class LAPA)

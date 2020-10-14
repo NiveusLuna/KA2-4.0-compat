@@ -37,7 +37,7 @@ GorMix4.odf 3 gbase.odf gresearchc.odf iconst.odf									// ISC Tech (PPD) - Ca
 GorMix5.odf 2 gbase.odf gresearchc.odf												// Hydran Tech (GHRC for Viper) - Allied
 GorMix6.odf 3 gbase.odf gresearchc.odf lconst.odf									// Lyran Tech (GNS Queen Derenesktta) - Capture
 
-GCarrier.odf  4 gbase.odf GorHull5.odf GorEqu5.odf gormix6.odf						// Psuedo-Fighter Tender (GNS Queen Derenesktta)
+GCarrier.odf  4 gbase.odf GorHull5.odf GorEqu5.odf gormix6.odf						// Pseudo-Fighter Tender (GNS Queen Derenesktta)
 
 gDetectG.odf		  1 gormix1.odf								// Esplads (Sensor Emplacement)
 gGCloak.odf			  1 gormix2.odf								// Cloak (King Snake Class GFF/King Snake GFS)
@@ -54,7 +54,7 @@ GShakurianWarpIn.odf  2 gbase.odf gyard.odf						// ShaKurian Mercenary Warp-In 
 // ***[ GORN STATIONS ]*********************
 //
 gbase.odf	   0														// Starbase G
-goutpost.odf   2 gbase.odf GorMiscR1.odf								// Psuedo-Fighter Station
+goutpost.odf   2 gbase.odf GorMiscR1.odf								// Pseudo-Fighter Station
 gmining.odf	   1 gbase.odf												// Dilithium Emulsifier
 gorbital.odf   1 gbase.odf												// Orbital Processing Facility G
 gsensor.odf	   1 gbase.odf												// Sensor Emplacement
