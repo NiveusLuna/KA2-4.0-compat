@@ -361,15 +361,6 @@
 			<obj mustNotHave="true">RomMix7.odf</obj>
 		</requirement>
 	</object>
-	<!--Fighter (Shadowblade RFA)-->
-	<object ODF="rfighterb.odf">
-		<requirement race="romulan" buttonHideUnavailable="true">
-			<obj>rbase.odf</obj>
-			<obj>routpost.odf</obj>
-			<obj>rcveb.odf</obj>
-			<obj>rommix6.odf</obj>
-		</requirement>
-	</object>
 	<!--Assault Phaser (Imperial Hawk Class RBB)-->
 	<object ODF="gRDAssault.odf">
 		<requirement race="romulan" buttonHideUnavailable="true">
@@ -422,6 +413,21 @@
 	<object ODF="RCarrierUp.odf">
 		<requirement race="romulan" buttonHideUnavailable="true">
 			<obj>RomMix6.odf</obj>
+		</requirement>
+	</object>
+	<!--Upgraded Carrier-->
+	<object ODF="RCVEB.odf">
+		<requirement race="romulan">
+			<obj>RomMix6.odf</obj>
+		</requirement>
+	</object>
+	<!--Upgraded Fighter (Shadowblade RFA)-->
+	<object ODF="rfighterb.odf">
+		<requirement race="romulan" buttonHideUnavailable="true">
+			<obj>rbase.odf</obj>
+			<obj>routpost.odf</obj>
+			<obj>rcveb.odf</obj>
+			<obj>rommix6.odf</obj>
 		</requirement>
 	</object>
 	<!--Mirak Diaspora Warp-In Ability-->
