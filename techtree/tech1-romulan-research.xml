@@ -214,6 +214,28 @@
 			<obj>rresearchc.odf</obj>
 			<obj>rompod2.odf</obj>
 			<obj>rompod21.odf</obj>
+			<obj>fconst.odf</obj>
+		</requirement>
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rresearchc.odf</obj>
+			<obj>rompod2.odf</obj>
+			<obj>rompod21.odf</obj>
+			<obj>gconst.odf</obj>
+		</requirement>
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rresearchc.odf</obj>
+			<obj>rompod2.odf</obj>
+			<obj>rompod21.odf</obj>
+			<obj>rommix1.odf</obj>
+		</requirement>
+		<requirement race="romulan">
+			<obj>rbase.odf</obj>
+			<obj>rresearchc.odf</obj>
+			<obj>rompod2.odf</obj>
+			<obj>rompod21.odf</obj>
+			<obj>rommix4.odf</obj>
 		</requirement>
 	</object>
 	<!--Research Pod (Plasma Generation Power Booster - Weapons Systems Upgrade I)-->
