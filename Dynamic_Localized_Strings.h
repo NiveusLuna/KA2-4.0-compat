@@ -5938,5 +5938,5 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 	// default cap tooltips
 	"GUI_CP_CAP_TOOLTIP", "Available for research",
 	"GUI_CP_CAP_TOOLTIP_REACHED", "Already researched",
-	"GUI_CP_CAP_TOOLTIP_OVER", "My, you're a greedy one."
+	"GUI_CP_CAP_TOOLTIP_OVER", "My, you're a greedy one. (Limit exceeded)"
 };
