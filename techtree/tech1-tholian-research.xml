@@ -161,7 +161,7 @@
 	</object>
 	<!--Planetary Shield (Tholian)-->
 	<object ODF="shieldTholian.odf">
-		<requirement>
+		<requirement buttonHideUnavailable="true">
 			<obj>thopod22.odf</obj>
 		</requirement>
 	</object>
