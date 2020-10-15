@@ -33,3 +33,4 @@ attackspeech = 0
 replacementEvent = "MirakFleetCalled"
 buildablebyownerraceonly = 0
 hotkeyLabel = "GAME-HOTKEY-BACKQUOTE_M"
+replacementinstantdelay = 250
