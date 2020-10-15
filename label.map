@@ -316,7 +316,7 @@ multiplayer_setup {
 	+ want_to_launch	{The host wants to launch}
 	+ game_overloaded	{There are too many players for this map}
 	+ ai_cannot_play_gametype	{Only humans can play in this type of game.}
-	+ one_team		{There is only one team in this game}	
+	+ one_team		{There is only one team in this game}
 	+ need_cds		{You need 1 CD for every 4 players on LAN}
         + system		{System}
 	+ player_limit_warning	{<System>This game exceeds the recommended number of players for modem Internet play}
@@ -792,7 +792,7 @@ change_password {
 	+ change_failed		{Unable to change password}
 	+ bad_password		{The password you specified is not acceptable for use on WON}
 	+ attempting		{Attempting to changet he password}
-}	
+}
 
 help_window {
 	+ title			{Help}
@@ -855,7 +855,7 @@ mod_settings {
 	+ desktop_shortcut {Create Shortcut}
 	+ launch_mod {Launch Mod}
 	+ website {Visit Website}
-	+ previous_menu		{Previous Menu}	
+	+ previous_menu		{Previous Menu}
 }
 
 map_edit {
