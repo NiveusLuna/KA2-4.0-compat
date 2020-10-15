@@ -211,12 +211,12 @@ multiplayer_setup {
 	+ hide_minimap_off	{Minimap Hidden}
 	+ replay_on			{Replay}
 	+ replay_off		{No Replay}
-	+ tech_level_zero	{Standard EAW Tech}
-	+ tech_level_one	{No Super Ships}
-	+ tech_level_two	{No Science ships}
-	+ tech_level_three	{No Special Weapons}
-	+ tech_level_four	{Free Tech}
-	+ tech_level_five       {Early Upgrades}
+	+ tech_level_zero	{Standard EAW Tech - XML}
+	+ tech_level_one	{Standard EAW Tech - TT}
+	+ tech_level_two	{Nonfunctional}
+	+ tech_level_three	{Nonfunctional}
+	+ tech_level_four	{Nonfunctional}
+	+ tech_level_five   {Nonfunctional}
 	+ timed_peace_one 	{No Cease Fire}
 	+ timed_peace_two 	{5 Minute Cease Fire}
 	+ timed_peace_three	{10 Minute Cease Fire}
