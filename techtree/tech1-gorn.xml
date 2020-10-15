@@ -173,7 +173,7 @@
 		<requirement race="klingon">
 			<obj>gbase.odf</obj>
 			<obj>gyard.odf</obj>
-			<cap>MirakCap</cap>
+			<capList>MirakCap</cap>
 		</requirement>
 	</object>
 	<!--ShaKurian Mercenary Warp-In Ability-->
@@ -181,7 +181,7 @@
 		<requirement race="klingon">
 			<obj>gbase.odf</obj>
 			<obj>gyard.odf</obj>
-			<cap>ShakurianCap</cap>
+			<capList>ShakurianCap</cap>
 		</requirement>
 	</object>
 	<!--***[ GORN STATIONS ]*********************-->

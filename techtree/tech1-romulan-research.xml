@@ -457,7 +457,7 @@
 		<requirement race="romulan">
 			<obj>Rbase.odf</obj>
 			<obj>Ryard.odf</obj>
-			<cap>MirakCap</cap>
+			<capList>MirakCap</cap>
 		</requirement>
 	</object>
 	<!--Orion Pirate Warp-In Ability-->
@@ -465,7 +465,7 @@
 		<requirement race="romulan">
 			<obj>Rbase.odf</obj>
 			<obj>Ryard.odf</obj>
-			<cap>OrionCap</cap>
+			<capList>OrionCap</cap>
 		</requirement>
 	</object>
 </techtree>
