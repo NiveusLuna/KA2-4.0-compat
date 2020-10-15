@@ -211,6 +211,8 @@
 			<obj>RomHull5.odf</obj>
 			<obj>RomMiscR2.odf</obj>
 			<obj>RomMiscR3.odf</obj>
+			<cap maxCapValue="1" tooltip="Ship available" tooltipOver="Already built"
+			tooltipReached="Already built" countConstructions="true"/>
 		</requirement>
 	</object>
 	<!--***[ ROMULAN STATIONS ]*********************-->
