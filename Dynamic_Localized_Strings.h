@@ -122,7 +122,6 @@ String_Table_Entry translations[MAX_STRINGS] =
 	"GUI_CP_BIOMATTER_RES",		"Crystalene",
 	"GUI_CP_CREW_RES",			"personnel",
 	"GUI_CP_REQUIRE",			"requires:",
-	"GUI_CP_OBJ_INTENT",		"",
 	"GUI_CP_REQRACE",			"Following Allied Power must be present: %s",
 
 // Control Panel Button Tooltip and Verbose Tooltips.
@@ -5927,7 +5926,9 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 	"GUI_REPLAY_NORMAL_V",					"Play the replay at normal playback speed.",
 	"GUI_REPLAY_FAST",						"Fast Playback",
 	"GUI_REPLAY_FAST_V",					"Play the replay back at a faster than normal rate.  Press Normal Playback to restore the normal playback speed."
+	
+	//ADDITIONS FOR DERIVATIVES OF KA2 BEGIN HERE
+	// FO 4.0 tooltips
+	"GUI_CP_OBJ_INTENT",		"", // prepended to names of objects in requirement lists
+	
 };
-
-
-
