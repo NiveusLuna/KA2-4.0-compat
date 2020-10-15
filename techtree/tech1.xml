@@ -1,4 +1,8 @@
 <techtree>
+	<include File="warpin-federation.xml"/>
+	<include File="warpin-mirak.xml"/>
+	<include File="warpin-orion.xml"/>
+	<include File="warpin-shakurian.xml"/>
 	<include File="tech1-federation.xml"/>
 	<include File="tech1-gorn.xml"/>
 	<include File="tech1-hydran.xml"/>
@@ -8,8 +12,4 @@
 	<include File="tech1-romulan.xml"/>
 	<include File="tech1-tholian.xml"/>
 	<include File="tech1-other.xml"/>
-	<include File="warpin-federation.xml"/>
-	<include File="warpin-mirak.xml"/>
-	<include File="warpin-orion.xml"/>
-	<include File="warpin-shakurian.xml"/>
 </techtree>
