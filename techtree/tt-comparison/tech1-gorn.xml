@@ -1,0 +1,311 @@
+<techtree>
+	<include File="tech1-gorn-research.tt"/>
+	<!--Basic KA2 The General War Tech Tree-->
+	<!--Each .ODF entry is followed by a 0, -1, -2-->
+	<!--0 = Nothing is required to build this .ODF-->
+	<!---1 = Impossible to build.  Anything dependent on this .ODF can not be built.-->
+	<!---2 = Impossible to build, but don&apos;t touch dependencies, so that if somehow I already existed or was acquired, you could build anything dependent on me.-->
+	<!--***[ GORN SHIPS ]************************-->
+	<!--Construction Tender (Lizard Class GACS)-->
+	<object ODF="gconst.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Mining Freighter (Adder Class GDF)-->
+	<object ODF="gfreight.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Cargo Freighter (Cobra Class GAK)-->
+	<object ODF="gcargo.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+			<obj>GorHull2.odf</obj>
+		</requirement>
+	</object>
+	<!--Fleet Repair Tender (Gecko Class GAR)-->
+	<object ODF="gsrepair.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+			<obj>gresearchc.odf</obj>
+		</requirement>
+	</object>
+	<!--Colony Ship (Python Class GFB)-->
+	<object ODF="gcolony.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+			<obj>GorHull1.odf</obj>
+			<obj>gresearchc.odf</obj>
+		</requirement>
+	</object>
+	<!--Assault Transport (Asp Class GAPA)-->
+	<object ODF="gassault.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+			<obj>GorHull1.odf</obj>
+			<obj>GorMiscR1.odf</obj>
+			<obj>gresearchc.odf</obj>
+		</requirement>
+	</object>
+	<!--Pseudo-Fighter (Viper Class GPF)-->
+	<object ODF="gpfighter.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+			<obj>goutpost.odf</obj>
+			<obj>GorMiscR1.odf</obj>
+			<obj>GorMiscR3.odf</obj>
+		</requirement>
+	</object>
+	<!--Scout Frigate (King Snake Class GFS)-->
+	<object ODF="gscout.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+			<obj>GorHull3.odf</obj>
+			<obj>GorEqu1.odf</obj>
+		</requirement>
+	</object>
+	<!--Frigate (King Snake Class GFF)-->
+	<object ODF="gfrigate.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+			<obj>GorHull3.odf</obj>
+			<obj>GorMiscR1.odf</obj>
+		</requirement>
+	</object>
+	<!--Destroyer (Anaconda Class GDD)-->
+	<object ODF="gdestroy.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Light Cruiser (Rattlesnake Class GCL)-->
+	<object ODF="glcruise.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+			<obj>GorHull4.odf</obj>
+			<obj>GorEqu2.odf</obj>
+		</requirement>
+	</object>
+	<!--Heavy Cruiser (Euromastyx Class GCA)-->
+	<object ODF="gcruise.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+			<obj>GorHull4.odf</obj>
+			<obj>GorMiscR1.odf</obj>
+		</requirement>
+	</object>
+	<!--Scout Cruiser (Saurus Class GCS)-->
+	<object ODF="gscruise.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+			<obj>GorHull4.odf</obj>
+			<obj>GorEqu3.odf</obj>
+		</requirement>
+	</object>
+	<!--Torpedo Cruiser (Reptillon Class GCT)-->
+	<object ODF="gtcruise.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+			<obj>GorHull4.odf</obj>
+			<obj>GorEqu4.odf</obj>
+		</requirement>
+	</object>
+	<!--Command Cruiser (Beowuulf Class GCC)-->
+	<object ODF="gccruise.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+			<obj>GorHull5.odf</obj>
+			<obj>GorMiscR1.odf</obj>
+			<obj>GorMiscR2.odf</obj>
+			<obj>GorMiscR3.odf</obj>
+		</requirement>
+	</object>
+	<!--Battlecruiser (Basilisk Class GBC)-->
+	<object ODF="gbcruise.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+			<obj>GorHull5.odf</obj>
+			<obj>GorEqu5.odf</obj>
+		</requirement>
+	</object>
+	<!--Dreadnought (Grendel Class GDN)-->
+	<object ODF="gdread.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+			<obj>GorHull6.odf</obj>
+			<obj>GorMiscR1.odf</obj>
+			<obj>GorMiscR2.odf</obj>
+			<obj>GorMiscR3.odf</obj>
+		</requirement>
+	</object>
+	<!--Battleship (King Grendel Class GBB)-->
+	<object ODF="gbattle.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+			<obj>GorHull6.odf</obj>
+			<obj>GorEqu6.odf</obj>
+		</requirement>
+	</object>
+	<!--Superweapon (Glormaskt Class GXX)-->
+	<object ODF="gsuper.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+			<obj>gsuperbl.odf</obj>
+			<obj>GorHull1.odf</obj>
+			<obj>GorMiscR4.odf</obj>
+			<obj>gorpod1.odf</obj>
+		</requirement>
+	</object>
+	<!--General Thormasskk-->
+	<object ODF="ghero.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+			<obj>GorHull6.odf</obj>
+			<obj>GorEqu6.odf</obj>
+		</requirement>
+	</object>
+	<!--Mirak Diaspora Warp-In Ability-->
+	<object ODF="GMirakWarpIn.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+			<obj>gyard.odf</obj>
+		</requirement>
+	</object>
+	<!--ShaKurian Mercenary Warp-In Ability-->
+	<object ODF="GShakurianWarpIn.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+			<obj>gyard.odf</obj>
+		</requirement>
+	</object>
+	<!--***[ GORN STATIONS ]*********************-->
+	<!--Starbase G-->
+	<object ODF="gbase.odf"/>
+	<!--Pseudo-Fighter Station-->
+	<object ODF="goutpost.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+			<obj>GorMiscR1.odf</obj>
+		</requirement>
+	</object>
+	<!--Dilithium Emulsifier-->
+	<object ODF="gmining.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Orbital Processing Facility G-->
+	<object ODF="gorbital.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Sensor Emplacement-->
+	<object ODF="gsensor.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Type GA Mine-->
+	<object ODF="gmine.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Shipyard G-->
+	<object ODF="gyard.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Royal Shipyard-->
+	<object ODF="gyard2.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+			<obj>gresearcha.odf</obj>
+			<obj>gresearchb.odf</obj>
+			<obj>gresearchc.odf</obj>
+		</requirement>
+	</object>
+	<!--Trading Station G-->
+	<object ODF="gtrading.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Facility (Hulls)-->
+	<object ODF="gresearchA.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Facility (Conversions)-->
+	<object ODF="gresearchB.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Facility (Equipment)-->
+	<object ODF="gresearchC.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Research Facility (Upgrades)-->
+	<object ODF="gupgrade.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+			<obj>gresearcha.odf</obj>
+			<obj>gresearchb.odf</obj>
+			<obj>gresearchc.odf</obj>
+		</requirement>
+	</object>
+	<!--Project Glormaskt Station (Super Station)-->
+	<object ODF="gsuperbl.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+			<obj>gyard2.odf</obj>
+			<obj>gupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--***[ GORN ADVANCED WEAPONS ]**************-->
+	<!--Gravimetric Harmonic Resonance Cannon (Anaconda Class GDD)-->
+	<object ODF="gGGHRC.odf">
+		<requirement>
+			<obj>gorpod4.odf</obj>
+		</requirement>
+	</object>
+	<!--Graviton Density Distortion Sphere Off (Euromastyx Class GCA)-->
+	<object ODF="gGGDDS.odf">
+		<requirement>
+			<obj>gorpod2.odf</obj>
+		</requirement>
+	</object>
+	<!--Graviton Density Distortion Sphere Off (Rattlesnake Class GCL)-->
+	<object ODF="gGGDDSCL.odf">
+		<requirement>
+			<obj>gorpod2.odf</obj>
+		</requirement>
+	</object>
+	<!--Graviton Density Distortion Sphere Def (Rattlesnake Class GCL and Euromastyx Class GCA)-->
+	<object ODF="gGGDDS2.odf">
+		<requirement>
+			<obj>gorpod2.odf</obj>
+		</requirement>
+	</object>
+	<!--Quantum Wave Carrier Beam (Asp Class GAPA, Grendel Class GDN and King Grendel Class GBB)-->
+	<object ODF="gGQCB.odf">
+		<requirement>
+			<obj>gorpod3.odf</obj>
+		</requirement>
+	</object>
+	<!--Triparralax Device (Glormaskt Class GXX)-->
+	<object ODF="gGTriP.odf">
+		<requirement>
+			<obj>gorpod1.odf</obj>
+			<obj>gsuperbl.odf</obj>
+		</requirement>
+	</object>
+</techtree>
