@@ -1,5 +1,9 @@
 <techtree>
 	<include file="tech1-federation-research.xml"/>
+	<!-- NOT PRESENT IN TT: -->
+	<!-- FAShuttle.odf (Wasp assault shuttle) -->
+	<!-- FShuttle.odf (Type 2 shuttle) -->
+	<!-- Reserve fleet warpin -->
 	<!--***[ FEDERATION SHIPS ]************************-->
 	<!--Construction Tender (Liberty Class FACS)-->
 	<object ODF="fconst.odf">
