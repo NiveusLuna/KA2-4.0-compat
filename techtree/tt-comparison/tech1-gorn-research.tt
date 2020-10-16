@@ -1,23 +1,3 @@
-// ***[ GORN MIXED TECH ]*********************
-
-GorMix1.odf 2 gbase.odf gresearchc.odf												// Federation Tech (Esplads) - Allied
-GorMix2.odf 3 gbase.odf gresearchc.odf kconst.odf									// Klingon Tech (Cloak) - Capture
-GorMix3.odf 3 gbase.odf gresearchc.odf rconst.odf									// Romulan Tech (EHFRC) - Capture
-GorMix4.odf 3 gbase.odf gresearchc.odf iconst.odf									// ISC Tech (PPD) - Capture
-GorMix5.odf 2 gbase.odf gresearchc.odf												// Hydran Tech (GHRC for Viper) - Allied
-GorMix6.odf 3 gbase.odf gresearchc.odf lconst.odf									// Lyran Tech (GNS Queen Derenesktta) - Capture
-
-GCarrier.odf  4 gbase.odf GorHull5.odf GorEqu5.odf gormix6.odf						// Pseudo-Fighter Tender (GNS Queen Derenesktta)
-
-gDetectG.odf		  1 gormix1.odf								// Esplads (Sensor Emplacement)
-gGCloak.odf			  1 gormix2.odf								// Cloak (King Snake Class GFF/King Snake GFS)
-gGEHFRC.odf			  1 gormix3.odf								// EHFRC (Grendel Class GDN)
-gGEHFRC2.odf		  1 gormix3.odf								// EHFRC (King Grendel Class GBB)
-gGPPDM.odf			  1 gormix4.odf								// PPD (Basilisk Class GBC)
-
-GCarrierUp.odf		  1 GorMix5.odf								// Carrier Upgrade
-GStationUp.odf		  1 GorMix5.odf								// Outpost Upgrade
-
 // ***[ GORN RESEARCH PROJECTS ]*********************
 
 gorHull1.odf  2 gbase.odf gresearcha.odf						// Hull Research (Utility Hull FB APA)
@@ -56,3 +36,23 @@ gorpod24.odf  2 gbase.odf gorpod14.odf		  // Research Pod (Engine System Additiv
 gorpod25.odf  2 gbase.odf gorpod15.odf		  // Research Pod (Emergency Anti-Depressurisation Array - Life Support Systems Upgrade II)
 
 shieldGorn.odf	1 gorpod22.odf				  // Planetary Shield (Gorn)
+
+// ***[ GORN MIXED TECH ]*********************
+
+GorMix1.odf 2 gbase.odf gresearchc.odf												// Federation Tech (Esplads) - Allied
+GorMix2.odf 3 gbase.odf gresearchc.odf kconst.odf									// Klingon Tech (Cloak) - Capture
+GorMix3.odf 3 gbase.odf gresearchc.odf rconst.odf									// Romulan Tech (EHFRC) - Capture
+GorMix4.odf 3 gbase.odf gresearchc.odf iconst.odf									// ISC Tech (PPD) - Capture
+GorMix5.odf 2 gbase.odf gresearchc.odf												// Hydran Tech (GHRC for Viper) - Allied
+GorMix6.odf 3 gbase.odf gresearchc.odf lconst.odf									// Lyran Tech (GNS Queen Derenesktta) - Capture
+
+GCarrier.odf  4 gbase.odf GorHull5.odf GorEqu5.odf gormix6.odf						// Pseudo-Fighter Tender (GNS Queen Derenesktta)
+
+gDetectG.odf		  1 gormix1.odf								// Esplads (Sensor Emplacement)
+gGCloak.odf			  1 gormix2.odf								// Cloak (King Snake Class GFF/King Snake GFS)
+gGEHFRC.odf			  1 gormix3.odf								// EHFRC (Grendel Class GDN)
+gGEHFRC2.odf		  1 gormix3.odf								// EHFRC (King Grendel Class GBB)
+gGPPDM.odf			  1 gormix4.odf								// PPD (Basilisk Class GBC)
+
+GCarrierUp.odf		  1 GorMix5.odf								// Carrier Upgrade
+GStationUp.odf		  1 GorMix5.odf								// Outpost Upgrade

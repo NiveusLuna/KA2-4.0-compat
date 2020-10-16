@@ -1,102 +1,4 @@
-<techtree><!--***[ GORN MIXED TECH ]*********************-->
-	<!--Federation Tech (Esplads) - Allied-->
-	<object ODF="GorMix1.odf">
-		<requirement>
-			<obj>gbase.odf</obj>
-			<obj>gresearchc.odf</obj>
-		</requirement>
-	</object>
-	<!--Klingon Tech (Cloak) - Capture-->
-	<object ODF="GorMix2.odf">
-		<requirement>
-			<obj>gbase.odf</obj>
-			<obj>gresearchc.odf</obj>
-			<obj>kconst.odf</obj>
-		</requirement>
-	</object>
-	<!--Romulan Tech (EHFRC) - Capture-->
-	<object ODF="GorMix3.odf">
-		<requirement>
-			<obj>gbase.odf</obj>
-			<obj>gresearchc.odf</obj>
-			<obj>rconst.odf</obj>
-		</requirement>
-	</object>
-	<!--ISC Tech (PPD) - Capture-->
-	<object ODF="GorMix4.odf">
-		<requirement>
-			<obj>gbase.odf</obj>
-			<obj>gresearchc.odf</obj>
-			<obj>iconst.odf</obj>
-		</requirement>
-	</object>
-	<!--Hydran Tech (GHRC for Viper) - Allied-->
-	<object ODF="GorMix5.odf">
-		<requirement>
-			<obj>gbase.odf</obj>
-			<obj>gresearchc.odf</obj>
-		</requirement>
-	</object>
-	<!--Lyran Tech (GNS Queen Derenesktta) - Capture-->
-	<object ODF="GorMix6.odf">
-		<requirement>
-			<obj>gbase.odf</obj>
-			<obj>gresearchc.odf</obj>
-			<obj>lconst.odf</obj>
-		</requirement>
-	</object>
-	<!--Pseudo-Fighter Tender (GNS Queen Derenesktta)-->
-	<object ODF="GCarrier.odf">
-		<requirement>
-			<obj>gbase.odf</obj>
-			<obj>GorHull5.odf</obj>
-			<obj>GorEqu5.odf</obj>
-			<obj>gormix6.odf</obj>
-		</requirement>
-	</object>
-	<!--Esplads (Sensor Emplacement)-->
-	<object ODF="gDetectG.odf">
-		<requirement>
-			<obj>gormix1.odf</obj>
-		</requirement>
-	</object>
-	<!--Cloak (King Snake Class GFF/King Snake GFS)-->
-	<object ODF="gGCloak.odf">
-		<requirement>
-			<obj>gormix2.odf</obj>
-		</requirement>
-	</object>
-	<!--EHFRC (Grendel Class GDN)-->
-	<object ODF="gGEHFRC.odf">
-		<requirement>
-			<obj>gormix3.odf</obj>
-		</requirement>
-	</object>
-	<!--EHFRC (King Grendel Class GBB)-->
-	<object ODF="gGEHFRC2.odf">
-		<requirement>
-			<obj>gormix3.odf</obj>
-		</requirement>
-	</object>
-	<!--PPD (Basilisk Class GBC)-->
-	<object ODF="gGPPDM.odf">
-		<requirement>
-			<obj>gormix4.odf</obj>
-		</requirement>
-	</object>
-	<!--Carrier Upgrade-->
-	<object ODF="GCarrierUp.odf">
-		<requirement>
-			<obj>GorMix5.odf</obj>
-		</requirement>
-	</object>
-	<!--Outpost Upgrade-->
-	<object ODF="GStationUp.odf">
-		<requirement>
-			<obj>GorMix5.odf</obj>
-		</requirement>
-	</object>
-	<!--***[ GORN RESEARCH PROJECTS ]*********************-->
+<techtree><!--***[ GORN RESEARCH PROJECTS ]*********************-->
 	<!--Hull Research (Utility Hull FB APA)-->
 	<object ODF="gorHull1.odf">
 		<requirement>
@@ -338,6 +240,104 @@
 	<object ODF="shieldGorn.odf">
 		<requirement>
 			<obj>gorpod22.odf</obj>
+		</requirement>
+	</object>
+	<!--***[ GORN MIXED TECH ]*********************-->
+	<!--Federation Tech (Esplads) - Allied-->
+	<object ODF="GorMix1.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+			<obj>gresearchc.odf</obj>
+		</requirement>
+	</object>
+	<!--Klingon Tech (Cloak) - Capture-->
+	<object ODF="GorMix2.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+			<obj>gresearchc.odf</obj>
+			<obj>kconst.odf</obj>
+		</requirement>
+	</object>
+	<!--Romulan Tech (EHFRC) - Capture-->
+	<object ODF="GorMix3.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+			<obj>gresearchc.odf</obj>
+			<obj>rconst.odf</obj>
+		</requirement>
+	</object>
+	<!--ISC Tech (PPD) - Capture-->
+	<object ODF="GorMix4.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+			<obj>gresearchc.odf</obj>
+			<obj>iconst.odf</obj>
+		</requirement>
+	</object>
+	<!--Hydran Tech (GHRC for Viper) - Allied-->
+	<object ODF="GorMix5.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+			<obj>gresearchc.odf</obj>
+		</requirement>
+	</object>
+	<!--Lyran Tech (GNS Queen Derenesktta) - Capture-->
+	<object ODF="GorMix6.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+			<obj>gresearchc.odf</obj>
+			<obj>lconst.odf</obj>
+		</requirement>
+	</object>
+	<!--Pseudo-Fighter Tender (GNS Queen Derenesktta)-->
+	<object ODF="GCarrier.odf">
+		<requirement>
+			<obj>gbase.odf</obj>
+			<obj>GorHull5.odf</obj>
+			<obj>GorEqu5.odf</obj>
+			<obj>gormix6.odf</obj>
+		</requirement>
+	</object>
+	<!--Esplads (Sensor Emplacement)-->
+	<object ODF="gDetectG.odf">
+		<requirement>
+			<obj>gormix1.odf</obj>
+		</requirement>
+	</object>
+	<!--Cloak (King Snake Class GFF/King Snake GFS)-->
+	<object ODF="gGCloak.odf">
+		<requirement>
+			<obj>gormix2.odf</obj>
+		</requirement>
+	</object>
+	<!--EHFRC (Grendel Class GDN)-->
+	<object ODF="gGEHFRC.odf">
+		<requirement>
+			<obj>gormix3.odf</obj>
+		</requirement>
+	</object>
+	<!--EHFRC (King Grendel Class GBB)-->
+	<object ODF="gGEHFRC2.odf">
+		<requirement>
+			<obj>gormix3.odf</obj>
+		</requirement>
+	</object>
+	<!--PPD (Basilisk Class GBC)-->
+	<object ODF="gGPPDM.odf">
+		<requirement>
+			<obj>gormix4.odf</obj>
+		</requirement>
+	</object>
+	<!--Carrier Upgrade-->
+	<object ODF="GCarrierUp.odf">
+		<requirement>
+			<obj>GorMix5.odf</obj>
+		</requirement>
+	</object>
+	<!--Outpost Upgrade-->
+	<object ODF="GStationUp.odf">
+		<requirement>
+			<obj>GorMix5.odf</obj>
 		</requirement>
 	</object>
 </techtree>
