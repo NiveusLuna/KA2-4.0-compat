@@ -1,3 +1,5 @@
+#include "tech1-gorn-research.tt"
+
 // Basic KA2 The General War Tech Tree
 // Each .ODF entry is followed by a 0, -1, -2
 //	0 = Nothing is required to build this .ODF
@@ -28,26 +30,6 @@ gsuper.odf	  5 gbase.odf gsuperbl.odf GorHull1.odf GorMiscR4.odf gorpod1.odf		//
 
 ghero.odf	  3 gbase.odf GorHull6.odf GorEqu6.odf									// General Thormasskk
 
-// ***[ GORN MIXED TECH ]*********************
-
-GorMix1.odf 2 gbase.odf gresearchc.odf												// Federation Tech (Esplads) - Allied
-GorMix2.odf 3 gbase.odf gresearchc.odf kconst.odf									// Klingon Tech (Cloak) - Capture
-GorMix3.odf 3 gbase.odf gresearchc.odf rconst.odf									// Romulan Tech (EHFRC) - Capture
-GorMix4.odf 3 gbase.odf gresearchc.odf iconst.odf									// ISC Tech (PPD) - Capture
-GorMix5.odf 2 gbase.odf gresearchc.odf												// Hydran Tech (GHRC for Viper) - Allied
-GorMix6.odf 3 gbase.odf gresearchc.odf lconst.odf									// Lyran Tech (GNS Queen Derenesktta) - Capture
-
-GCarrier.odf  4 gbase.odf GorHull5.odf GorEqu5.odf gormix6.odf						// Pseudo-Fighter Tender (GNS Queen Derenesktta)
-
-gDetectG.odf		  1 gormix1.odf								// Esplads (Sensor Emplacement)
-gGCloak.odf			  1 gormix2.odf								// Cloak (King Snake Class GFF/King Snake GFS)
-gGEHFRC.odf			  1 gormix3.odf								// EHFRC (Grendel Class GDN)
-gGEHFRC2.odf		  1 gormix3.odf								// EHFRC (King Grendel Class GBB)
-gGPPDM.odf			  1 gormix4.odf								// PPD (Basilisk Class GBC)
-
-GCarrierUp.odf		  1 GorMix5.odf								// Carrier Upgrade
-GStationUp.odf		  1 GorMix5.odf								// Outpost Upgrade
-
 GMirakWarpIn.odf	  2 gbase.odf gyard.odf						// Mirak Diaspora Warp-In Ability
 GShakurianWarpIn.odf  2 gbase.odf gyard.odf						// ShaKurian Mercenary Warp-In Ability
 
@@ -67,45 +49,6 @@ gresearchB.odf 1 gbase.odf												// Research Facility (Conversions)
 gresearchC.odf 1 gbase.odf												// Research Facility (Equipment)
 gupgrade.odf   4 gbase.odf gresearcha.odf gresearchb.odf gresearchc.odf // Research Facility (Upgrades)
 gsuperbl.odf   3 gbase.odf gyard2.odf gupgrade.odf						// Project Glormaskt Station (Super Station)
-
-// ***[ GORN RESEARCH PROJECTS ]*********************
-
-gorHull1.odf  2 gbase.odf gresearcha.odf						// Hull Research (Utility Hull FB APA)
-gorHull2.odf  2 gbase.odf gresearcha.odf						// Hull Research (Bulk Freighter Hull AK)
-gorHull3.odf  2 gbase.odf gresearcha.odf						// Hull Research (Light Screen Hull FF)
-gorHull4.odf  3 gbase.odf gresearcha.odf gorHull3.odf			// Hull Research (Cruiser hull CA)
-gorHull5.odf  3 gbase.odf gresearcha.odf gorHull4.odf			// Hull Research (Advanced Cruiser Hull CC)
-gorHull6.odf  3 gbase.odf gresearcha.odf gorHull5.odf			// Hull Research (Command Ship Hull DN)
-
-gorpod1.odf	  3 gbase.odf gresearchc.odf gupgrade.odf			// Research Pod (Glormaskt Project Crew Conditioning)
-gorpod2.odf	  3 gbase.odf gresearchc.odf gorHull4.odf			// Research Pod (Graviton Distortion Circuitry)
-gorpod3.odf	  3 gbase.odf gresearchc.odf gorHull5.odf			// Research Pod (Reiterative Tractor Beam Circuitry)
-gorpod4.odf	  2 gbase.odf gresearchc.odf						// Research Pod (Gravitic Harmonous Resonators)
-
-gorEqu1.odf	  3 gbase.odf gresearchb.odf gorHull3.odf												// Conversion Kit (Scout Frigate FS)
-gorEqu2.odf	  3 gbase.odf gresearchb.odf gorHull4.odf												// Conversion Kit (Light Cruiser CL)
-gorEqu3.odf	  5 gbase.odf gresearchb.odf gorHull4.odf gorMiscR1.odf gorEqu1.odf						// Conversion Kit (Scout Cruiser CS)
-gorEqu4.odf	  5 gbase.odf gresearchb.odf gorHull4.odf gorMiscR1.odf gorMiscR2.odf					// Conversion Kit (Torpedo Cruiser CT)
-gorEqu5.odf	  6 gbase.odf gresearchb.odf gorHull5.odf gorMiscR1.odf gorMiscR2.odf gorMiscR3.odf		// Conversion Kit (Battlecruiser BC)
-gorEqu6.odf	  6 gbase.odf gresearchb.odf gorHull6.odf gorMiscR1.odf gorMiscR2.odf gorMiscR3.odf		// Conversion Kit (Battleship BB)
-
-gorMiscR1.odf 2 gbase.odf gresearchc.odf								// Research Pod (Type G Plasma Torpedo)
-gorMiscR2.odf 4 gbase.odf gresearchc.odf gorMiscR1.odf gorHull4.odf		// Research Pod (Multiple Torpedo Tubes)
-gorMiscR3.odf 3 gbase.odf gresearchc.odf gorHull4.odf					// Research Pod (Ablative Armour Plating)
-gorMiscR4.odf 4 gbase.odf gresearchc.odf gorEqu4.odf gsuperbl.odf		// Research Pod (Parralax Generator)
-
-gorpod11.odf  2 gbase.odf gupgrade.odf		  // Research Pod (Weapon Systems Recyclic Energy Circuitry - Weapon Systems Upgrade I)
-gorpod12.odf  2 gbase.odf gupgrade.odf		  // Research Pod (Remodulating Shield Harmonics Booster - Shield Systems Upgrade I)
-gorpod13.odf  2 gbase.odf gupgrade.odf		  // Research Pod (Sensor Package Plasma Detection Subroutines - Sensor Package Upgrade I)
-gorpod14.odf  2 gbase.odf gupgrade.odf		  // Research Pod (Warp Field Streamlining & Impulse Drive Superconductors - Propulsion Systems Upgrade I)
-gorpod15.odf  2 gbase.odf gupgrade.odf		  // Research Pod (Life Support Redundancy Circuitry - Life Support Systems Upgrade I)
-gorpod21.odf  2 gbase.odf gorpod11.odf		  // Research Pod (Hyperrelay Weapon Capacitor - Weapon Systems Upgrade II)
-gorpod22.odf  2 gbase.odf gorpod12.odf		  // Research Pod (Auxilliary Shielding Generation Systems - Shield Systems Upgrade II)
-gorpod23.odf  2 gbase.odf gorpod13.odf		  // Research Pod (Unique Plasma Signature Detection Computer - Sensor Package Upgrade II)
-gorpod24.odf  2 gbase.odf gorpod14.odf		  // Research Pod (Engine System Additive Shielding - Propulsion Systems Upgrade II)
-gorpod25.odf  2 gbase.odf gorpod15.odf		  // Research Pod (Emergency Anti-Depressurisation Array - Life Support Systems Upgrade II)
-
-shieldGorn.odf	1 gorpod22.odf				  // Planetary Shield (Gorn)
 
 // ***[ GORN ADVANCED WEAPONS ]**************
 //
