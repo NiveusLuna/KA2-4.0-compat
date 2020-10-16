@@ -1,0 +1,313 @@
+<techtree>
+	<include File="tech1-federation-research.tt"/>
+	<!--Basic KA2 The General War Tech Tree-->
+	<!--Each .ODF entry is followed by a 0, -1, -2-->
+	<!--0 = Nothing is required to build this .ODF-->
+	<!---1 = Impossible to build.  Anything dependent on this .ODF can not be built.-->
+	<!---2 = Impossible to build, but don&apos;t touch dependencies, so that if somehow I already existed or was acquired, you could build anything dependent on me.-->
+	<!--***[ FEDERATION SHIPS ]************************-->
+	<!--Construction Tender (Liberty Class FACS)-->
+	<object ODF="fconst.odf">
+		<requirement>
+			<obj>fbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Mining Freighter (Freelancer Class FDF)-->
+	<object ODF="ffreight.odf">
+		<requirement>
+			<obj>fbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Cargo Freighter (Clydesdale Class FAK)-->
+	<object ODF="fcargo.odf">
+		<requirement>
+			<obj>fbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Fleet Repair Tender (Unity Class FAR)-->
+	<object ODF="fsrepair.odf">
+		<requirement>
+			<obj>fbase.odf</obj>
+			<obj>fedhull5.odf</obj>
+			<obj>fresearchc.odf</obj>
+		</requirement>
+	</object>
+	<!--Colony Ship (Independence Class FFB)-->
+	<object ODF="fcolony.odf">
+		<requirement>
+			<obj>fbase.odf</obj>
+			<obj>fresearcha.odf</obj>
+			<obj>fresearchb.odf</obj>
+		</requirement>
+	</object>
+	<!--Troop Transport (Washington Class FAPA)-->
+	<object ODF="fassault.odf">
+		<requirement>
+			<obj>fbase.odf</obj>
+			<obj>fedhull5.odf</obj>
+			<obj>fresearcha.odf</obj>
+		</requirement>
+	</object>
+	<!--Fighter (Hornet FFA)-->
+	<object ODF="ffighter.odf">
+		<requirement>
+			<obj>fbase.odf</obj>
+			<obj>fmonitoring.odf</obj>
+			<obj>fcarrier.odf</obj>
+		</requirement>
+	</object>
+	<!--Escort (Oberth Class FEC)-->
+	<object ODF="fescort.odf">
+		<requirement>
+			<obj>fbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Frigate (Okinawa Class FFF)-->
+	<object ODF="ffrigate.odf">
+		<requirement>
+			<obj>fbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Destroyer (Akula Class Refit FDD)-->
+	<object ODF="fdestroy.odf">
+		<requirement>
+			<obj>fbase.odf</obj>
+			<obj>FedHull1.odf</obj>
+		</requirement>
+	</object>
+	<!--Destroyer Leader (Warsaw Class FDL)-->
+	<object ODF="fdestroyl.odf">
+		<requirement>
+			<obj>fbase.odf</obj>
+			<obj>FedHull1.odf</obj>
+			<obj>FedEqu2.odf</obj>
+		</requirement>
+	</object>
+	<!--Light Cruiser (Miranda Class FCL)-->
+	<object ODF="flcruise.odf">
+		<requirement>
+			<obj>fbase.odf</obj>
+			<obj>FedHull2.odf</obj>
+		</requirement>
+	</object>
+	<!--Gun Cruiser (Soyuz Class FGC)-->
+	<object ODF="fgcruise.odf">
+		<requirement>
+			<obj>fbase.odf</obj>
+			<obj>FedHull2.odf</obj>
+			<obj>FedEqu3.odf</obj>
+		</requirement>
+	</object>
+	<!--Heavy Cruiser (Constitution Class Refit FCA)-->
+	<object ODF="fcruise.odf">
+		<requirement>
+			<obj>fbase.odf</obj>
+			<obj>FedHull3.odf</obj>
+		</requirement>
+	</object>
+	<!--Galactic Survey Cruiser (Ranger Class FGSC)-->
+	<object ODF="fgscruise.odf">
+		<requirement>
+			<obj>fbase.odf</obj>
+			<obj>FedHull3.odf</obj>
+			<obj>FedEqu4.odf</obj>
+		</requirement>
+	</object>
+	<!--Torpedo Cruiser (Salazar Class FCT)-->
+	<object ODF="ftcruise.odf">
+		<requirement>
+			<obj>fbase.odf</obj>
+			<obj>FedHull3.odf</obj>
+			<obj>FedEqu5.odf</obj>
+		</requirement>
+	</object>
+	<!--Command Cruiser (Lexington Class FCC)-->
+	<object ODF="fccruise.odf">
+		<requirement>
+			<obj>fbase.odf</obj>
+			<obj>FedHull4.odf</obj>
+		</requirement>
+	</object>
+	<!--New Heavy cruiser (Richmond Class FNCA)-->
+	<object ODF="fncruise.odf">
+		<requirement>
+			<obj>fbase.odf</obj>
+			<obj>FedHull4.odf</obj>
+			<obj>FedEqu6.odf</obj>
+		</requirement>
+	</object>
+	<!--Battlecruiser (Excelsior Class FBC)-->
+	<object ODF="fbcruise.odf">
+		<requirement>
+			<obj>fbase.odf</obj>
+			<obj>FedHull5.odf</obj>
+		</requirement>
+	</object>
+	<!--Modern Dreadnought (Ulysses Class FDN)-->
+	<object ODF="fdread.odf">
+		<requirement>
+			<obj>fbase.odf</obj>
+			<obj>FedHull6.odf</obj>
+			<obj>FedMiscR1.odf</obj>
+		</requirement>
+	</object>
+	<!--Plasma Dreadnought (Belknap Class FDNp)-->
+	<object ODF="fdreadp.odf">
+		<requirement>
+			<obj>fbase.odf</obj>
+			<obj>FedHull6.odf</obj>
+			<obj>FedMiscR1.odf</obj>
+			<obj>FedMiscR6.odf</obj>
+			<obj>fedpod5.odf</obj>
+		</requirement>
+	</object>
+	<!--Battleship (Missouri Class FBB)-->
+	<object ODF="fbattle.odf">
+		<requirement>
+			<obj>fbase.odf</obj>
+			<obj>FedHull7.odf</obj>
+			<obj>FedMiscR1.odf</obj>
+			<obj>FedMiscR3.odf</obj>
+			<obj>FedMiscR4.odf</obj>
+		</requirement>
+	</object>
+	<!--Experimental Battleship (Yamato Class FBBX)-->
+	<object ODF="fxbattle.odf">
+		<requirement>
+			<obj>fbase.odf</obj>
+			<obj>FedHull8.odf</obj>
+			<obj>FedMiscR1.odf</obj>
+			<obj>FedMiscR3.odf</obj>
+			<obj>fsuperbl.odf</obj>
+		</requirement>
+	</object>
+	<!--Fleet Carrier (Ark Royal Class FCVN)-->
+	<object ODF="fcarrier.odf">
+		<requirement>
+			<obj>fbase.odf</obj>
+			<obj>FedHull7.odf</obj>
+			<obj>FedMiscR1.odf</obj>
+			<obj>FedMiscR3.odf</obj>
+		</requirement>
+	</object>
+	<!--USS Enterprise-A (Hero Ship)-->
+	<object ODF="fenta.odf">
+		<requirement>
+			<obj>fbase.odf</obj>
+			<obj>FedHull3.odf</obj>
+		</requirement>
+	</object>
+	<!--***[ FEDERATION STATIONS ]*********************-->
+	<!--Starbase F-->
+	<object ODF="fbase.odf"/>
+	<!--Monitoring Station-->
+	<object ODF="fmonitoring.odf">
+		<requirement>
+			<obj>fbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Dilithium Mining Station-->
+	<object ODF="fmining.odf">
+		<requirement>
+			<obj>fbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Orbital Processing Facility F-->
+	<object ODF="forbital.odf">
+		<requirement>
+			<obj>fbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Sensor Probe-->
+	<object ODF="fsensor.odf">
+		<requirement>
+			<obj>fbase.odf</obj>
+			<obj>fmonitoring.odf</obj>
+		</requirement>
+	</object>
+	<!--Type FA Mine-->
+	<object ODF="fmine.odf">
+		<requirement>
+			<obj>fbase.odf</obj>
+			<obj>fmonitoring.odf</obj>
+		</requirement>
+	</object>
+	<!--Shipyard F-->
+	<object ODF="fyard.odf">
+		<requirement>
+			<obj>fbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Advanced Shipyard-->
+	<object ODF="fyard2.odf">
+		<requirement>
+			<obj>fbase.odf</obj>
+			<obj>fresearcha.odf</obj>
+			<obj>fresearchb.odf</obj>
+			<obj>fresearchc.odf</obj>
+		</requirement>
+	</object>
+	<!--Trading Station F-->
+	<object ODF="ftrading.odf">
+		<requirement>
+			<obj>fbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Utopia Planitia Vessel Hull Research Centre (Hulls)-->
+	<object ODF="fresearcha.odf">
+		<requirement>
+			<obj>fbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Utopia Planitia Vessel Modification Centre (Conversions)-->
+	<object ODF="fresearchb.odf">
+		<requirement>
+			<obj>fbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Utopia Planitia Miscellaneous Systems Research Centre (Equipment)-->
+	<object ODF="fresearchc.odf">
+		<requirement>
+			<obj>fbase.odf</obj>
+		</requirement>
+	</object>
+	<!--Vulcan Research Institute (Upgrades)-->
+	<object ODF="fupgrade.odf">
+		<requirement>
+			<obj>fbase.odf</obj>
+			<obj>fresearcha.odf</obj>
+			<obj>fresearchb.odf</obj>
+			<obj>fresearchc.odf</obj>
+		</requirement>
+	</object>
+	<!--Utopia Planitia Experimental Research Laboratory (Super Station)-->
+	<object ODF="fsuperbl.odf">
+		<requirement>
+			<obj>fbase.odf</obj>
+			<obj>fupgrade.odf</obj>
+		</requirement>
+	</object>
+	<!--***[ FEDERATION ADVANCED WEAPONS ]**************-->
+	<!--Dual Assault Phasers (Yamato Class FBBX)-->
+	<object ODF="gFDAssault.odf">
+		<requirement>
+			<obj>fedpod1.odf</obj>
+			<obj>fedpod2.odf</obj>
+			<obj>fsuperbl.odf</obj>
+		</requirement>
+	</object>
+	<!--Quantum Wave-Carrier Beam (Washington Class FAPA, Lexington Class FCC, Ulysses Class FDN &amp; Missouri Class FBB)-->
+	<object ODF="gFQCB.odf">
+		<requirement>
+			<obj>fedpod3.odf</obj>
+		</requirement>
+	</object>
+	<!--Cloak Detection Equipment (Monitoring Stations, Sensor Probes &amp; Oberth Class EC)-->
+	<object ODF="gDetectF.odf">
+		<requirement>
+			<obj>fedpod4.odf</obj>
+			<obj>fsensor.odf</obj>
+			<obj>fmonitoring.odf</obj>
+		</requirement>
+	</object>
+</techtree>
