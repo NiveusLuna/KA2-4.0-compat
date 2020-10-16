@@ -1,7 +1,7 @@
 wpnname = "Hail a Mirak Refugee Fleet"
 tooltip = "Hail a Mirak Refugee Fleet"
 verbosetooltip = "Offer a starship from the former Mirak Starfleet a place in your forces."
-buttonslot = 1
+buttonslot = 5
 range = 999999
 needtarget = 1
 targetlocation = 1
