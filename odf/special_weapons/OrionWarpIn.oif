@@ -30,4 +30,3 @@ speakonattack = 0
 attackspeech = 0
 replacementEvent = "PirateFleetCalled"
 hotkeyLabel = "GAME-HOTKEY-BACKQUOTE_P"
-replacementinstantdelay = 250

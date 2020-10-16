@@ -31,4 +31,3 @@ attackspeech = 0
 replacementEvent = "ShaKurianFleetCalled"
 buildablebyownerraceonly = 0
 hotkeyLabel = "GAME-HOTKEY-BACKQUOTE_S"
-replacementinstantdelay = 250
