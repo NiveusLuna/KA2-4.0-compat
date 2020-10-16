@@ -1,4 +1,9 @@
 <techtree>
+	<!-- CHANGES FROM TT -->
+	<!-- ffighterb.odf - correction -->
+	<!-- fcarrierb.odf - addition -->
+	<!-- ally race requirements -->
+	<!-- unit caps - star empire and cerberus -->
 	<!--***[ FEDERATION RESEARCH PROJECTS ]*********************-->
 	<!--Hull Research (Destroyer DD)-->
 	<object ODF="FedHull1.odf">
