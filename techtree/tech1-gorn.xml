@@ -1,5 +1,7 @@
 <techtree>
 	<include file="tech1-gorn-research.xml"/>
+	<!-- CHANGES FROM TT -->
+	<!-- unit caps - ghero -->
 	<!--Basic KA2 The General War Tech Tree-->
 	<!--Each .ODF entry is followed by a 0, -1, -2-->
 	<!--0 = Nothing is required to build this .ODF-->

@@ -1,4 +1,8 @@
 <techtree>
+	<!-- CHANGES FROM TT -->
+	<!-- allied race requirements -->
+	<!-- unit caps - gcarrier and gcarrierb -->
+	<!-- addition - gcarrierb, goutpostb -->
 	<!--***[ GORN RESEARCH PROJECTS ]*********************-->
 	<!--Hull Research (Utility Hull FB APA)-->
 	<object ODF="gorHull1.odf">
