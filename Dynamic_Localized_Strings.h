@@ -5931,6 +5931,8 @@ Location:  Hurik System, beyond the Federation Frontier, Alpha Quadrant",
 	// ADDITIONS FOR DERIVATIVES OF KA2 BEGIN HERE
 	// *******************************************
 
+	, // remember your array delimiters, folks!
+
 	// FLEET OPS 4.0 TOOLTIPS
 
 	// prepended to names of objects in requirement lists
