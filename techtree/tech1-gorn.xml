@@ -1,5 +1,6 @@
 <techtree>
 	<include file="tech1-gorn-research.xml"/>
+	<include file="tech1-progenitor-gorn.xml"/>
 	<!-- CHANGES FROM TT -->
 	<!-- unit caps - ghero -->
 	<!--Basic KA2 The General War Tech Tree-->
