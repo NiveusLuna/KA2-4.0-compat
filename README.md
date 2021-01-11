@@ -26,3 +26,5 @@ Please note that bugs in KA2 are fixed in a different mod (linked below). The
 goal of this mod is solely to make stock KA2 work as if designed for the 4.0
 launcher. In developer terms, this mod is a compatibility layer between KA2 and
 the FleetOps 4.0 beta launcher.
+
+KA2-bugfix: https://github.com/NiveusLuna/KA2-bugfix
