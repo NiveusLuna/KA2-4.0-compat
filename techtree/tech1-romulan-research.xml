@@ -407,6 +407,14 @@
 			<obj>rommix4.odf</obj>
 		</requirement>
 	</object>
+	<!--Gravimetric Harmonic Resonance Cannon (Anaconda Class GDD)-->
+	<object ODF="gGGHRC.odf">
+		<requirement race="romulan">
+			<obj>RomMiscR6.odf</obj>
+			<obj>rompod3.odf</obj>
+			<obj>rommix4.odf</obj>
+		</requirement>
+	</object>
 	<!--QCB (Senator Class RCC)-->
 	<object ODF="gRQCB.odf">
 		<requirement race="romulan" buttonHideUnavailable="true">
