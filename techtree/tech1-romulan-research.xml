@@ -467,6 +467,15 @@
 			<obj>rommix8.odf</obj>
 		</requirement>
 	</object>
+	<!--ESG Defensive Mode-->
+	<object ODF="gLESG2.odf">
+		<requirement race="romulan" buttonHideUnavailable="true">
+			<obj>rommix7.odf</obj>
+		</requirement>
+		<requirement race="romulan" buttonHideUnavailable="true">
+			<obj>rommix8.odf</obj>
+		</requirement>
+	</object>
 	<!--Carrier Upgrade-->
 	<object ODF="RCarrierUp.odf">
 		<requirement race="romulan" buttonHideUnavailable="true">
