@@ -391,25 +391,9 @@
 			<obj>rommix1.odf</obj>
 		</requirement>
 	</object>
-	<!--Dual Assault Phasers (Yamato Class FBBX)-->
-	<object ODF="gFDAssault.odf">
-		<requirement race="romulan">
-			<obj>RomMiscR5.odf</obj>
-			<obj>rompod3.odf</obj>
-			<obj>rommix1.odf</obj>
-		</requirement>
-	</object>
 	<!--GHRC (Legion Class RCL)-->
 	<object ODF="gRGHRC.odf">
 		<requirement race="romulan" buttonHideUnavailable="true">
-			<obj>RomMiscR6.odf</obj>
-			<obj>rompod3.odf</obj>
-			<obj>rommix4.odf</obj>
-		</requirement>
-	</object>
-	<!--Gravimetric Harmonic Resonance Cannon (Anaconda Class GDD)-->
-	<object ODF="gGGHRC.odf">
-		<requirement race="romulan">
 			<obj>RomMiscR6.odf</obj>
 			<obj>rompod3.odf</obj>
 			<obj>rommix4.odf</obj>
@@ -423,23 +407,9 @@
 			<obj>rommix4.odf</obj>
 		</requirement>
 	</object>
-	<!--Quantum Wave Carrier Beam (Asp Class GAPA, Grendel Class GDN and King Grendel Class GBB)-->
-	<object ODF="gGQCB.odf">
-		<requirement race="romulan">
-			<obj>RomMiscR7.odf</obj>
-			<obj>rompod3.odf</obj>
-			<obj>rommix4.odf</obj>
-		</requirement>
-	</object>
 	<!--PPD (Condor Class RKDN)-->
 	<object ODF="gRPPDM.odf">
 		<requirement race="romulan" buttonHideUnavailable="true">
-			<obj>rommix5.odf</obj>
-		</requirement>
-	</object>
-	<!--Medium PPD-->
-	<object ODF="gIPPDM.odf">
-		<requirement race="romulan">
 			<obj>rommix5.odf</obj>
 		</requirement>
 	</object>
@@ -452,23 +422,8 @@
 			<obj>rommix3.odf</obj>
 		</requirement>
 	</object>
-	<!--Anti-Matter Field Projector (Accuser Class KDN)-->
-	<object ODF="gkamfp.odf">
-		<requirement race="romulan">
-			<obj>rommix3.odf</obj>
-		</requirement>
-	</object>
 	<!--ESG (Centurion Class RCA) - Frenemy-->
 	<object ODF="gRESG2B.odf">
-		<requirement race="romulan" buttonHideUnavailable="true">
-			<obj>rommix7.odf</obj>
-		</requirement>
-		<requirement race="romulan" buttonHideUnavailable="true">
-			<obj>rommix8.odf</obj>
-		</requirement>
-	</object>
-	<!--ESG Defensive Mode-->
-	<object ODF="gLESG2.odf">
 		<requirement race="romulan" buttonHideUnavailable="true">
 			<obj>rommix7.odf</obj>
 		</requirement>
