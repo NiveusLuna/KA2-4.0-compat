@@ -437,6 +437,12 @@
 			<obj>rommix5.odf</obj>
 		</requirement>
 	</object>
+	<!--Medium PPD-->
+	<object ODF="gIPPDM.odf">
+		<requirement race="romulan">
+			<obj>rommix5.odf</obj>
+		</requirement>
+	</object>
 	<!--AMFP (War Eagle Class RDN) - Frenemy-->
 	<object ODF="gRAMFP.odf">
 		<requirement race="romulan" buttonHideUnavailable="true">
