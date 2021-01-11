@@ -452,6 +452,12 @@
 			<obj>rommix3.odf</obj>
 		</requirement>
 	</object>
+	<!--Anti-Matter Field Projector (Accuser Class KDN)-->
+	<object ODF="gkamfp.odf">
+		<requirement race="romulan">
+			<obj>rommix3.odf</obj>
+		</requirement>
+	</object>
 	<!--ESG (Centurion Class RCA) - Frenemy-->
 	<object ODF="gRESG2.odf">
 		<requirement race="romulan" buttonHideUnavailable="true">
