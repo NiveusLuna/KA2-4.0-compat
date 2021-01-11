@@ -391,6 +391,14 @@
 			<obj>rommix1.odf</obj>
 		</requirement>
 	</object>
+	<!--Dual Assault Phasers (Yamato Class FBBX)-->
+	<object ODF="gFDAssault.odf">
+		<requirement race="romulan">
+			<obj>RomMiscR5.odf</obj>
+			<obj>rompod3.odf</obj>
+			<obj>rommix1.odf</obj>
+		</requirement>
+	</object>
 	<!--GHRC (Legion Class RCL)-->
 	<object ODF="gRGHRC.odf">
 		<requirement race="romulan" buttonHideUnavailable="true">
