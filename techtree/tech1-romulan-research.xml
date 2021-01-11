@@ -423,6 +423,14 @@
 			<obj>rommix4.odf</obj>
 		</requirement>
 	</object>
+	<!--Quantum Wave Carrier Beam (Asp Class GAPA, Grendel Class GDN and King Grendel Class GBB)-->
+	<object ODF="gGQCB.odf">
+		<requirement race="romulan">
+			<obj>RomMiscR7.odf</obj>
+			<obj>rompod3.odf</obj>
+			<obj>rommix4.odf</obj>
+		</requirement>
+	</object>
 	<!--PPD (Condor Class RKDN)-->
 	<object ODF="gRPPDM.odf">
 		<requirement race="romulan" buttonHideUnavailable="true">
