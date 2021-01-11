@@ -459,7 +459,7 @@
 		</requirement>
 	</object>
 	<!--ESG (Centurion Class RCA) - Frenemy-->
-	<object ODF="gRESG2.odf">
+	<object ODF="gRESG2B.odf">
 		<requirement race="romulan" buttonHideUnavailable="true">
 			<obj>rommix7.odf</obj>
 		</requirement>
