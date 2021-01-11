@@ -1,5 +1,6 @@
 <techtree>
 	<include file="tech1-federation-research.xml"/>
+	<include file="tech1-progenitor-federation.xml"/>
 	<!-- NOT PRESENT IN TT: -->
 	<!-- FAShuttle.odf (Wasp assault shuttle) -->
 	<!-- FShuttle.odf (Type 2 shuttle) -->
