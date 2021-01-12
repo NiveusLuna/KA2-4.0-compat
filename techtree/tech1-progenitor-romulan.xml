@@ -38,10 +38,10 @@
 	</object>
 	<!--ESG Defensive Mode-->
 	<object ODF="gLESG2.odf">
-		<requirement race="romulan" buttonHideUnavailable="true">
+		<requirement race="romulan">
 			<obj>rommix7.odf</obj>
 		</requirement>
-		<requirement race="romulan" buttonHideUnavailable="true">
+		<requirement race="romulan">
 			<obj>rommix8.odf</obj>
 		</requirement>
 	</object>

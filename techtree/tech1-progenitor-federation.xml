@@ -2,13 +2,13 @@
 	<!--***[ FEDERATION MIXED TECH - USE PROGENITOR TECH ]*********************-->
 	<!--Subspace Distortion Generator-->
 	<object ODF="gISSDG.odf">
-		<requirement race="federation" buttonHideUnavailable="true">
+		<requirement race="federation">
 			<obj>FedMix4.odf</obj>
 		</requirement>
 	</object>
 	<!--ESG Defensive Mode-->
 	<object ODF="gLESG2.odf">
-		<requirement race="federation" buttonHideUnavailable="true">
+		<requirement race="federation">
 			<obj>FedMix6.odf</obj>
 		</requirement>
 	</object>
