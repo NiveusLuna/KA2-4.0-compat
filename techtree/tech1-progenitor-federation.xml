@@ -1,15 +1,19 @@
 <techtree>
 	<!--***[ FEDERATION MIXED TECH - USE PROGENITOR TECH ]*********************-->
-	<!--Subspace Distortion Generator-->
+	<!-- Gorn give improved Excelsior -->
+	<!-- Hydrans give improved fighters -->
+	<!--ISC: Subspace Distortion Generator-->
 	<object ODF="gISSDG.odf">
 		<requirement race="federation">
 			<obj>FedMix4.odf</obj>
 		</requirement>
 	</object>
-	<!--ESG Defensive Mode-->
+	<!-- Klingons give USS Star Empire -->
+	<!--Lyrans: ESG Defensive Mode-->
 	<object ODF="gLESG2.odf">
 		<requirement race="federation">
 			<obj>FedMix6.odf</obj>
 		</requirement>
 	</object>
+	<!-- Romulans give USS Cerberus -->
 </techtree>

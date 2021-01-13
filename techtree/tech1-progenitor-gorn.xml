@@ -1,21 +1,24 @@
 <techtree>
 	<!--***[ GORN MIXED TECH - USE PROGENITOR TECH ]*********************-->
-	<!--Esplads (Sensor Emplacement)-->
+	<!--Federation: Esplads (Sensor Emplacement)-->
 	<object ODF="gDetectF.odf">
 		<requirement race="klingon">
 			<obj>gormix1.odf</obj>
 		</requirement>
 	</object>
-	<!--EHF Radiation Cannon (War Eagle Class DN)-->
-	<object ODF="gREHFRC.odf">
-		<requirement race="klingon">
-			<obj>gormix1.odf</obj>
-		</requirement>
-	</object>
-	<!--Medium PPD-->
+	<!-- Hydrans give extra pseudofighters -->
+	<!--ISC: Medium PPD-->
 	<object ODF="gIPPDM.odf">
 		<requirement race="klingon">
 			<obj>gormix4.odf</obj>
+		</requirement>
+	</object>
+	<!-- Klingons give sensor station cloak -->
+	<!-- Lyrans give pseudofighter tender -->
+	<!--Romulans: EHF Radiation Cannon (War Eagle Class DN)-->
+	<object ODF="gREHFRC.odf">
+		<requirement race="klingon">
+			<obj>gormix1.odf</obj>
 		</requirement>
 	</object>
 </techtree>
