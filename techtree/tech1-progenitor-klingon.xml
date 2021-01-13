@@ -1,0 +1,19 @@
+<techtree>
+	<!--***[ KLINGON MIXED TECH - USE PROGENITOR TECH ]*********************-->
+	<!-- Federation gives sensor turret -->
+	<!--Gorn: Gravimetric Harmonic Resonance Cannon (Anaconda Class GDD)-->
+	<object ODF="gGGHRC.odf">
+		<requirement race="borg">
+			<obj>ISCMix4.odf</obj>
+		</requirement>
+	</object>
+	<!-- Hydrans give improved fighters -->
+	<!-- Klingons give grappler; MT-exclusive for all factions that get it-->
+	<!--Lyrans: ESG Defensive Mode-->
+	<object ODF="gLESG2.odf">
+		<requirement race="borg">
+			<obj>ISCMix6.odf</obj>
+		</requirement>
+	</object>
+	<!-- Romulans give a cloak, as usual -->
+</techtree>
