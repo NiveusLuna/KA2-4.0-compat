@@ -9,11 +9,7 @@
 	<!-- Gorn give the IKS Qeh'Ral -->
 	<!-- Hydrans give improved fighters -->
 	<!-- ISC gives grappler; MT-exclusive for all factions that get it-->
-	<!--Lyrans: ESG Defensive Mode-->
-	<object ODF="gLESG2.odf">
-		<requirement race="cardassian">
-			<obj>KliMix7.odf</obj>
-		</requirement>
-	</object>
-	<!-- Romulans give yet another cloak (for the useless klingon sensor turrets) -->
+	
+	<!-- Klingons give grappler; MT-exclusive for all factions that get it-->
+	<!-- Romulans give yet another cloak (for the scout) -->
 </techtree>
