@@ -13,7 +13,7 @@
 		</requirement>
 	</object>
 	<!-- Hydrans give extra fighters -->
-	<!-- ISC gives grappler; MT-exclusive for all factions that get it-->
+	<!-- ISC gives subspace jump drive; available by default -->
 	<!-- Klingons give grappler; MT-exclusive for all factions that get it-->
 	<!-- Romulans give yet another cloak (for the scout) -->
 </techtree>
