@@ -1,0 +1,52 @@
+<techtree>
+	<!--***[ HYDRAN MIXED TECH - USE PROGENITOR TECH ]*********************-->
+	<!--Federation: Esplads (Sensor Emplacement)-->
+	<object ODF="gDetectF.odf">
+		<requirement race="hydran">
+			<obj>HydMix1.odf</obj>
+		</requirement>
+	</object>
+	<!--Gorn: Graviton Density Distortion Sphere Def (Rattlesnake Class GCL and Euromastyx Class GCA)-->
+	<object ODF="gGGDDS2.odf">
+		<requirement race="hydran">
+			<obj>hydmix4.odf</obj>
+		</requirement>
+	</object>
+	<!--ISC: Light PPD-->
+	<object ODF="gIPPDL.odf">
+		<requirement race="hydran">
+			<obj>HydMix5.odf</obj>
+		</requirement>
+	</object>
+	<!--Klingons: Anti-Matter Field Projector (Accuser Class KDN)-->
+	<object ODF="gkamfp.odf">
+		<requirement race="hydran">
+			<obj>HydMix2.odf</obj>
+		</requirement>
+	</object>
+	<!--Lyrans: ESG Offensive Mode (Tiger Class CA)-->
+	<object ODF="gLESG.odf">
+		<requirement race="hydran">
+			<obj>HydMix6.odf</obj>
+		</requirement>
+	</object>
+	<!--Lyrans: ESG Offensive Mode (Panther Class BC)-->
+	<object ODF="gLESGBC.odf">
+		<requirement race="hydran">
+			<obj>HydMix6.odf</obj>
+		</requirement>
+	</object>
+	<!--Lyrans: ESG Offensive Mode (Lion Class DN)-->
+	<object ODF="gLESGDN.odf">
+		<requirement race="hydran">
+			<obj>HydMix6.odf</obj>
+		</requirement>
+	</object>
+	<!--Lyrans: ESG Offensive Mode (Royal Lion Class BB)-->
+	<object ODF="gLESGBB.odf">
+		<requirement race="hydran">
+			<obj>HydMix6.odf</obj>
+		</requirement>
+	</object>
+	<!-- Romulans give a cloak -->
+</techtree>
