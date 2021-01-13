@@ -2,19 +2,19 @@
 	<!--***[ GORN MIXED TECH - USE PROGENITOR TECH ]*********************-->
 	<!--Esplads (Sensor Emplacement)-->
 	<object ODF="gDetectF.odf">
-		<requirement race="klingon" buttonHideUnavailable="true">
+		<requirement race="klingon">
 			<obj>gormix1.odf</obj>
 		</requirement>
 	</object>
 	<!--EHF Radiation Cannon (War Eagle Class DN)-->
 	<object ODF="gREHFRC.odf">
-		<requirement race="klingon" buttonHideUnavailable="true">
+		<requirement race="klingon">
 			<obj>gormix1.odf</obj>
 		</requirement>
 	</object>
 	<!--Medium PPD-->
 	<object ODF="gIPPDM.odf">
-		<requirement race="klingon" buttonHideUnavailable="true">
+		<requirement race="klingon">
 			<obj>gormix4.odf</obj>
 		</requirement>
 	</object>
