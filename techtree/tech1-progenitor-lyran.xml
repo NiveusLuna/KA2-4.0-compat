@@ -6,10 +6,14 @@
 			<obj>LyrMix1.odf</obj>
 		</requirement>
 	</object>
-	<!-- Gorn give the IKS Qeh'Ral -->
-	<!-- Hydrans give improved fighters -->
+	<!--Gorn: Gravimetric Harmonic Resonance Cannon (Anaconda Class GDD)-->
+	<object ODF="gGGHRC.odf">
+		<requirement race="lyran">
+			<obj>LyrMix5.odf</obj>
+		</requirement>
+	</object>
+	<!-- Hydrans give extra fighters -->
 	<!-- ISC gives grappler; MT-exclusive for all factions that get it-->
-	
 	<!-- Klingons give grappler; MT-exclusive for all factions that get it-->
 	<!-- Romulans give yet another cloak (for the scout) -->
 </techtree>
