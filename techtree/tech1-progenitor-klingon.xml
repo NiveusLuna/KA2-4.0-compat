@@ -7,6 +7,15 @@
 		</requirement>
 	</object>
 	<!-- Gorn give the IKS Qeh'Ral -->
+	<!--Gorn: Gravimetric Harmonic Resonance Cannon (Anaconda Class GDD)-->
+	<!-- KCC needed this badly enough that it wasn't put under mixed tech,
+	but it was still stolen from the Gorn. -->
+	<object ODF="gGGHRC.odf">
+		<requirement race="cardassian">
+			<obj>KliMix4.odf</obj>
+			<obj>klipod3.odf</obj>
+		</requirement>
+	</object>
 	<!-- Hydrans give improved fighters -->
 	<!-- ISC gives grappler; MT-exclusive for all factions that get it-->
 	<!--Lyrans: ESG Defensive Mode-->
