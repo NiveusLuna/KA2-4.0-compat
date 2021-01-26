@@ -1,0 +1,5 @@
+#include "ksensor.odf"
+
+// null out impossible second cloak
+weaponhardpoints2 = lousyape
+weapon2 = lousyape

@@ -1,0 +1,23 @@
+#include "lscout.odf"
+
+// null out impossible second cloak
+// Cloak
+// weapon9 = "gLCloak2"
+// weaponHardpoints9 = "hp09"
+
+// weapon9iconpos = 42    -12
+
+// Jump Drive
+weapon9 = "gLSSJD"
+weaponHardpoints9 = "hp09"
+
+weapon9iconpos = 32   32
+
+//  PDP Probes
+weapon10 = "probeC"
+weaponHardpoints10 = "hp01" 
+
+weapon10iconpos = 42   -34
+
+weaponhardpoints11 = null
+weapon11 = null
