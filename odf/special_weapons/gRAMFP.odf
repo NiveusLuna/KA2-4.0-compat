@@ -1,7 +1,3 @@
-#include "gkamfp.odf"
+#include "gramfp.odf"
 
-tooltip = "Anti-Matter Field Projector - AMFP - War Eagle Class Dreadnought"
-verboseTooltip = "A very powerful tractor beam based weapon, that uses anti-matter pockets from the ships warp drive to cripple an enemy vessel. Allied Klingon Technology."
-
-showOnlyIfHasTech = 1
-
+buttonslot = 20

@@ -1,10 +1,3 @@
-#include "gGGDDS2.odf"
+#include "gresg2.odf"
 
-//Display name for this weapon
-wpnName = "Expanding Sphere Generator - Defensive Mode"
-
-//tooltips
-tooltip = "Expanding Sphere Generator - ESG - Defensive Mode - Centurion Class Heavy Cruiser"
-verboseTooltip = "Projects an energy shell around the firing vessel that protects from all weapons fire for a short time. Alllied Lyran Technology."
-
-showOnlyIfHasTech = 1
+buttonslot = 20
